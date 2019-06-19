@@ -1,0 +1,31 @@
+{
+  "type": "record",
+  "name": "prt_calibrated",
+  "namespace": "org.neonscience.schema.dp0p",
+  "doc": "Calibrated Platinum Resistance Thermometer.",
+  "fields": [
+    {
+      "name": "source_id",
+      "type": "string",
+      "doc": "Source serial number or mac address"
+    },
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch"
+    },
+    {
+      "name": "temp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "The temperature measured by the PRT as determined by applying the calibration polynomial coefficients to the measured resistance.",
+      "__neon_units": "celcius"
+    }
+    ]
+}
