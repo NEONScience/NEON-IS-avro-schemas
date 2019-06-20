@@ -2,7 +2,7 @@
   "type": "record",
   "name": "flags_validCal",
   "namespace": "org.neonscience.schema.dp0p",
-  "doc": "Valid calibration flag for sensor with a single stream.",
+  "doc": "Valid calibration flag for sensor with a single stream",
   "fields": [
     {
       "name": "readout_time",
