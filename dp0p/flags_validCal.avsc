@@ -16,7 +16,7 @@
       "name": "validCalQF",
       "type": [
         "null",
-        "float"
+        "int"
         ],
       "default": null,
       "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
