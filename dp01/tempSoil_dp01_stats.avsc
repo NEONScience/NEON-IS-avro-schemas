@@ -1,0 +1,84 @@
+{
+  "type": "record",
+  "name": "tempSoil_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for soil temperature",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "soilTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of Soil Temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "soilTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum Soil Temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "soilTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum Soil Temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "soilTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in Soil Temperature",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "soilTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of Soil Temperature",
+      "__neon_units": "number"
+    },
+    {
+      "name": "soilTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for Soil Temperature",
+      "__neon_units": "celsius"
+    }
+    ]
+}
