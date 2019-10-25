@@ -79,6 +79,16 @@
       "default": null,
       "doc": "Standard error of the mean for Soil Temperature",
       "__neon_units": "celsius"
+    },
+    {
+      "name": "soilTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for Soil Temperature",
+      "__neon_units": "celsius"
     }
     ]
 }
