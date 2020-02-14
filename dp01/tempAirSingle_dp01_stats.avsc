@@ -1,0 +1,94 @@
+{
+  "type": "record",
+  "name": "tempAirSingle_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for single aspirated air temperature",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "tempSingleMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of single aspirated air temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "tempSingleMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum single aspirated air temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "tempSingleMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum single aspirated air temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "tempSingleVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in single aspirated air temperature",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "tempSingleNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of single aspirated air temperature",
+      "__neon_units": "number"
+    },
+    {
+      "name": "tempSingleStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for single aspirated air temperature",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "tempSingleExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for single aspirated air temperature",
+      "__neon_units": "celsius"
+    }
+    ]
+}

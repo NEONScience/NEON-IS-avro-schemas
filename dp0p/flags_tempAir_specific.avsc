@@ -1,0 +1,36 @@
+{
+  "type": "record",
+  "name": "flags_plausibility",
+  "namespace": "org.neonscience.schema.dp0p",
+  "doc": "Sensor-specific qaqc flags for aspirated air temperature products (single and triple)",
+  "fields": [
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch"
+    },
+    {
+      "name": "flowQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the flow rate test detailed in NEON.DOC.000646 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "heaterQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating when the heater was on/off detailed in NEON.DOC.000646 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    }
+    ]
+}
