@@ -5,23 +5,6 @@
   "doc": "Corrected Fluorescent Dissolved Organic Matter (fDOM) Data.",
   "fields": [
     {
-      "name": "source_id",
-      "type": "string",
-      "doc": "Source serial number or mac address"
-    },
-    {
-      "name": "site_id",
-      "type": [
-          "null",
-          {
-            "type": "fixed",
-            "size": 4,
-            "name": "utf8"
-          }
-      ],
-      "doc": "NEON site identifier"
-    },
-    {
       "name": "readout_time",
       "type": {
         "type": "long",
@@ -39,6 +22,26 @@
       "default": null,
       "doc": "Fluorescent dissolved organic matter concentration as quinine sulfate equivalents.",
       "__neon_units": "quinineSulfateUnit"
+    },
+    {
+      "name": "fDOMExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for fDOM.",
+      "__neon_units": "quinineSulfateUnit"
+    },
+    {
+      "name": "spectrumCount",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "The number of absorbance spectra (AKA SUNA light frames) that were averaged to correct the fDOM and or chla data. Up to 50 light frames will be averaged.",
+      "__neon_units": "integer"
     }
     ]
 }
