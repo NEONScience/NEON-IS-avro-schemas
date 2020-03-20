@@ -1,0 +1,44 @@
+{
+  "type": "record",
+  "name": "waterQuality_exophorp_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for water quality exophorp sensor",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed"
+    },
+    {
+      "name": "pH",
+      "type": [
+          "null",
+          "float"
+      ],
+      "default": null,
+      "doc": "Measurement of pH in sample",
+      "__neon_units": "pH"
+    },
+    {
+      "name": "pHExpUncert",
+      "type": [
+          "null",
+          "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for pH",
+      "__neon_units": "pH"
+    }
+    ]
+}
