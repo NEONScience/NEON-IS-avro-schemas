@@ -1,0 +1,44 @@
+{
+  "type": "record",
+  "name": "waterQuality_exototalalgae_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for water quality exototalalgae sensor",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed"
+    },
+    {
+      "name": "chlorophyll",
+      "type": [
+          "null",
+          "float"
+      ],
+      "default": null,
+      "doc": "Chlorophyll a concentration in water",
+      "__neon_units": "microgramsPerLiter"
+    },
+    {
+      "name": "chlorophyllExpUncert",
+      "type": [
+          "null",
+          "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for chlorophyll a",
+      "__neon_units": "microgramsPerLiter"
+    }
+    ]
+}

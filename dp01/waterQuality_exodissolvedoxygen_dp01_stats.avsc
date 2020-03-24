@@ -1,0 +1,64 @@
+{
+  "type": "record",
+  "name": "waterQuality_exodissolvedoxygen_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for water quality exodissolvedoxygen sensor",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed"
+    },
+    {
+      "name": "dissolvedOxygen",
+      "type": [
+          "null",
+          "float"
+      ],
+      "default": null,
+      "doc": "Dissolved Oxygen Concentration",
+      "__neon_units": "milligramsPerLiter"
+    },
+    {
+      "name": "dissolvedOxygenExpUncert",
+      "type": [
+          "null",
+          "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for dissolved oxygen",
+      "__neon_units": "milligramsPerLiter"
+    },
+    {
+      "name": "dissolvedOxygenSaturation",
+      "type": [
+          "null",
+          "float"
+      ],
+      "default": null,
+      "doc": "Dissolved Oxygen Percent Saturation",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "dissolvedOxygenSatExpUncert",
+      "type": [
+          "null",
+          "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for dissolved oxygen saturation",
+      "__neon_units": "percent"
+    }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "record",
+  "name": "waterQuality_exo2_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for water quality exo2 sensor",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed"
+    },
+    {
+      "name": "sensorDepth",
+      "type": [
+          "null",
+          "float"
+      ],
+      "default": null,
+      "doc": "Water depth of measurement",
+      "__neon_units": "meter"
+    },
+    {
+      "name": "sensorDepthExpUncert",
+      "type": [
+          "null",
+          "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for sensor depth",
+      "__neon_units": "meter"
+    }
+    ]
+}
