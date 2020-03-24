@@ -24,6 +24,16 @@
       "__neon_units": "quinineSulfateUnit"
     },
     {
+      "name": "rawCalibratedfDOM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Calibrated fluorescent dissolved organic matter concentration as quinine sulfate equivalents without temperature or absorbance corrections",
+      "__neon_units": "quinineSulfateUnit"
+    },
+    {
       "name": "fDOMExpUncert",
       "type": [
         "null",
