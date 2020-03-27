@@ -23,7 +23,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "specificConductanceSuspectCalQF",
+      "name": "specificCondSuspectCalQF",
       "type": [
         "null",
         "int"
