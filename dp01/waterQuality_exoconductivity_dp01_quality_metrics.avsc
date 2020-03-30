@@ -91,7 +91,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "specificConductancePersistenceQF",
+      "name": "specificConductancePersistQF",
       "type": [
         "null",
         "int"

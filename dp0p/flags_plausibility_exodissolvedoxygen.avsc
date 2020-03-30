@@ -123,7 +123,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "dissolvedOxygenSatPersistenceQF",
+      "name": "dissolvedOxygenSatPersistQF",
       "type": [
         "null",
         "int"
