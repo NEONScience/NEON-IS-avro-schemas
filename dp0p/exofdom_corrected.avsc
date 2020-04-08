@@ -5,12 +5,21 @@
   "doc": "Corrected Fluorescent Dissolved Organic Matter (fDOM) Data.",
   "fields": [
     {
-      "name": "readout_time",
+      "name": "startDateTime",
       "type": {
         "type": "long",
         "logicalType": "timestamp-millis"
       },
-      "doc": "Timestamp of readout expressed in milliseconds since epoch",
+      "doc": "Date and time at which a sampling is initiated",
+      "__neon_units": "millisecond"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed",
       "__neon_units": "millisecond"
     },
     {
