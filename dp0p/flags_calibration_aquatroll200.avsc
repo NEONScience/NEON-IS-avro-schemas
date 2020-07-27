@@ -33,7 +33,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "specificConductanceValidCalQF",
+      "name": "conductivityValidCalQF",
       "type": [
         "null",
         "int"
