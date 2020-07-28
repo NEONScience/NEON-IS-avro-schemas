@@ -39,6 +39,6 @@
       "default": null,
       "doc": "Sensor voltage representing the photosynthetic photon flux density",
       "__neon_units": "volt"
-    },
+    }
     ]
 }
