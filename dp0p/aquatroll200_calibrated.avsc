@@ -38,7 +38,7 @@
       ],
       "default": null,
       "doc": "Pressure of water as determined by applying the calibration polynomial coefficients to the measured pressure.",
-      "__neon_units": "resistance",          
+      "__neon_units": "kilopascals",          
     },
     {
       "name": "temperature",
