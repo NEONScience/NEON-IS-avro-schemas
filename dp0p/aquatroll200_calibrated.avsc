@@ -2,7 +2,7 @@
     "type": "record",
     "name": "aquatroll200",
     "namespace": "org.neonscience.schema.device",
-    "doc": "In-Situ Aqua TROLL 200 Sonde",
+    "doc": "Calibrated In-Situ Aqua TROLL 200",
     "__version": "1.0",
     "__neon_parts": [
         "0317730000"
