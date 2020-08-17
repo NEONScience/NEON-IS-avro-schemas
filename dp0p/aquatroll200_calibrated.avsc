@@ -84,7 +84,7 @@
                 "float"
             ],
             "default": null,
-            "doc": "Calibrated conductivity at ambient temperture",
+            "doc": "Calibrated specific conductivity in groundwater",
             "__neon_units": "microsiemensPerCentimeter",
             "__neon_stream_id": "4"
         },
