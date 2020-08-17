@@ -1,6 +1,6 @@
 {
     "type": "record",
-    "name": "aquatroll200",
+    "name": "aquatroll200_calibrated",
     "namespace": "org.neonscience.schema.device",
     "doc": "Calibrated In-Situ Aqua TROLL 200",
     "__version": "1.0",
@@ -84,7 +84,7 @@
                 "float"
             ],
             "default": null,
-            "doc": "Calibrated specific conductivity in groundwater",
+            "doc": "Calibrated specific conductance in groundwater",
             "__neon_units": "microsiemensPerCentimeter",
             "__neon_stream_id": "4"
         },
