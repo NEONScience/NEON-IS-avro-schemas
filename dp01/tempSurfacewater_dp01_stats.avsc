@@ -1,0 +1,94 @@
+{
+  "type": "record",
+  "name": "tempSurfacewater_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for surface water temperature",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "surfWaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "surfWaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "surfWaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "surfWaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in temperature of surface water in degrees celsius",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "surfWaterTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "number"
+    },
+    {
+      "name": "surfWaterTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "surfWaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    }
+    ]
+}
