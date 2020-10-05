@@ -1,33 +1,18 @@
 {
-    "type": "record",
-    "name": "leveltroll500_calibrated",
-    "namespace": "org.neonscience.schema.device",
-    "doc": "Calibrated In-Situ Level TROLL 500",
-    "__version": "1.0",
-    "__neon_parts": [
-        "0317680000"
-    ],
-    "fields": [
-        {
-            "name": "source_id",
-            "type": "string",
-            "doc": "Source serial number or MAC address"
-        },
-        {
-            "name": "site_id",
-            "type": "string",
-            "doc": "NEON site identifier"
-        },
-        {
-            "name": "readout_time",
-            "type": {
-                "type": "long",
-                "logicalType": "timestamp-millis"
-            },
-            "doc": "Timestamp of readout expressed in milliseconds since epoch",
-            "__neon_units": "millisecond"
-        },
-        {
+  "type": "record",
+  "name": "leveltroll500_calibrated_wo_source",
+  "namespace": "org.neonscience.schema.dp0p",
+  "doc": "In-Situ Level TROLL 500 without source id.",
+  "fields": [
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch"
+    },
+    {
             "name": "pressure",
             "type": [
                 "null",
