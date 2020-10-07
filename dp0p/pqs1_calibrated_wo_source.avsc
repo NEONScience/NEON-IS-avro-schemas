@@ -1,0 +1,26 @@
+{
+  "type": "record",
+  "name": "pqs1_calibrated_wo_source",
+  "namespace": "org.neonscience.schema.dp0p",
+  "doc": "pqs1 without source id.",
+  "fields": [
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch"
+    },
+    {
+      "name": "par",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Sensor voltage representing the photosynthetic photon flux density",
+      "__neon_units": "volt"
+    }
+    ]
+}
