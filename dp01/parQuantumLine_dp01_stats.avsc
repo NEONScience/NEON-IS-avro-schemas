@@ -1,0 +1,113 @@
+{
+	"type": "record",
+	"name": "parQuantumLine_dp01_stats",
+	"namespace": "org.neonscience.schema.dp01",
+	"doc": "L1 statistics for Quantum Line PAR",
+	"fields": [{
+			"name": "startDateTime",
+			"type": {
+				"type": "long",
+				"logicalType": "timestamp-millis"
+			},
+			"doc": "Date and time at which a sampling is initiated (inclusive)"
+		},
+		{
+			"name": "endDateTime",
+			"type": {
+				"type": "long",
+				"logicalType": "timestamp-millis"
+			},
+			"doc": "Date and time at which a sampling is completed (exclusive)"
+		},
+		{
+			"name": "linePARMean",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Arithmetic mean of spatial average of photosynthetically active radiation over the sensor length",
+			"__neon_units": "micromolesPerSquareMeterPerSecond"
+		},
+		{
+			"name": "linePARMinimum",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Minimum spatial average of photosynthetically active radiation over the sensor length",
+			"__neon_units": "micromolesPerSquareMeterPerSecond"
+		},
+		{
+			"name": "linePARMaximum",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Maximum spatial average of photosynthetically active radiation over the sensor length",
+			"__neon_units": "micromolesPerSquareMeterPerSecond"
+		},
+		{
+			"name": "linePARVariance",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Variance in spatial average of photosynthetically active radiation over the sensor length",
+			"__neon_units": "micromolesPerSquareMeterPerSecondSquared"
+		},
+		{
+			"name": "linePARNumPts",
+			"type": [
+				"null",
+				"long"
+			],
+			"default": null,
+			"doc": "Number of points used to calculate the arithmetic mean of spatial average of photosynthetically active radiation over the sensor length",
+			"__neon_units": "number"
+		},
+		{
+			"name": "linePARStdErMean",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Standard error of the mean for spatial average of photosynthetically active radiation over the sensor length",
+			"__neon_units": "micromolesPerSquareMeterPerSecond"
+		},
+		{
+			"name": "linePARExpUncert",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Expanded uncertainty for spatial average of photosynthetically active radiation over the sensor length",
+			"__neon_units": "micromolesPerSquareMeterPerSecond"
+		},
+		{
+			"name": "linePARSkewness",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "The asymmetry of the distribution of spatial average of photosynthetically active radiation over the sensor length",
+			"__neon_units": "NA"
+		}, 
+		{
+			"name": "linePARKurtosis",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "The peakedness of the distribution of spatial average of photosynthetically active radiation over the sensor length",
+			"__neon_units": "NA"
+		}
+	]
+}
