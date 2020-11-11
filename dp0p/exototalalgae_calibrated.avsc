@@ -1,0 +1,68 @@
+{
+    "type": "record",
+    "name": "exototalalgae_calibrated",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "Calibrated YSI EXO Total Algae PC Smart Sensor",
+    "__version": "1.0",
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "blueGreenAlgaeRaw",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Raw signal of blue-green algae sensor",
+            "__neon_units": "percent"
+        },
+        {
+            "name": "blueGreenAlgaePhycocyanin",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Blue-green algae phycocyanin concentration in water",
+            "__neon_units": "microgramsPerLiter"
+        },
+        {
+            "name": "chlorophyllRaw",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Raw signal of chlorophyll a sensor",
+            "__neon_units": "percent"
+        },
+        {
+            "name": "chlorophyll",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Chlorophyll a concentration in water",
+            "__neon_units": "microgramsPerLiter"
+        }
+    ]
+}
