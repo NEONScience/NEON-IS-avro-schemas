@@ -71,7 +71,7 @@
       "default": null,
       "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
-    }
+    },
     {
       "name": "temperatureNullQF",
       "type": [
