@@ -1,0 +1,723 @@
+{
+  "type": "record",
+  "name": "tchain_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for temperature at specific depths in water",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "depth0WaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth0WaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth0WaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth0WaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in temperature of surface water in degrees celsius",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "depth0WaterTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "number"
+    },
+    {
+      "name": "depth0WaterTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth0WaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth1WaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth1WaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth1WaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth1WaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in temperature of surface water in degrees celsius",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "depth1WaterTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "number"
+    },
+    {
+      "name": "depth1WaterTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth1WaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth2WaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth2WaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth2WaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth2WaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in temperature of surface water in degrees celsius",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "depth2WaterTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "number"
+    },
+    {
+      "name": "depth2WaterTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth2WaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth3WaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth3WaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth3WaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth3WaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in temperature of surface water in degrees celsius",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "depth3WaterTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "number"
+    },
+    {
+      "name": "depth3WaterTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth3WaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth4WaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth4WaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth4WaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth4WaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in temperature of surface water in degrees celsius",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "depth4WaterTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "number"
+    },
+    {
+      "name": "depth4WaterTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth4WaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth5WaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth5WaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth5WaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth5WaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in temperature of surface water in degrees celsius",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "depth5WaterTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "number"
+    },
+    {
+      "name": "depth5WaterTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth5WaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },{
+      "name": "depth6WaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth6WaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth6WaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth6WaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in temperature of surface water in degrees celsius",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "depth6WaterTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "number"
+    },
+    {
+      "name": "depth6WaterTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth6WaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth7WaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth7WaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth7WaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth7WaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in temperature of surface water in degrees celsius",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "depth7WaterTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "number"
+    },
+    {
+      "name": "depth7WaterTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth7WaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth8WaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth8WaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth8WaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth8WaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in temperature of surface water in degrees celsius",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "depth8WaterTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "number"
+    },
+    {
+      "name": "depth8WaterTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth8WaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth9WaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth9WaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth9WaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth9WaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in temperature of surface water in degrees celsius",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "depth9WaterTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "number"
+    },
+    {
+      "name": "depth9WaterTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth9WaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    }
+    ]
+}
