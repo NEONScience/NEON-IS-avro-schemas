@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "tempSpecificDepthKajes_dp01_quality_metrics",
+  "name": "tempSpecificDepthLakes_dp01_quality_metrics",
   "namespace": "org.neonscience.schema.dp01",
   "doc": "L1 quality metrics and final quality flag for temperature at specific depth in lakes",
   "fields": [
@@ -21,8 +21,7 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "
-      WaterTempValidCalQFPassQM",
+      "name": "depth0WaterTempValidCalQFPassQM",
       "type": [
         "null",
         "float"
