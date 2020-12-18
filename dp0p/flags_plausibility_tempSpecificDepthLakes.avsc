@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "flags_plausibility_tchain",
+  "name": "flags_plausibility_tempSpecificDepthLakes",
   "namespace": "org.neonscience.schema.dp0p",
   "doc": "All plausibility flags (null, gap, range, step, spike) for tchain",
   "fields": [
