@@ -81,7 +81,7 @@
       "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
-        {
+    {
       "name": "depth2WaterTempValidCalQFPassQM",
       "type": [
         "null",
@@ -111,7 +111,7 @@
       "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
-        {
+    {
       "name": "depth3WaterTempValidCalQFPassQM",
       "type": [
         "null",
@@ -141,7 +141,7 @@
       "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
-        {
+    {
       "name": "depth4WaterTempValidCalQFPassQM",
       "type": [
         "null",
@@ -171,7 +171,7 @@
       "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
-        {
+    {
       "name": "depth5WaterTempValidCalQFPassQM",
       "type": [
         "null",
@@ -201,7 +201,7 @@
       "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
-        {
+    {
       "name": "depth6WaterTempValidCalQFPassQM",
       "type": [
         "null",
@@ -231,7 +231,7 @@
       "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
-        {
+    {
       "name": "depth7WaterTempValidCalQFPassQM",
       "type": [
         "null",
@@ -261,7 +261,7 @@
       "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
-        {
+    {
       "name": "depth8WaterTempValidCalQFPassQM",
       "type": [
         "null",
@@ -291,7 +291,7 @@
       "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
-        {
+    {
       "name": "depth9WaterTempValidCalQFPassQM",
       "type": [
         "null",
@@ -321,7 +321,7 @@
       "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
-        {
+    {
       "name": "depth10WaterTempValidCalQFPassQM",
       "type": [
         "null",
@@ -351,7 +351,6 @@
       "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
-    
     {
       "name": "depth0WaterTempSuspectCalQFPassQM",
       "type": [
@@ -682,163 +681,7 @@
       "doc": "Quality metric that summarizes when the suspect calibration test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
-    
-    
     {
-      "name": "depth0WaterTempNullQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempNullQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the null test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempNullQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the null test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempGapQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the gap test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempGapQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the gap test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempGapQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the gap test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempRangeQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the range test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempRangeQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the range test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempRangeQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the range test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempStepQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the step test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempStepQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the step test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempStepQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the step test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempSpikeQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempSpikeQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the spike test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempSpikeQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the spike test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-   
-   
-   
-   
-   {
       "name": "depth0WaterTempNullQFPassQM",
       "type": [
         "null",
@@ -1059,7 +902,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "depth0WaterTempRangeQFFailQM",
+      "name": "depth1WaterTempRangeQFFailQM",
       "type": [
         "null",
         "float"
