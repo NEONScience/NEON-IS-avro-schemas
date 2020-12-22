@@ -1,8 +1,8 @@
 {
   "type": "record",
-  "name": "surfacewaterPhysical_aquatroll200_dp01_quality_metrics",
+  "name": "surfacewaterPhysical_leveltroll500_dp01_quality_metrics",
   "namespace": "org.neonscience.schema.dp01",
-  "doc": "L1 quality metrics and final quality flag for temperature of surface water",
+  "doc": "L1 quality metrics and final quality flag for temperature of surface water Level Troll 500 sensor",
   "fields": [
     {
       "name": "startDateTime",
@@ -321,36 +321,6 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureZeroPressurePassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the zero pressure test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "pressureZeroPressureFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the zero pressure test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "pressureZeroPressureNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the zero pressure test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
       "name": "temperatureNullPassQM",
       "type": [
         "null",
@@ -531,7 +501,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureZeroPressurePassQM",
+      "name": "zeroPressurePassQM",
       "type": [
         "null",
         "float"
@@ -541,7 +511,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureZeroPressureFailQM",
+      "name": "zeroPressureFailQM",
       "type": [
         "null",
         "float"
@@ -551,7 +521,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureZeroPressureNAQM",
+      "name": "zeroPressureNAQM",
       "type": [
         "null",
         "float"

@@ -2,7 +2,7 @@
   "type": "record",
   "name": "surfacewaterPhysical_aquatroll200_dp01_quality_metrics",
   "namespace": "org.neonscience.schema.dp01",
-  "doc": "L1 quality metrics and final quality flag for temperature of surface water",
+  "doc": "L1 quality metrics and final quality flag for temperature of surface water Aqua Troll 200 sensor",
   "fields": [
     {
       "name": "startDateTime",
@@ -381,36 +381,6 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureZeroPressurePassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the zero pressure test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "pressureZeroPressureFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the zero pressure test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "pressureZeroPressureNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the zero pressure test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
       "name": "temperatureNullPassQM",
       "type": [
         "null",
@@ -588,36 +558,6 @@
         ],
       "default": null,
       "doc": "Quality metric that summarizes when the persistence test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "temperatureZeroPressurePassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the zero pressure test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "temperatureZeroPressureFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the zero pressure test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "temperatureZeroPressureNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the zero pressure test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
@@ -801,7 +741,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityMissingTempPassQM",
+      "name": "missingTempPassQM",
       "type": [
         "null",
         "float"
@@ -811,7 +751,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityMissingTempFailQM",
+      "name": "missingTempFailQM",
       "type": [
         "null",
         "float"
@@ -821,7 +761,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityMissingTempNAQM",
+      "name": "missingTempNAQM",
       "type": [
         "null",
         "float"
@@ -831,7 +771,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityZeroPressurePassQM",
+      "name": "zeroPressurePassQM",
       "type": [
         "null",
         "float"
@@ -841,7 +781,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityZeroPressureFailQM",
+      "name": "zeroPressureFailQM",
       "type": [
         "null",
         "float"
@@ -851,7 +791,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityZeroPressureNAQM",
+      "name": "zeroPressureNAQM",
       "type": [
         "null",
         "float"
