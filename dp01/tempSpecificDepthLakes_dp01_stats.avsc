@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "tchain_dp01_stats",
+  "name": "tempSpecificDepthLakes_dp01_stats",
   "namespace": "org.neonscience.schema.dp01",
   "doc": "L1 statistics for temperature at specific depths in water",
   "fields": [
@@ -711,6 +711,76 @@
     },
     {
       "name": "depth9WaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth10WaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth10WaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth10WaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth10WaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in temperature of surface water in degrees celsius",
+      "__neon_units": "celsiusSquared"
+    },
+    {
+      "name": "depth10WaterTempNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
+      "__neon_units": "number"
+    },
+    {
+      "name": "depth10WaterTempStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "depth10WaterTempExpUncert",
       "type": [
         "null",
         "float"
