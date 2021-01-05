@@ -13,7 +13,7 @@
       "doc": "Timestamp of readout expressed in milliseconds since epoch"
     },
     {
-      "name": "relative_humidityValidCalQF",
+      "name": "relativeHumidityValidCalQF",
       "type": [
         "null",
         "int"
@@ -33,7 +33,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "dew_pointValidCalQF",
+      "name": "dewPointValidCalQF",
       "type": [
         "null",
         "int"
@@ -43,7 +43,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "relative_humiditySuspectCalQF",
+      "name": "relativeHumiditySuspectCalQF",
       "type": [
         "null",
         "int"
@@ -63,7 +63,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "dew_pointSuspectCalQF",
+      "name": "dewPointSuspectCalQF",
       "type": [
         "null",
         "int"
