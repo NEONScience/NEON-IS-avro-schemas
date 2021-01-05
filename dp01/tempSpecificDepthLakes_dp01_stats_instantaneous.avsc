@@ -1,0 +1,244 @@
+{
+  "type": "record",
+  "name": "tempSpecificDepthLakes_dp01_stats_instantaneous",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 instantaneous statistics for temperature at specific depths in water",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "depth0WaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth0WaterTemp_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth1WaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth1WaterTemp_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+	  {
+      "name": "depth2WaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth2WaterTemp_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+	  {
+      "name": "depth3WaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth3WaterTemp_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+	  {
+      "name": "depth4WaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth4WaterTemp_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+	  {
+      "name": "depth5WaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth5WaterTemp_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+	  {
+      "name": "depth6WaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth6WaterTemp_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+	  {
+      "name": "depth7WaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth7WaterTemp_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+	  {
+      "name": "depth8WaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth8WaterTemp_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+	  {
+      "name": "depth9WaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth9WaterTemp_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+  	{
+      "name": "depth10WaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth10WaterTemp_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    }
+	]
+}
