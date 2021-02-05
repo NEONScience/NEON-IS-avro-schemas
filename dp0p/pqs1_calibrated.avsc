@@ -31,14 +31,14 @@
       "__neon_units": "millisecond"
     },
     {
-      "name": "voltage",
+      "name": "par",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Sensor voltage representing the photosynthetic photon flux density",
-      "__neon_units": "volt"
+      "doc": "Photosynthetically active radiation",
+      "__neon_units": "micromolesPerSquareMeterPerSecond"
     }
     ]
 }
