@@ -1,0 +1,77 @@
+{
+  "type": "record",
+  "name": "prt_uncertainty",
+  "namespace": "org.neonscience.schema.dp0p",
+  "doc": "Uncertainty for Calibrated Platinum Resistance Thermometer measurements.",
+  "fields": [
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch",
+      "__neon_units": "millisecond"
+    },
+    {
+        "name": "temp_ucrtMeas",
+        "type": [
+            "null",
+            "float"
+        ],
+        "default": null,
+        "doc": "Combined measurement uncertainty of the calibration procedure and lab DAS for each individual measurement",
+        "__neon_units": "celcius"
+    },
+    {
+        "name": "temp_raw",
+        "type": [
+            "null",
+            "float"
+        ],
+        "default": null,
+        "doc": "Measured resistance of the platinum resistance thermometer",
+        "__neon_units": "ohm"
+    },
+    {
+        "name": "temp_dervCal",
+        "type": [
+            "null",
+            "float"
+        ],
+        "default": null,
+        "doc": "1st derivative of calibration function evaluated at raw reading value",
+        "__neon_units": "celcius ohm-1"
+    },
+    {
+        "name": "temp_ucrtFdas",
+        "type": [
+            "null",
+            "float"
+        ],
+        "default": null,
+        "doc": "standard uncertainty of individual measurement introduced by the Field DAS",
+        "__neon_units": "celcius"
+    },
+    {
+        "name": "temp_ucrtComb",
+        "type": [
+            "null",
+            "float"
+        ],
+        "default": null,
+        "doc": "combined measurement uncertainty of each individual reading, including calibration and FDAS uncertainties",
+        "__neon_units": "celcius"
+    },
+    {
+        "name": "temp_ucrtExpn",
+        "type": [
+            "null",
+            "float"
+        ],
+        "default": null,
+        "doc": "Expanded measurement uncertainty of each individual reading, at 95% confidence",
+        "__neon_units": "celcius"
+    }
+    ]
+}
