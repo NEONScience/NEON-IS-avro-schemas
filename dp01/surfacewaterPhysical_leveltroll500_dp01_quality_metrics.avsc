@@ -2,7 +2,7 @@
   "type": "record",
   "name": "surfacewaterPhysical_leveltroll500_dp01_quality_metrics",
   "namespace": "org.neonscience.schema.dp01",
-  "doc": "L1 quality metrics and final quality flag for temperature of surface water Level Troll 500 sensor",
+  "doc": "L1 quality metrics and final quality flag for Level Troll 500 sensor",
   "fields": [
     {
       "name": "startDateTime",

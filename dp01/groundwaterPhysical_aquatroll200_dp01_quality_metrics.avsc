@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "surfacewaterPhysical_aquatroll200_dp01_quality_metrics",
+  "name": "groundwaterPhysical_aquatroll200_dp01_quality_metrics",
   "namespace": "org.neonscience.schema.dp01",
   "doc": "L1 quality metrics and final quality flag for Aqua Troll 200 sensor",
   "fields": [
