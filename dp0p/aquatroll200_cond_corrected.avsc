@@ -1,18 +1,33 @@
 {
-  "type": "record",
-  "name": "aquatroll200_calibrated_wo_source",
-  "namespace": "org.neonscience.schema.dp0p",
-  "doc": "In-Situ Aqua TROLL 200 without source id.",
-  "fields": [
-    {
-      "name": "readout_time",
-      "type": {
-        "type": "long",
-        "logicalType": "timestamp-millis"
-      },
-      "doc": "Timestamp of readout expressed in milliseconds since epoch"
-    },
-    {
+    "type": "record",
+    "name": "aquatroll200_cond_corrected",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "Calibrated In-Situ Aqua TROLL 200",
+    "__version": "1.0",
+    "__neon_parts": [
+        "0317730000"
+    ],
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
             "name": "pressure",
             "type": [
                 "null",
@@ -62,7 +77,7 @@
             "doc": "Data quality code from sensor for temperature represented by a 16 bit unsigned integer",
             "__neon_stream_id": "3"
         },
-                {
+        {
             "name": "raw_conductivity",
             "type": [
                 "null",
