@@ -62,7 +62,7 @@
             "doc": "Data quality code from sensor for temperature represented by a 16 bit unsigned integer",
             "__neon_stream_id": "3"
         },
-                {
+        {
             "name": "raw_conductivity",
             "type": [
                 "null",
@@ -70,6 +70,8 @@
             ],
             "default": null,
             "doc": "Calibrated raw conductivity in groundwater",
+            "__neon_units": "microsiemensPerCentimeter",
+            "__neon_stream_id": "4"
         },
         {
             "name": "conductivity_data_quality",
@@ -93,8 +95,7 @@
             ],
             "default": null,
             "doc": "Calibrated specific conductance in groundwater",
-            "__neon_units": "microsiemensPerCentimeter",
-            "__neon_stream_id": "4"
+            "__neon_units": "microsiemensPerCentimeter"
         },
         {
             "name": "internal_battery",
