@@ -5,6 +5,14 @@
   "doc": "L1 instantaneous statistics for temperature at specific depths in water",
   "fields": [
     {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which sampling took place."
+    },
+    {
       "name": "startDateTime",
       "type": {
         "type": "long",
