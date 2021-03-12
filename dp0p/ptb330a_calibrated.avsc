@@ -37,7 +37,7 @@
         "float"
         ],
       "default": null,
-      "doc": "Uncalibrated barometric pressure",
+      "doc": "Calibrated barometric pressure",
       "__neon_units": "kilopascal",
       "__neon_stream_id": "0"
     },
@@ -51,6 +51,16 @@
       "doc": "Temperature of barometer module",
       "__neon_units": "celsius",
       "__neon_stream_id": "1"
-    }   
+    },   
+    {
+      "name": "error_state",
+      "type": [
+          "null",
+          "boolean"
+      ],
+      "default": null,
+      "doc": "Error state of the digital barometer, 1 = error and 0 = no error",
+      "__neon_stream_id": "2"
+  }
     ]
 }
