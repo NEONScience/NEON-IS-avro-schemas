@@ -1,0 +1,94 @@
+{
+  "type": "record",
+  "name": "pressureAir_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for soil temperature",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "barometricPressureMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of Barometric Pressure",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "barometricPressureMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum Barometric Pressure",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "barometricPressureMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum Barometric Pressure",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "barometricPressureVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in Barometric Pressure",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "barometricPressureNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of Barometric Pressure",
+      "__neon_units": "number"
+    },
+    {
+      "name": "barometricPressureStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for Barometric Pressure",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "barometricPressureExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for Barometric Pressure",
+      "__neon_units": "kilopascal"
+    }
+    ]
+}
