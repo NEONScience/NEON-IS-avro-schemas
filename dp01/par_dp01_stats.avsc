@@ -1,0 +1,94 @@
+{
+  "type": "record",
+  "name": "par_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for par",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "PARMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of photosynthetically active radiation",
+      "__neon_units": "micromolesPerSquareMeterPerSecond"
+    },
+    {
+      "name": "PARMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum photosynthetically active radiation",
+      "__neon_units": "micromolesPerSquareMeterPerSecond"
+    },
+    {
+      "name": "PARMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum photosynthetically active radiation",
+      "__neon_units": "micromolesPerSquareMeterPerSecond"
+    },
+    {
+      "name": "PARVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in photosynthetically active radiation",
+      "__neon_units": "micromolesPerSquareMeterPerSecondSquared"
+    },
+    {
+      "name": "PARNumPts",
+      "type": [
+        "null",
+        "long"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of photosynthetically active radiation",
+      "__neon_units": "number"
+    },
+    {
+      "name": "PARStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for photosynthetically active radiation",
+      "__neon_units": "micromolesPerSquareMeterPerSecond"
+    },
+    {
+      "name": "PARExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for photosynthetically active radiation",
+      "__neon_units": "micromolesPerSquareMeterPerSecond"
+    }
+    ]
+}

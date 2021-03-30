@@ -1,0 +1,264 @@
+{
+  "type": "record",
+  "name": "par_dp01_quality_metrics",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 quality metrics and final quality flag for par",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "PARValidCalPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARValidCalFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the failed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARValidCalNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARSuspectCalPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARSuspectCalFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the failed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARSuspectCalNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes when the suspect calibration test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARNullPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARNullFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the failed outcomes of the null test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARNullNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes when the null test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARGapPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the passed outcomes of the gap test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARGapFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the failed outcomes of the gap test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARGapNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes when the gap test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARRangePassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the passed outcomes of the range test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARRangeFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the failed outcomes of the range test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARRangeNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes when the range test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARStepPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the passed outcomes of the step test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARStepFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the failed outcomes of the step test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARStepNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes when the step test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARPersistencePassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the passed outcomes of the persistence test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARPersistenceFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes the failed outcomes of the persistence test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARPersistenceNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric that summarizes when the persistence test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARAlphaQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARBetaQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "PARFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Photosynthetically active radiation quality metric indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    }
+    ]
+}
