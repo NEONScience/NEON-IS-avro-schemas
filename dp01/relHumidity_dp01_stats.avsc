@@ -1,0 +1,233 @@
+{
+	"type": "record",
+	"name": "relHumidity_dp01_stats",
+	"namespace": "org.neonscience.schema.dp01",
+	"doc": "L1 statistics for HMP155",
+	"fields": [{
+			"name": "startDateTime",
+			"type": {
+				"type": "long",
+				"logicalType": "timestamp-millis"
+			},
+			"doc": "Date and time at which a sampling is initiated (inclusive)"
+		},
+		{
+			"name": "endDateTime",
+			"type": {
+				"type": "long",
+				"logicalType": "timestamp-millis"
+			},
+			"doc": "Date and time at which a sampling is completed (exclusive)"
+		},
+		{
+			"name": "RHMean",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Arithmetic mean of relative humidity",
+			"__neon_units": "percent"
+		},
+		{
+			"name": "RHMinimum",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Minimum relative humidity",
+			"__neon_units": "percent"
+		},
+		{
+			"name": "RHMaximum",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Maximum relative humidity",
+			"__neon_units": "percent"
+		},
+		{
+			"name": "RHVariance",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Variance in relative humidity",
+			"__neon_units": "percentSquared"
+		},
+		{
+			"name": "RHNumPts",
+			"type": [
+				"null",
+				"long"
+			],
+			"default": null,
+			"doc": "Number of points used to calculate the arithmetic mean of relative humidity",
+			"__neon_units": "number"
+		},
+		{
+			"name": "RHStdErMean",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Standard error of the mean for relative humidity",
+			"__neon_units": "percent"
+		},
+		{
+			"name": "RHExpUncert",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Expanded uncertainty for relative humidity",
+			"__neon_units": "percent"
+		},
+		{
+			"name": "tempMean",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Arithmetic mean of relative humidity sensor temperature",
+			"__neon_units": "celsius"
+		},
+		{
+			"name": "tempMinimum",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Minimum relative humidity sensor temperature",
+			"__neon_units": "celsius"
+		},
+		{
+			"name": "tempMaximum",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Maximum relative humidity sensor temperature",
+			"__neon_units": "celsius"
+		},
+		{
+			"name": "tempVariance",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Variance in relative humidity sensor temperature",
+			"__neon_units": "celsiusSquared"
+		},
+		{
+			"name": "tempNumPts",
+			"type": [
+				"null",
+				"long"
+			],
+			"default": null,
+			"doc": "Number of points used to calculate the arithmetic mean of relative humidity sensor temperature",
+			"__neon_units": "number"
+		},
+		{
+			"name": "tempStdErMean",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Standard error of the mean of relative humidity sensor temperature",
+			"__neon_units": "celsius"
+		},
+		{
+			"name": "tempExpUncert",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Expanded uncertainty of relative humidity sensor temperature",
+			"__neon_units": "celsius"
+		},
+		{
+			"name": "dewTempMean",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Arithmetic mean of dew/frost point",
+			"__neon_units": "celsius"
+		},
+		{
+			"name": "dewTempMinimum",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Minimum dew/frost point",
+			"__neon_units": "celsius"
+		},
+		{
+			"name": "dewTempMaximum",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Maximum dew/frost point",
+			"__neon_units": "celsius"
+		},
+		{
+			"name": "dewTempVariance",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Variance in dew/frost point",
+			"__neon_units": "celsiusSquared"
+		},
+		{
+			"name": "dewTempNumPts",
+			"type": [
+				"null",
+				"long"
+			],
+			"default": null,
+			"doc": "Number of points used to calculate the arithmetic mean of dew/frost point",
+			"__neon_units": "number"
+		},
+		{
+			"name": "dewTempStdErMean",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Standard error of the mean for dew/frost point",
+			"__neon_units": "celsius"
+		},
+		{
+			"name": "dewTempExpUncert",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Expanded uncertainty for dew/frost point",
+			"__neon_units": "celsius"
+		}
+	]
+}
