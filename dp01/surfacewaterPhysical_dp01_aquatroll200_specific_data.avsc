@@ -1,8 +1,8 @@
 {
   "type": "record",
-  "name": "groundwaterPhysical_dp01_troll_specific_data",
+  "name": "surfacewaterPhysical_dp01_aquatroll200_specific_data",
   "namespace": "org.neonscience.schema.dp01",
-  "doc": "L1 groundwater data",
+  "doc": "L1 surface water data",
   "fields": [
     {
       "name": "readout_time",
@@ -14,43 +14,43 @@
       "__neon_units": "millisecond"
     },
     {
-      "name": "groundwaterPressure",
+      "name": "surfacewaterPressure",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Calibrated pressure of groundwater",
+      "doc": "Calibrated pressure of surface water",
       "__neon_units": "kilopascal"        
     },
     {
-      "name": "groundwaterTemp",
+      "name": "surfacewaterTemp",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Calibrated temperature in groundwater",
+      "doc": "Calibrated temperature in surface water",
       "__neon_units": "celsius"
     },
     {
-      "name": "groundwaterSpecCond",
+      "name": "surfacewaterSpecCond",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Calibrated specific conductance in groundwater",
+      "doc": "Calibrated specific conductance in surface water",
       "__neon_units": "microsiemensPerCentimeter"
     },
     {
-      "name": "groundwaterElev",
+      "name": "surfacewaterElev",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Elevation of groundwater",
+      "doc": "Elevation of surface water",
       "__neon_units": "meter"
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "record",
-  "name": "groundwaterPhysical_dp01_stats",
+  "name": "surfacewaterPhysical_aquatroll200_dp01_stats",
   "namespace": "org.neonscience.schema.dp01",
-  "doc": "L1 statistics for groundwater",
+  "doc": "L1 statistics for surfacewater",
   "fields": [
     {
       "name": "startDateTime",
@@ -21,123 +21,123 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "groundwaterTempMean",
+      "name": "surfacewaterTempMean",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Arithmetic mean of groundwater temperature",
+      "doc": "Arithmetic mean of surface water temperature",
       "__neon_units": "celcius"
     },
     {
-      "name": "groundwaterTempMinimum",
+      "name": "surfacewaterTempMinimum",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Minimum groundwater temperature",
+      "doc": "Minimum surface water temperature",
       "__neon_units": "celcius"
     },
     {
-      "name": "groundwaterTempMaximum",
+      "name": "surfacewaterTempMaximum",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Maximum groundwater temperature",
+      "doc": "Maximum surface water temperature",
       "__neon_units": "celcius"
     },
     {
-      "name": "groundwaterTempVariance",
+      "name": "surfacewaterTempVariance",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Variance in groundwater temperature",
+      "doc": "Variance in surface water temperature",
       "__neon_units": "celcius"
     },
     {
-      "name": "groundwaterTempNumPts",
+      "name": "surfacewaterTempNumPts",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Number of points used to calculate the arithmetic mean of groundwater temperature",
+      "doc": "Number of points used to calculate the arithmetic mean of surface water temperature",
       "__neon_units": "number"
     },
     {
-      "name": "groundwaterTempStdEr",
+      "name": "surfacewaterTempStdEr",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Standard error of the mean for groundwater temperature",
+      "doc": "Standard error of the mean for surface water temperature",
       "__neon_units": "celcius"
     },
     {
-      "name": "groundwaterSpecCondMean",
+      "name": "surfacewaterSpecCondMean",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Arithmetic mean of groundwater conductivity",
+      "doc": "Arithmetic mean of surface water conductivity",
       "__neon_units": "microsiemensPerCentimeter"
     },
     {
-      "name": "groundwaterSpecCondMinimum",
+      "name": "surfacewaterSpecCondMinimum",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Minimum groundwater conductivity",
+      "doc": "Minimum surface water conductivity",
       "__neon_units": "microsiemensPerCentimeter"
     },
     {
-      "name": "groundwaterSpecCondMaximum",
+      "name": "surfacewaterSpecCondMaximum",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Maximum groundwater conductivity",
+      "doc": "Maximum surface water conductivity",
       "__neon_units": "microsiemensPerCentimeter"
     },
     {
-      "name": "groundwaterSpecCondVariance",
+      "name": "surfacewaterSpecCondVariance",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Variance in groundwater conductivity",
+      "doc": "Variance in surface water conductivity",
       "__neon_units": "microsiemensPerCentimeter"
     },
     {
-      "name": "groundwaterSpecCondNumPts",
+      "name": "surfacewaterSpecCondNumPts",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Number of points used to calculate the arithmetic mean of groundwater conductivity",
+      "doc": "Number of points used to calculate the arithmetic mean of surface water conductivity",
       "__neon_units": "number"
     },
     {
-      "name": "groundwaterSpecCondStdEr",
+      "name": "surfacewaterSpecCondStdEr",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Standard error of the mean for groundwater conductivity",
+      "doc": "Standard error of the mean for surface water conductivity",
       "__neon_units": "microsiemensPerCentimeter"
     }
   ]

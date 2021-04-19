@@ -741,7 +741,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatmissingTempPassQM",
+      "name": "gWatMissingTempPassQM",
       "type": [
         "null",
         "float"
@@ -751,7 +751,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatmissingTempFailQM",
+      "name": "gWatMissingTempFailQM",
       "type": [
         "null",
         "float"
@@ -761,7 +761,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatmissingTempNAQM",
+      "name": "gWatMissingTempNAQM",
       "type": [
         "null",
         "float"
@@ -771,7 +771,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatzeroPressurePassQM",
+      "name": "gWatZeroPressurePassQM",
       "type": [
         "null",
         "float"
@@ -781,7 +781,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatzeroPressureFailQM",
+      "name": "gWatZeroPressureFailQM",
       "type": [
         "null",
         "float"
@@ -791,7 +791,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatzeroPressureNAQM",
+      "name": "gWatZeroPressureNAQM",
       "type": [
         "null",
         "float"
