@@ -61,16 +61,6 @@
       "__neon_units": "kilopascal"
     },
     {
-      "name": "surfacewaterPressureStdEr",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Standard error of the mean for surface water pressure",
-      "__neon_units": "kilopascal"
-    },
-    {
       "name": "surfacewaterPressureNumPts",
       "type": [
         "null",
@@ -79,6 +69,16 @@
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of surface water pressure",
       "__neon_units": "number"
+    },
+    {
+      "name": "surfacewaterPressureStdEr",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for surface water pressure",
+      "__neon_units": "kilopascal"
     },
     {
       "name": "surfacewaterElevMean",
@@ -121,16 +121,6 @@
       "__neon_units": "kilopascal"
     },
     {
-      "name": "surfacewaterElevStdEr",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Standard error of the mean for surface water elevation",
-      "__neon_units": "kilopascal"
-    },
-    {
       "name": "surfacewaterElevNumPts",
       "type": [
         "null",
@@ -139,6 +129,16 @@
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of surface water elevation",
       "__neon_units": "number"
+    },
+    {
+      "name": "surfacewaterElevStdEr",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for surface water elevation",
+      "__neon_units": "kilopascal"
     }
   ]
 }

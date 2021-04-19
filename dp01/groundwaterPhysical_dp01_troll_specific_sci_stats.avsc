@@ -61,16 +61,6 @@
       "__neon_units": "kilopascal"
     },
     {
-      "name": "groundwaterPressureStdEr",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Standard error of the mean for groundwater pressure",
-      "__neon_units": "kilopascal"
-    },
-    {
       "name": "groundwaterPressureNumPts",
       "type": [
         "null",
@@ -79,6 +69,16 @@
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of groundwater pressure",
       "__neon_units": "number"
+    },
+    {
+      "name": "groundwaterPressureStdEr",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for groundwater pressure",
+      "__neon_units": "kilopascal"
     },
     {
       "name": "groundwaterElevMean",
@@ -121,16 +121,6 @@
       "__neon_units": "kilopascal"
     },
     {
-      "name": "groundwaterElevStdEr",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Standard error of the mean for groundwater elevation",
-      "__neon_units": "kilopascal"
-    },
-    {
       "name": "groundwaterElevNumPts",
       "type": [
         "null",
@@ -139,6 +129,16 @@
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of groundwater elevation",
       "__neon_units": "number"
+    },
+    {
+      "name": "groundwaterElevStdEr",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for groundwater elevation",
+      "__neon_units": "kilopascal"
     }
   ]
 }
