@@ -21,7 +21,7 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "pressureValidCalPassQM",
+      "name": "gWatPressureValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -31,7 +31,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureValidCalFailQM",
+      "name": "gWatPressureValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -41,7 +41,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureValidCalNAQM",
+      "name": "gWatPressureValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -51,7 +51,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureValidCalPassQM",
+      "name": "gWatTempValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -61,7 +61,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureValidCalFailQM",
+      "name": "gWatTempValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -71,7 +71,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureValidCalNAQM",
+      "name": "gWatTempValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -81,7 +81,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityValidCalPassQM",
+      "name": "gWatSCondValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -91,7 +91,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityValidCalFailQM",
+      "name": "gWatSCondValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -101,7 +101,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityValidCalNAQM",
+      "name": "gWatSCondValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -111,7 +111,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureSuspectCalPassQM",
+      "name": "gWatPressureSuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -121,7 +121,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureSuspectCalFailQM",
+      "name": "gWatPressureSuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -131,7 +131,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureSuspectCalNAQM",
+      "name": "gWatPressureSuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -141,7 +141,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureSuspectCalPassQM",
+      "name": "gWatTempSuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -151,7 +151,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureSuspectCalFailQM",
+      "name": "gWatTempSuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -161,7 +161,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureSuspectCalNAQM",
+      "name": "gWatTempSuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -171,7 +171,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivitySuspectCalPassQM",
+      "name": "gWatSCondSuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -181,7 +181,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivitySuspectCalFailQM",
+      "name": "gWatSCondSuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -191,7 +191,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivitySuspectCalNAQM",
+      "name": "gWatSCondSuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -201,7 +201,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureNullPassQM",
+      "name": "gWatPressureNullPassQM",
       "type": [
         "null",
         "float"
@@ -211,7 +211,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureNullFailQM",
+      "name": "gWatPressureNullFailQM",
       "type": [
         "null",
         "float"
@@ -221,7 +221,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureNullNAQM",
+      "name": "gWatPressureNullNAQM",
       "type": [
         "null",
         "float"
@@ -231,7 +231,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureGapPassQM",
+      "name": "gWatPressureGapPassQM",
       "type": [
         "null",
         "float"
@@ -241,7 +241,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureGapFailQM",
+      "name": "gWatPressureGapFailQM",
       "type": [
         "null",
         "float"
@@ -251,7 +251,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureGapNAQM",
+      "name": "gWatPressureGapNAQM",
       "type": [
         "null",
         "float"
@@ -261,7 +261,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureRangePassQM",
+      "name": "gWatPressureRangePassQM",
       "type": [
         "null",
         "float"
@@ -271,7 +271,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureRangeFailQM",
+      "name": "gWatPressureRangeFailQM",
       "type": [
         "null",
         "float"
@@ -281,7 +281,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureRangeNAQM",
+      "name": "gWatPressureRangeNAQM",
       "type": [
         "null",
         "float"
@@ -291,7 +291,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureStepPassQM",
+      "name": "gWatPressureStepPassQM",
       "type": [
         "null",
         "float"
@@ -301,7 +301,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureStepFailQM",
+      "name": "gWatPressureStepFailQM",
       "type": [
         "null",
         "float"
@@ -311,7 +311,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureStepNAQM",
+      "name": "gWatPressureStepNAQM",
       "type": [
         "null",
         "float"
@@ -321,7 +321,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureSpikePassQM",
+      "name": "gWatPressureSpikePassQM",
       "type": [
         "null",
         "float"
@@ -331,7 +331,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureSpikeFailQM",
+      "name": "gWatPressureSpikeFailQM",
       "type": [
         "null",
         "float"
@@ -341,7 +341,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureSpikeNAQM",
+      "name": "gWatPressureSpikeNAQM",
       "type": [
         "null",
         "float"
@@ -351,7 +351,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressurePersistencePassQM",
+      "name": "gWatPressurePersistencePassQM",
       "type": [
         "null",
         "float"
@@ -361,7 +361,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressurePersistenceFailQM",
+      "name": "gWatPressurePersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -371,7 +371,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressurePersistenceNAQM",
+      "name": "gWatPressurePersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -381,7 +381,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureNullPassQM",
+      "name": "gWatTempNullPassQM",
       "type": [
         "null",
         "float"
@@ -391,7 +391,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureNullFailQM",
+      "name": "gWatTempNullFailQM",
       "type": [
         "null",
         "float"
@@ -401,7 +401,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureNullNAQM",
+      "name": "gWatTempNullNAQM",
       "type": [
         "null",
         "float"
@@ -411,7 +411,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureGapPassQM",
+      "name": "gWatTempGapPassQM",
       "type": [
         "null",
         "float"
@@ -421,7 +421,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureGapFailQM",
+      "name": "gWatTempGapFailQM",
       "type": [
         "null",
         "float"
@@ -431,7 +431,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureGapNAQM",
+      "name": "gWatTempGapNAQM",
       "type": [
         "null",
         "float"
@@ -441,7 +441,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureRangePassQM",
+      "name": "gWatTempRangePassQM",
       "type": [
         "null",
         "float"
@@ -451,7 +451,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureRangeFailQM",
+      "name": "gWatTempRangeFailQM",
       "type": [
         "null",
         "float"
@@ -461,7 +461,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureRangeNAQM",
+      "name": "gWatTempRangeNAQM",
       "type": [
         "null",
         "float"
@@ -471,7 +471,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureStepPassQM",
+      "name": "gWatTempStepPassQM",
       "type": [
         "null",
         "float"
@@ -481,7 +481,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureStepFailQM",
+      "name": "gWatTempStepFailQM",
       "type": [
         "null",
         "float"
@@ -491,7 +491,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureStepNAQM",
+      "name": "gWatTempStepNAQM",
       "type": [
         "null",
         "float"
@@ -501,7 +501,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureSpikePassQM",
+      "name": "gWatTempSpikePassQM",
       "type": [
         "null",
         "float"
@@ -511,7 +511,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureSpikeFailQM",
+      "name": "gWatTempSpikeFailQM",
       "type": [
         "null",
         "float"
@@ -521,7 +521,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureSpikeNAQM",
+      "name": "gWatTempSpikeNAQM",
       "type": [
         "null",
         "float"
@@ -531,7 +531,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperaturePersistencePassQM",
+      "name": "gWatTempPersistencePassQM",
       "type": [
         "null",
         "float"
@@ -541,7 +541,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperaturePersistenceFailQM",
+      "name": "gWatTempPersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -551,7 +551,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperaturePersistenceNAQM",
+      "name": "gWatTempPersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -561,7 +561,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityNullPassQM",
+      "name": "gWatSCondNullPassQM",
       "type": [
         "null",
         "float"
@@ -571,7 +571,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityNullFailQM",
+      "name": "gWatSCondNullFailQM",
       "type": [
         "null",
         "float"
@@ -581,7 +581,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityNullNAQM",
+      "name": "gWatSCondNullNAQM",
       "type": [
         "null",
         "float"
@@ -591,7 +591,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityGapPassQM",
+      "name": "gWatSCondGapPassQM",
       "type": [
         "null",
         "float"
@@ -601,7 +601,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityGapFailQM",
+      "name": "gWatSCondGapFailQM",
       "type": [
         "null",
         "float"
@@ -611,7 +611,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityGapNAQM",
+      "name": "gWatSCondGapNAQM",
       "type": [
         "null",
         "float"
@@ -621,7 +621,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityRangePassQM",
+      "name": "gWatSCondRangePassQM",
       "type": [
         "null",
         "float"
@@ -631,7 +631,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityRangeFailQM",
+      "name": "gWatSCondRangeFailQM",
       "type": [
         "null",
         "float"
@@ -641,7 +641,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityRangeNAQM",
+      "name": "gWatSCondRangeNAQM",
       "type": [
         "null",
         "float"
@@ -651,7 +651,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityStepPassQM",
+      "name": "gWatSCondStepPassQM",
       "type": [
         "null",
         "float"
@@ -661,7 +661,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityStepFailQM",
+      "name": "gWatSCondStepFailQM",
       "type": [
         "null",
         "float"
@@ -671,7 +671,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityStepNAQM",
+      "name": "gWatSCondStepNAQM",
       "type": [
         "null",
         "float"
@@ -681,7 +681,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivitySpikePassQM",
+      "name": "gWatSCondSpikePassQM",
       "type": [
         "null",
         "float"
@@ -691,7 +691,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivitySpikeFailQM",
+      "name": "gWatSCondSpikeFailQM",
       "type": [
         "null",
         "float"
@@ -701,7 +701,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivitySpikeNAQM",
+      "name": "gWatSCondSpikeNAQM",
       "type": [
         "null",
         "float"
@@ -711,7 +711,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityPersistencePassQM",
+      "name": "gWatSCondPersistencePassQM",
       "type": [
         "null",
         "float"
@@ -721,7 +721,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityPersistenceFailQM",
+      "name": "gWatSCondPersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -731,7 +731,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityPersistenceNAQM",
+      "name": "gWatSCondPersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -741,7 +741,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "missingTempPassQM",
+      "name": "gWatmissingTempPassQM",
       "type": [
         "null",
         "float"
@@ -751,7 +751,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "missingTempFailQM",
+      "name": "gWatmissingTempFailQM",
       "type": [
         "null",
         "float"
@@ -761,7 +761,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "missingTempNAQM",
+      "name": "gWatmissingTempNAQM",
       "type": [
         "null",
         "float"
@@ -771,7 +771,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "zeroPressurePassQM",
+      "name": "gWatzeroPressurePassQM",
       "type": [
         "null",
         "float"
@@ -781,7 +781,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "zeroPressureFailQM",
+      "name": "gWatzeroPressureFailQM",
       "type": [
         "null",
         "float"
@@ -791,7 +791,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "zeroPressureNAQM",
+      "name": "gWatzeroPressureNAQM",
       "type": [
         "null",
         "float"
@@ -801,7 +801,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureAlphaQM",
+      "name": "gWatPressureAlphaQM",
       "type": [
         "null",
         "float"
@@ -811,7 +811,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureBetaQM",
+      "name": "gWatPressureBetaQM",
       "type": [
         "null",
         "float"
@@ -821,7 +821,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "pressureFinalQF",
+      "name": "gWatPressureFinalQF",
       "type": [
         "null",
         "int"
@@ -831,7 +831,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "temperatureAlphaQM",
+      "name": "gWatTempAlphaQM",
       "type": [
         "null",
         "float"
@@ -841,7 +841,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureBetaQM",
+      "name": "gWatTempBetaQM",
       "type": [
         "null",
         "float"
@@ -851,7 +851,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "temperatureFinalQF",
+      "name": "gWatTempFinalQF",
       "type": [
         "null",
         "int"
@@ -861,7 +861,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "conductivityAlphaQM",
+      "name": "gWatSCondAlphaQM",
       "type": [
         "null",
         "float"
@@ -871,7 +871,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityBetaQM",
+      "name": "gWatSCondBetaQM",
       "type": [
         "null",
         "float"
@@ -881,7 +881,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "conductivityFinalQF",
+      "name": "gWatgWatSCondFinalQF",
       "type": [
         "null",
         "int"
