@@ -881,7 +881,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatgWatSCondFinalQF",
+      "name": "gWatSCondFinalQF",
       "type": [
         "null",
         "int"
