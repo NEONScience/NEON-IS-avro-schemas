@@ -21,7 +21,7 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "gWatPressureValidCalPassQM",
+      "name": "gWatElevValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -31,7 +31,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureValidCalFailQM",
+      "name": "gWatElevValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -41,7 +41,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureValidCalNAQM",
+      "name": "gWatElevValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -111,7 +111,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureSuspectCalPassQM",
+      "name": "gWatElevSuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -121,7 +121,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureSuspectCalFailQM",
+      "name": "gWatElevSuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -131,7 +131,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureSuspectCalNAQM",
+      "name": "gWatElevSuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -201,7 +201,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureNullPassQM",
+      "name": "gWatElevNullPassQM",
       "type": [
         "null",
         "float"
@@ -211,7 +211,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureNullFailQM",
+      "name": "gWatElevNullFailQM",
       "type": [
         "null",
         "float"
@@ -221,7 +221,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureNullNAQM",
+      "name": "gWatElevNullNAQM",
       "type": [
         "null",
         "float"
@@ -231,7 +231,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureGapPassQM",
+      "name": "gWatElevGapPassQM",
       "type": [
         "null",
         "float"
@@ -241,7 +241,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureGapFailQM",
+      "name": "gWatElevGapFailQM",
       "type": [
         "null",
         "float"
@@ -251,7 +251,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureGapNAQM",
+      "name": "gWatElevGapNAQM",
       "type": [
         "null",
         "float"
@@ -261,7 +261,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureRangePassQM",
+      "name": "gWatElevRangePassQM",
       "type": [
         "null",
         "float"
@@ -271,7 +271,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureRangeFailQM",
+      "name": "gWatElevRangeFailQM",
       "type": [
         "null",
         "float"
@@ -281,7 +281,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureRangeNAQM",
+      "name": "gWatElevRangeNAQM",
       "type": [
         "null",
         "float"
@@ -291,7 +291,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureStepPassQM",
+      "name": "gWatElevStepPassQM",
       "type": [
         "null",
         "float"
@@ -301,7 +301,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureStepFailQM",
+      "name": "gWatElevStepFailQM",
       "type": [
         "null",
         "float"
@@ -311,7 +311,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureStepNAQM",
+      "name": "gWatElevStepNAQM",
       "type": [
         "null",
         "float"
@@ -321,7 +321,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureSpikePassQM",
+      "name": "gWatElevSpikePassQM",
       "type": [
         "null",
         "float"
@@ -331,7 +331,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureSpikeFailQM",
+      "name": "gWatElevSpikeFailQM",
       "type": [
         "null",
         "float"
@@ -341,7 +341,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureSpikeNAQM",
+      "name": "gWatElevSpikeNAQM",
       "type": [
         "null",
         "float"
@@ -351,7 +351,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressurePersistencePassQM",
+      "name": "gWatElevPersistencePassQM",
       "type": [
         "null",
         "float"
@@ -361,7 +361,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressurePersistenceFailQM",
+      "name": "gWatElevPersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -371,7 +371,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressurePersistenceNAQM",
+      "name": "gWatElevPersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -801,7 +801,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureAlphaQM",
+      "name": "gWatElevAlphaQM",
       "type": [
         "null",
         "float"
@@ -811,7 +811,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureBetaQM",
+      "name": "gWatElevBetaQM",
       "type": [
         "null",
         "float"
@@ -821,7 +821,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "gWatPressureFinalQF",
+      "name": "gWatElevFinalQF",
       "type": [
         "null",
         "int"

@@ -21,7 +21,7 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "sWatPressureValidCalPassQM",
+      "name": "sWatElevValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -31,7 +31,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureValidCalFailQM",
+      "name": "sWatElevValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -41,7 +41,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureValidCalNAQM",
+      "name": "sWatElevValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -81,7 +81,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureSuspectCalPassQM",
+      "name": "sWatElevSuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -91,7 +91,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureSuspectCalFailQM",
+      "name": "sWatElevSuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -101,7 +101,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureSuspectCalNAQM",
+      "name": "sWatElevSuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -141,7 +141,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureNullPassQM",
+      "name": "sWatElevNullPassQM",
       "type": [
         "null",
         "float"
@@ -151,7 +151,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureNullFailQM",
+      "name": "sWatElevNullFailQM",
       "type": [
         "null",
         "float"
@@ -161,7 +161,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureNullNAQM",
+      "name": "sWatElevNullNAQM",
       "type": [
         "null",
         "float"
@@ -171,7 +171,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureGapPassQM",
+      "name": "sWatElevGapPassQM",
       "type": [
         "null",
         "float"
@@ -181,7 +181,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureGapFailQM",
+      "name": "sWatElevGapFailQM",
       "type": [
         "null",
         "float"
@@ -191,7 +191,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureGapNAQM",
+      "name": "sWatElevGapNAQM",
       "type": [
         "null",
         "float"
@@ -201,7 +201,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureRangePassQM",
+      "name": "sWatElevRangePassQM",
       "type": [
         "null",
         "float"
@@ -211,7 +211,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureRangeFailQM",
+      "name": "sWatElevRangeFailQM",
       "type": [
         "null",
         "float"
@@ -221,7 +221,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureRangeNAQM",
+      "name": "sWatElevRangeNAQM",
       "type": [
         "null",
         "float"
@@ -231,7 +231,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureStepPassQM",
+      "name": "sWatElevStepPassQM",
       "type": [
         "null",
         "float"
@@ -241,7 +241,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureStepFailQM",
+      "name": "sWatElevStepFailQM",
       "type": [
         "null",
         "float"
@@ -251,7 +251,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureStepNAQM",
+      "name": "sWatElevStepNAQM",
       "type": [
         "null",
         "float"
@@ -261,7 +261,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureSpikePassQM",
+      "name": "sWatElevSpikePassQM",
       "type": [
         "null",
         "float"
@@ -271,7 +271,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureSpikeFailQM",
+      "name": "sWatElevSpikeFailQM",
       "type": [
         "null",
         "float"
@@ -281,7 +281,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureSpikeNAQM",
+      "name": "sWatElevSpikeNAQM",
       "type": [
         "null",
         "float"
@@ -291,7 +291,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressurePersistencePassQM",
+      "name": "sWatElevPersistencePassQM",
       "type": [
         "null",
         "float"
@@ -301,7 +301,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressurePersistenceFailQM",
+      "name": "sWatElevPersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -311,7 +311,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressurePersistenceNAQM",
+      "name": "sWatElevPersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -531,7 +531,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureAlphaQM",
+      "name": "sWatElevAlphaQM",
       "type": [
         "null",
         "float"
@@ -541,7 +541,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureBetaQM",
+      "name": "sWatElevBetaQM",
       "type": [
         "null",
         "float"
@@ -551,7 +551,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatPressureFinalQF",
+      "name": "sWatElevFinalQF",
       "type": [
         "null",
         "int"
