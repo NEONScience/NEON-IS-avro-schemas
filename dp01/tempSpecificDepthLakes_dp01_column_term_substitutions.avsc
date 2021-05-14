@@ -14,7 +14,8 @@
                    "QFNAQM" : "NAQM",
                    "QFFailQM" : "FailQM",
                    "QFPassQM" : "PassQM",
-                   "thermistorDepth" : "thermistorDepth"
+                   "thermistorDepth" : "thermistorDepth",
+                   "StdEr" : "StdErMean"
                    }
       
     }
