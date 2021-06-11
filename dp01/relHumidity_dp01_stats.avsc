@@ -90,7 +90,7 @@
 			"__neon_units": "percent"
 		},
 		{
-			"name": "tempMean",
+			"name": "tempRHMean",
 			"type": [
 				"null",
 				"float"
@@ -100,7 +100,7 @@
 			"__neon_units": "celsius"
 		},
 		{
-			"name": "tempMinimum",
+			"name": "tempRHMinimum",
 			"type": [
 				"null",
 				"float"
@@ -110,7 +110,7 @@
 			"__neon_units": "celsius"
 		},
 		{
-			"name": "tempMaximum",
+			"name": "tempRHMaximum",
 			"type": [
 				"null",
 				"float"
@@ -120,7 +120,7 @@
 			"__neon_units": "celsius"
 		},
 		{
-			"name": "tempVariance",
+			"name": "tempRHVariance",
 			"type": [
 				"null",
 				"float"
@@ -130,7 +130,7 @@
 			"__neon_units": "celsiusSquared"
 		},
 		{
-			"name": "tempNumPts",
+			"name": "tempRHNumPts",
 			"type": [
 				"null",
 				"long"
@@ -140,7 +140,7 @@
 			"__neon_units": "number"
 		},
 		{
-			"name": "tempStdErMean",
+			"name": "tempRHStdErMean",
 			"type": [
 				"null",
 				"float"
@@ -150,7 +150,7 @@
 			"__neon_units": "celsius"
 		},
 		{
-			"name": "tempExpUncert",
+			"name": "tempRHExpUncert",
 			"type": [
 				"null",
 				"float"
