@@ -1,0 +1,144 @@
+{
+  "type": "record",
+  "name": "surfacewaterPhysical_aquatroll200_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for surfacewater",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "surfacewaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of surface water temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "surfacewaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum surface water temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "surfacewaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum surface water temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "surfacewaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in surface water temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "surfacewaterTempNumPts",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of surface water temperature",
+      "__neon_units": "number"
+    },
+    {
+      "name": "surfacewaterTempStdEr",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for surface water temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "surfacewaterSpecCondMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of surface water conductivity",
+      "__neon_units": "microsiemensPerCentimeter"
+    },
+    {
+      "name": "surfacewaterSpecCondMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum surface water conductivity",
+      "__neon_units": "microsiemensPerCentimeter"
+    },
+    {
+      "name": "surfacewaterSpecCondMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum surface water conductivity",
+      "__neon_units": "microsiemensPerCentimeter"
+    },
+    {
+      "name": "surfacewaterSpecCondVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in surface water conductivity",
+      "__neon_units": "microsiemensPerCentimeter"
+    },
+    {
+      "name": "surfacewaterSpecCondNumPts",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of surface water conductivity",
+      "__neon_units": "number"
+    },
+    {
+      "name": "surfacewaterSpecCondStdEr",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for surface water conductivity",
+      "__neon_units": "microsiemensPerCentimeter"
+    }
+  ]
+}

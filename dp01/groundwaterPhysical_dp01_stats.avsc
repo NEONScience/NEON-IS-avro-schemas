@@ -1,0 +1,144 @@
+{
+  "type": "record",
+  "name": "groundwaterPhysical_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for groundwater",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "groundwaterTempMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of groundwater temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "groundwaterTempMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum groundwater temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "groundwaterTempMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum groundwater temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "groundwaterTempVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in groundwater temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "groundwaterTempNumPts",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of groundwater temperature",
+      "__neon_units": "number"
+    },
+    {
+      "name": "groundwaterTempStdEr",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for groundwater temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "groundwaterSpecCondMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of groundwater conductivity",
+      "__neon_units": "microsiemensPerCentimeter"
+    },
+    {
+      "name": "groundwaterSpecCondMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum groundwater conductivity",
+      "__neon_units": "microsiemensPerCentimeter"
+    },
+    {
+      "name": "groundwaterSpecCondMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum groundwater conductivity",
+      "__neon_units": "microsiemensPerCentimeter"
+    },
+    {
+      "name": "groundwaterSpecCondVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in groundwater conductivity",
+      "__neon_units": "microsiemensPerCentimeter"
+    },
+    {
+      "name": "groundwaterSpecCondNumPts",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of groundwater conductivity",
+      "__neon_units": "number"
+    },
+    {
+      "name": "groundwaterSpecCondStdEr",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for groundwater conductivity",
+      "__neon_units": "microsiemensPerCentimeter"
+    }
+  ]
+}

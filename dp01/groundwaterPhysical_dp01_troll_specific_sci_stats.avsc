@@ -1,0 +1,144 @@
+{
+  "type": "record",
+  "name": "groundwaterPhysical_dp01_troll_specific_sci_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 science statistics for groundwater",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "groundwaterPressureMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of groundwater pressure",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "groundwaterPressureMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum groundwater pressure",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "groundwaterPressureMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum groundwater pressure",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "groundwaterPressureVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in groundwater pressure",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "groundwaterPressureNumPts",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of groundwater pressure",
+      "__neon_units": "number"
+    },
+    {
+      "name": "groundwaterPressureStdEr",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for groundwater pressure",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "groundwaterElevMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of groundwater elevation above sea level",
+      "__neon_units": "meter"
+    },
+    {
+      "name": "groundwaterElevMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum groundwater elevation",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "groundwaterElevMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum groundwater elevation",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "groundwaterElevVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in groundwater elevation",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "groundwaterElevNumPts",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of groundwater elevation",
+      "__neon_units": "number"
+    },
+    {
+      "name": "groundwaterElevStdEr",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for groundwater elevation",
+      "__neon_units": "kilopascal"
+    }
+  ]
+}

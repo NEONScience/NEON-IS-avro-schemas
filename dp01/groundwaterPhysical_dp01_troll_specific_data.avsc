@@ -1,0 +1,57 @@
+{
+  "type": "record",
+  "name": "groundwaterPhysical_dp01_troll_specific_data",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 groundwater data",
+  "fields": [
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch",
+      "__neon_units": "millisecond"
+    },
+    {
+      "name": "groundwaterPressure",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Calibrated pressure of groundwater",
+      "__neon_units": "kilopascal"        
+    },
+    {
+      "name": "groundwaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Calibrated temperature in groundwater",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "groundwaterSpecCond",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Calibrated specific conductance in groundwater",
+      "__neon_units": "microsiemensPerCentimeter"
+    },
+    {
+      "name": "groundwaterElev",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Elevation of groundwater",
+      "__neon_units": "meter"
+    }
+  ]
+}

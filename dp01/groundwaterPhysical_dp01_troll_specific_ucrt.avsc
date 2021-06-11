@@ -1,0 +1,64 @@
+{
+  "type": "record",
+  "name": "groundwaterPhysical_dp01_troll_specific_ucrt",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 uncertainty for groundwater",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "groundwaterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for groundwater temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "groundwaterPressureExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for groundwater pressure",
+      "__neon_units": "kilopascal"
+    },
+    {
+      "name": "groundwaterElevExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for groundwater elevation above sea level",
+      "__neon_units": "meter"
+    },
+    {
+      "name": "groundwaterSpecCondExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for groundwater specific conductance",
+      "__neon_units": "microsiemensPerCentimeter"
+    }
+    ]
+}
