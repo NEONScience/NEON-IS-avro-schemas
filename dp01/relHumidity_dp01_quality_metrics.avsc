@@ -741,7 +741,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "errorStatePassQM",
+      "name": "RHSensorErrorPassQM",
       "type": [
         "null",
         "float"
@@ -751,7 +751,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "errorStateFailQM",
+      "name": "RHSensorErrorFailQM",
       "type": [
         "null",
         "float"
@@ -761,7 +761,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "errorStateNAQM",
+      "name": "RHSensorErrorNAQM",
       "type": [
         "null",
         "float"
