@@ -71,7 +71,7 @@
       "__neon_units": "number"
     },
     {
-      "name": "groundwaterPressureStdEr",
+      "name": "groundwaterPressureStdErMean",
       "type": [
         "null",
         "float"
@@ -131,7 +131,7 @@
       "__neon_units": "number"
     },
     {
-      "name": "groundwaterElevStdEr",
+      "name": "groundwaterElevStdErMean",
       "type": [
         "null",
         "float"
