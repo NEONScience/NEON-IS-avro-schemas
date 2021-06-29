@@ -1,0 +1,354 @@
+{
+  "type": "record",
+  "name": "relHumidityBuoy_dp01_stats_instantaneous",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 instantaneous quality metrics for relative humidity above water on buoy",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "RHValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempRHValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "dewTempValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "RHSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempRHSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "dewTempSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "RHNullQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the null test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "RHGapQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the gap test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "RHRangeQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "RHStepQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "RHSpikeQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the spike test detailed in NEON.DOC.000783 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "RHPersistenceQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempRHNullQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the null test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempRHGapQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the gap test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempRHRangeQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempRHStepQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempRHSpikeQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the spike test detailed in NEON.DOC.000783 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempRHPersistenceQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "dewTempNullQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the null test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "dewTempGapQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the gap test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "dewTempRangeQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "dewTempStepQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "dewTempSpikeQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the spike test detailed in NEON.DOC.000783 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "dewTempPersistenceQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "RHAlphaQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Alpha quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "RHBetaQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Beta quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "RHFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempRHAlphaQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Alpha quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempRHBetaQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Beta quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempRHFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "dewTempAlphaQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Alpha quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "dewTempBetaQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Beta quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "dewTempFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    }
+	]
+}

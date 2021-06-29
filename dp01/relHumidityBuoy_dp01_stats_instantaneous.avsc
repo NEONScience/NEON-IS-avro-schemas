@@ -1,0 +1,92 @@
+{
+  "type": "record",
+  "name": "relHumidityBuoy_dp01_stats_instantaneous",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 instantaneous statistics for relative humidity above water on buoy",
+  "fields": [
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which sampling took place."
+    },
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "RH",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous relative humidity",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "RHExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for relative humidity",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "tempRH",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous relative humidity sensor temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "tempRHExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for relative humidity sensor temperature",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "dewTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous dew/frost point",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "dewTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for dew/frost point",
+      "__neon_units": "celcius"
+    }
+	]
+}
