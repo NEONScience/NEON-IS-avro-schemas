@@ -228,7 +228,7 @@
       "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
       "__neon_units": "celcius"
     },
-  	{
+	  {
       "name": "depth10WaterTemp",
       "type": [
         "null",

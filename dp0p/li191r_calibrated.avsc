@@ -31,13 +31,13 @@
       "__neon_units": "millisecond"
     },
     {
-      "name": "voltage",
+      "name": "linePAR",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Sensor voltage representing the photosynthetic photon flux density",
+      "doc": "Incident photosynthetically active radiation along the length of the quantum line sensor",
       "__neon_units": "volt"
     }
     ]

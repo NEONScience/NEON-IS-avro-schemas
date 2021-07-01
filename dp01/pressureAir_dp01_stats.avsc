@@ -21,7 +21,7 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "barometricPressureMean",
+      "name": "staPresMean",
       "type": [
         "null",
         "float"
@@ -31,7 +31,7 @@
       "__neon_units": "kilopascal"
     },
     {
-      "name": "barometricPressureMinimum",
+      "name": "staPresMinimum",
       "type": [
         "null",
         "float"
@@ -41,7 +41,7 @@
       "__neon_units": "kilopascal"
     },
     {
-      "name": "barometricPressureMaximum",
+      "name": "staPresMaximum",
       "type": [
         "null",
         "float"
@@ -51,7 +51,7 @@
       "__neon_units": "kilopascal"
     },
     {
-      "name": "barometricPressureVariance",
+      "name": "staPresVariance",
       "type": [
         "null",
         "float"
@@ -61,7 +61,7 @@
       "__neon_units": "kilopascal"
     },
     {
-      "name": "barometricPressureNumPts",
+      "name": "staPresNumPts",
       "type": [
         "null",
         "long"
@@ -71,7 +71,7 @@
       "__neon_units": "number"
     },
     {
-      "name": "barometricPressureStdErMean",
+      "name": "staPresStdErMean",
       "type": [
         "null",
         "float"
@@ -81,7 +81,7 @@
       "__neon_units": "kilopascal"
     },
     {
-      "name": "barometricPressureExpUncert",
+      "name": "staPresExpUncert",
       "type": [
         "null",
         "float"

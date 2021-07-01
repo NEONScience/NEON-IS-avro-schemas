@@ -71,7 +71,7 @@
       "__neon_units": "number"
     },
     {
-      "name": "groundwaterTempStdErMean",
+      "name": "groundwaterTempStdEr",
       "type": [
         "null",
         "float"
@@ -131,7 +131,7 @@
       "__neon_units": "number"
     },
     {
-      "name": "groundwaterSpecCondStdErMean",
+      "name": "groundwaterSpecCondStdEr",
       "type": [
         "null",
         "float"

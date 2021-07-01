@@ -1,294 +1,294 @@
 {
-  "type": "record",
-  "name": "pressureAir_dp01_quality_metrics",
-  "namespace": "org.neonscience.schema.dp01",
-  "doc": "L1 quality metrics and final quality flag for barometric pressure",
-  "fields": [
-    {
-      "name": "startDateTime",
-      "type": {
-        "type": "long",
-        "logicalType": "timestamp-millis"
+   "type": "record",
+   "name": "pressureAir_dp01_quality_metrics",
+   "namespace": "org.neonscience.schema.dp01",
+   "doc": "L1 quality metrics and final quality flag for barometric pressure",
+   "fields": [
+      {
+         "name": "startDateTime",
+         "type": {
+            "type": "long",
+            "logicalType": "timestamp-millis"
+         },
+         "doc": "Date and time at which a sampling is initiated (inclusive)"
       },
-      "doc": "Date and time at which a sampling is initiated (inclusive)"
-    },
-    {
-      "name": "endDateTime",
-      "type": {
-        "type": "long",
-        "logicalType": "timestamp-millis"
+      {
+         "name": "endDateTime",
+         "type": {
+            "type": "long",
+            "logicalType": "timestamp-millis"
+         },
+         "doc": "Date and time at which a sampling is completed (exclusive)"
       },
-      "doc": "Date and time at which a sampling is completed (exclusive)"
-    },
-    {
-      "name": "validCalQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "validCalQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "validCalQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "suspectCalQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "suspectCalQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the suspect calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "suspectCalQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the suspect calibration test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "nullQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "nullQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the null test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "nullQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the null test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "gapQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the gap test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "gapQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the gap test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "gapQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the gap test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "rangeQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the range test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "rangeQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the range test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "rangeQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the range test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "stepQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the step test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "stepQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the step test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "stepQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the step test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "spikeQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "spikeQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the spike test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "spikeQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the spike test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "persistenceQFPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the persistence test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "persistenceQFFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the persistence test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "persistenceQFNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the persistence test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "AlphaQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "BetaQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "FinalQF",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    }
-    ]
+      {
+         "name": "staPresValidCalPassQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the passed outcomes of the valid calibration check over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresValidCalFailQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the failed outcomes of the valid calibration check over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresValidCalNAQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes when the valid calibration check could not be run over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "suspectCalPassQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "suspectCalFailQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "suspectCalNAQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresNullPassQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresNullFailQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the failed outcomes of the null test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresNullNAQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes when the null test could not be run over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresGapPassQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the passed outcomes of the gap test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresGapFailQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the failed outcomes of the gap test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresGapNAQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes when the gap test could not be run over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresRangePassQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the passed outcomes of the range test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresRangeFailQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the failed outcomes of the range test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresRangeNAQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes when the range test could not be run over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresStepPassQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the passed outcomes of the step test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresStepFailQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the failed outcomes of the step test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresStepNAQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes when the step test could not be run over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresSpikePassQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresSpikeFailQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the failed outcomes of the spike test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresSpikeNAQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes when the spike test could not be run over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresPersistencePassQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes the passed outcomes of the persistence test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresPersistenceFailQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes  the failed outcomes of the persistence test over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresPersistenceNAQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric that summarizes when the persistence test could not be run over the averaging period, as a percent",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresAlphaQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresBetaQM",
+         "type": [
+            "null",
+            "float"
+         ],
+         "default": null,
+         "doc": "Station pressure quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+         "__neon_units": "percent"
+      },
+      {
+         "name": "staPresFinalQF",
+         "type": [
+            "null",
+            "int"
+         ],
+         "default": null,
+         "doc": "Station pressure quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+         "__neon_units": "NA"
+      }
+   ]
 }

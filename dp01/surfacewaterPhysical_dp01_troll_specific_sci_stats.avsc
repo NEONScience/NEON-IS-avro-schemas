@@ -71,7 +71,7 @@
       "__neon_units": "number"
     },
     {
-      "name": "surfacewaterPressureStdErMean",
+      "name": "surfacewaterPressureStdEr",
       "type": [
         "null",
         "float"
@@ -131,7 +131,7 @@
       "__neon_units": "number"
     },
     {
-      "name": "surfacewaterElevStdErMean",
+      "name": "surfacewaterElevStdEr",
       "type": [
         "null",
         "float"
