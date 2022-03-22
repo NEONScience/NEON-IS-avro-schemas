@@ -1,0 +1,78 @@
+{
+    "type": "record",
+    "name": "exo2_calibrated",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "Calibrated YSI EXO2 Multiparameter Sonde",
+    "__version": "1.0",
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "sensorDepth",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Water depth of measurement",
+            "__neon_units": "meter"
+        },
+        {
+            "name": "sondeSurfaceWaterPressure",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Pressure of surface water measured by the multisonde in psi",
+            "__neon_units": "poundsPerSquareInch"
+        },
+        {
+            "name": "wiperPosition",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Position of wiper",
+            "__neon_units": "volt"
+        },
+        {
+            "name": "batteryVoltage",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Battery voltage",
+            "__neon_units": "volt"
+        },
+        {
+            "name": "sensorVoltage",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Main voltage",
+            "__neon_units": "volt"
+        }
+    ]
+}

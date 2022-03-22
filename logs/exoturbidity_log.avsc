@@ -1,0 +1,48 @@
+{
+    "type": "record",
+    "name": "exoturbidity_calibrated",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "Calibrated YSI EXO Turbidity Smart Sensor",
+    "__version": "1.0",
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "turbidityRaw",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Raw signal of turbidity sensor",
+            "__neon_units": "percent"
+        },
+        {
+            "name": "turbidity",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Turbidity of water as FNU",
+            "__neon_units": "formazinNephelometricUnit"
+        }
+    ]
+}

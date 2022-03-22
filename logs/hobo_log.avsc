@@ -1,0 +1,360 @@
+{
+    "type": "record",
+    "name": "sunav2",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "Seabird Scientific SUNA V2 UV Nitrate Analyzer",
+    "__version": "1.0",
+    "__neon_parts": [
+        "0329950000",
+        "0329950100",
+        "0329950005"
+    ],
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "header_manufacturer",
+            "type": [
+                "null",
+                "string"
+            ],
+            "default": null,
+            "doc": "The very first part of the header, which should always be the four character 'SATS'"
+        },
+        {
+            "name": "header_serial_number",
+            "type": [
+                "null",
+                "string"
+            ],
+            "default": null,
+            "doc": "The manufacturer serial number of the SUNA v2 device"
+        },
+        {
+            "name": "header_light_frame",
+            "type": [
+                "null",
+                "boolean"
+            ],
+            "default": null,
+            "doc": "This field is true when the header string contains 'LF' (Light Frame) in between the manufacturer and the serial number indicating that the  data frame was captured with the lamp on. This field is false when 'DF' (Dark Frame) is in the header indicating that the lamp was off during the data frame."
+        },
+        {
+            "name": "year_and_day",
+            "type": [
+                "null",
+                "string"
+            ],
+            "default": null,
+            "doc": "Date, year and day of year"
+        },
+        {
+            "name": "time",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Hours of day"
+        },
+        {
+            "name": "nitrate_concentration",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The measured nitrate concentration in micromoles",
+            "__neon_units": "micromoles"
+        },
+        {
+            "name": "nitrogen_in_nitrate",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The measured amount of nitrogen in micrograms per liter",
+            "__neon_units": "microgramsPerLiter"
+        },
+        {
+            "name": "absorbance_254nm",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Absorbance at 254 nanometers"
+        },
+        {
+            "name": "absorbance_350nm",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Absorbance at 350 nanometers"
+        },
+        {
+            "name": "bromide_trace",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Bromide trace in milligrams per liter",
+            "__neon_units": "milligramsPerLiter"
+        },
+        {
+            "name": "spectrum_average",
+            "type": [
+                "null",
+                "int"
+            ],
+            "default": null,
+            "doc": "The average of the spectrum channel values"
+        },
+        {
+            "name": "dark_value_used_for_fit",
+            "type": [
+                "null",
+                "int"
+            ],
+            "default": null,
+            "doc": "The dark value used for fit is the average of the spectrum channel values for the most recent dark spectrum measurement and the dark value used for fit is zero during dark spectrum measurements"
+        },
+        {
+            "name": "integration_time_factor",
+            "type": [
+                "null",
+                "int"
+            ],
+            "default": null,
+            "doc": "Integration time factor"
+        },
+        {
+            "name": "spectrum_channels",
+            "type": {
+                "type": "array",
+                "items": [
+                    "null",
+                    "int"
+                ],
+                "default": null
+            },
+            "doc": "256 different measurements of spectrometer intensity at a wavelength number defined by the array index plus one"
+
+        },
+        {
+            "name": "internal_temperature",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Temperature measured inside of the SUNA device",
+            "__neon_units": "celsius"
+        },
+        {
+            "name": "spectrometer_temperature",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Tempurature measured at the spectrometer of the SUNA",
+            "__neon_units": "celsius"
+        },
+        {
+            "name": "lamp_temperature",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Temperature of the ultraviolet lamp",
+            "__neon_units": "celsius"
+        },
+        {
+            "name": "lamp_on_time",
+            "type": [
+                "null",
+                "int"
+            ],
+            "default": null,
+            "doc": "Cumulative lamp on-time in seconds",
+            "__neon_units": "second"
+        },
+        {
+            "name": "relative_humidity",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Internal relative humidity percentage",
+            "__neon_units": "percent"
+        },
+        {
+            "name": "main_voltage",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Main supply voltage in volts",
+            "__neon_units": "volt"
+        },
+        {
+            "name": "lamp_voltage",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Lamp supply voltage in volts",
+            "__neon_units": "volt"
+        },
+        {
+            "name": "internal_voltage",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Internal supply voltage in volts",
+            "__neon_units": "volt"
+        },
+        {
+            "name": "main_current",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Main supply current in milliamps",
+            "__neon_units": "milliamp"
+        },
+        {
+            "name": "fit_aux_1",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Fit aux 1"
+        },
+        {
+            "name": "fit_aux_2",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Fit aux 2"
+        },
+        {
+            "name": "fit_base_1",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Fix base 1"
+        },
+        {
+            "name": "fit_base_2",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Fit base 2"
+        },
+        {
+            "name": "fit_rmse",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Fit root mean square error",
+            "__neon_units": null
+        },
+        {
+            "name": "ctd_time",
+            "type": [
+                "null",
+                "int"
+            ],
+            "default": null,
+            "doc": "Conductivity, temperature, and depth - time in seconds",
+            "__neon_units": "second"
+        },
+        {
+            "name": "ctd_salinity",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Conductivity, temperature, and depth - salinity in practical salinity units",
+            "__neon_units": "partsPerThousand"
+        },
+        {
+            "name": "ctd_temperature",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Conductivity, temperature, and depth - temperature in degrees Celsius",
+            "__neon_units": "celsius"
+        },
+        {
+            "name": "ctd_pressure",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Conductivity, temperature, and depth pressure in dBar",
+            "__neon_units": "decibar"
+        },
+        {
+            "name": "check_sum",
+            "type": [
+                "null",
+                "int"
+            ],
+            "default": null,
+            "doc": "Raw data checksum"
+        },
+        {
+            "name": "error_missing_data",
+            "type": [
+                "null",
+                "boolean"
+            ],
+            "default": null,
+            "doc": "This field should be set to true if there are any columns missing from the csv data frame. Missing fields should be set to null."
+        }
+    ]
+}
