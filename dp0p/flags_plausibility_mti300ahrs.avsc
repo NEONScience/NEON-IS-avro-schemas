@@ -1,8 +1,8 @@
 {
   "type": "record",
-  "name": "flags_plausibility_li7200",
+  "name": "flags_plausibility_mti300ahrs",
   "namespace": "org.neonscience.schema.dp0p",
-  "doc": "All plausibility flags (range, step, persistence) for li7200(turbulent) measurements",
+  "doc": "All plausibility flags (range, step, persistence) for mti300ahrs(attitude-motion) measurements",
   "fields": [
     {
       "name": "time",
@@ -13,7 +13,7 @@
       "doc": "Timestamp of readout expressed in milliseconds since epoch"
     },
     {
-      "name": "qfRngTempIn",
+      "name": "qfRngAccXaxs",
       "type": [
         "null",
         "int"
@@ -23,7 +23,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfStepTempIn",
+      "name": "qfStepAccXaxs",
       "type": [
         "null",
         "int"
@@ -33,7 +33,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfPersTempIn",
+      "name": "qfPersAccXaxs",
       "type": [
         "null",
         "int"
@@ -43,7 +43,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfRngTempOut",
+      "name": "qfRngAccYaxs",
       "type": [
         "null",
         "int"
@@ -53,7 +53,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfStepTempOut",
+      "name": "qfStepAccYaxs",
       "type": [
         "null",
         "int"
@@ -63,7 +63,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfPersTempOut",
+      "name": "qfPersAccYaxs",
       "type": [
         "null",
         "int"
@@ -73,7 +73,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfRngTempMean",
+      "name": "qfRngAccZaxs",
       "type": [
         "null",
         "int"
@@ -83,7 +83,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfStepTempMean",
+      "name": "qfStepAccZaxs",
       "type": [
         "null",
         "int"
@@ -93,7 +93,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfPersTempMean",
+      "name": "qfPersAccZaxs",
       "type": [
         "null",
         "int"
@@ -103,7 +103,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfRngTempRefe",
+      "name": "qfRngAccXaxsDiff",
       "type": [
         "null",
         "int"
@@ -113,7 +113,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfStepTempRefe",
+      "name": "qfStepAccXaxsDiff",
       "type": [
         "null",
         "int"
@@ -123,7 +123,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfPersTempRefe",
+      "name": "qfPersAccXaxsDiff",
       "type": [
         "null",
         "int"
@@ -133,7 +133,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfRngPresAtm",
+      "name": "qfRngAccYaxsDiff",
       "type": [
         "null",
         "int"
@@ -143,7 +143,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfStepPresAtm",
+      "name": "qfStepAccYaxsDiff",
       "type": [
         "null",
         "int"
@@ -153,7 +153,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfPersPresAtm",
+      "name": "qfPersAccYaxsDiff",
       "type": [
         "null",
         "int"
@@ -163,7 +163,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfRngPresDiff",
+      "name": "qfRngAccZaxsDiff",
       "type": [
         "null",
         "int"
@@ -173,7 +173,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfStepPresDiff",
+      "name": "qfStepAccZaxsDiff",
       "type": [
         "null",
         "int"
@@ -183,7 +183,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfPersPresDiff",
+      "name": "qfPersAccZaxsDiff",
       "type": [
         "null",
         "int"
@@ -193,7 +193,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfRngPresSum",
+      "name": "qfRngAvelYaxs",
       "type": [
         "null",
         "int"
@@ -203,7 +203,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfStepPresSum",
+      "name": "qfStepAvelYaxs",
       "type": [
         "null",
         "int"
@@ -213,7 +213,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfPersPresSum",
+      "name": "qfPersAvelYaxs",
       "type": [
         "null",
         "int"
@@ -223,7 +223,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfRngPowrH2oSamp",
+      "name": "qfRngAvelXaxs",
       "type": [
         "null",
         "int"
@@ -233,7 +233,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfStepPowrH2oSamp",
+      "name": "qfStepAvelXaxs",
       "type": [
         "null",
         "int"
@@ -243,7 +243,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfPersPowrH2oSamp",
+      "name": "qfPersAvelXaxs",
       "type": [
         "null",
         "int"
@@ -253,7 +253,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfRngPowrH2oRefe",
+      "name": "qfRngAvelZaxs",
       "type": [
         "null",
         "int"
@@ -263,7 +263,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfStepPowrH2oRefe",
+      "name": "qfStepAvelZaxs",
       "type": [
         "null",
         "int"
@@ -273,7 +273,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfPersPowrH2oRefe",
+      "name": "qfPersAvelZaxs",
       "type": [
         "null",
         "int"
@@ -283,7 +283,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfRngAsrpH2o",
+      "name": "qfRngAngXaxs",
       "type": [
         "null",
         "int"
@@ -293,7 +293,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfStepAsrpH2o",
+      "name": "qfStepAngXaxs",
       "type": [
         "null",
         "int"
@@ -303,7 +303,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfPersAsrpH2o",
+      "name": "qfPersAngXaxs",
       "type": [
         "null",
         "int"
@@ -313,7 +313,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfRngDensMoleH2o",
+      "name": "qfRngAngYaxs",
       "type": [
         "null",
         "int"
@@ -323,7 +323,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfStepDensMoleH2o",
+      "name": "qfStepAngYaxs",
       "type": [
         "null",
         "int"
@@ -333,7 +333,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfPersDensMoleH2o",
+      "name": "qfPersAngYaxs",
       "type": [
         "null",
         "int"
@@ -343,7 +343,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfRngRtioMoleDryH2o",
+      "name": "qfRngAngZaxs",
       "type": [
         "null",
         "int"
@@ -353,7 +353,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfStepRtioMoleDryH2o",
+      "name": "qfStepAngZaxs",
       "type": [
         "null",
         "int"
@@ -363,247 +363,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "qfPersRtioMoleDryH2o",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfRngPowrCo2Samp",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfStepPowrCo2Samp",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfPersPowrCo2Samp",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfRngPowrCo2Refe",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfStepPowrCo2Refe",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfPersPowrCo2Refe",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfRngAsrpCo2",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfStepAsrpCo2",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfPersAsrpCo2",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfRngDensMoleCo2",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfStepDensMoleCo2",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfPersDensMoleCo2",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfRngRtioMoleDryCo2",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfStepRtioMoleDryCo2",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfPersRtioMoleDryCo2",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfRngPotCool",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfStepPotCool",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfPersPotCool",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfRngSsiCo2",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfStepSsiCo2",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfPersSsiCo2",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfRngSsiH2o",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfStepSsiH2o",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "qfPersSsiH2o",
+      "name": "qfPersAngZaxs",
       "type": [
         "null",
         "int"
