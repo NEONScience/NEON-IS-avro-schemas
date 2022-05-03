@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: put-empty-files-prt
 on:
   push:
     branches:
@@ -7,7 +7,7 @@ on:
     paths:
       - 'empty_files/prt/**'
 jobs:
-  print-file-list:
+  put-folder:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3
@@ -18,5 +18,5 @@ jobs:
 #          python-version: '3.6' # Version range or exact version of a Python version to use, using SemVer's version range syntax
 #          cache: 'pip'
 #      - run: pip install -r .github/scripts/put_folder/requirements.txt
-      - run: python .github/scripts/put_folder/put_folder.py
+      - run: python .github/workflow_scripts/put_folder/put_folder.py
       
