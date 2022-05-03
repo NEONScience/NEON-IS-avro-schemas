@@ -8,15 +8,17 @@ on:
       - 'empty_files/prt/**'
 jobs:
   put-folder:
+    # runs-on: ubuntu-latest
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3
       - run: ls -la
       
-#      - uses: actions/setup-python@v3
-#        with:
-#          python-version: '3.6' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-#          cache: 'pip'
-#      - run: pip install -r .github/scripts/put_folder/requirements.txt
-      - run: python .github/workflow_scripts/put_folder/put_folder.py
+     # - uses: actions/setup-python@v3
+     #   with:
+     #     python-version: '3.6' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+     #     cache: 'pip'
+     #  - run: pip install -r .github/workflow_scripts/put_folder/requirements.txt
+     #  - run: python .github/workflow_scripts/put_folder/put_folder.py
+      - run: python3 .github/workflow_scripts/put_folder/put_folder.py
       
