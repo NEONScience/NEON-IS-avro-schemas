@@ -1,0 +1,22 @@
+name: learn-github-actions
+on:
+  push:
+    branches:
+      - 'master'
+      - 'empty.files'
+    paths:
+      - 'empty_files/prt/**'
+jobs:
+  print-file-list:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v3
+      - run: ls -la
+      
+#      - uses: actions/setup-python@v3
+#        with:
+#          python-version: '3.6' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+#          cache: 'pip'
+#      - run: pip install -r .github/scripts/put_folder/requirements.txt
+      - run: python .github/scripts/put_folder/put_folder.py
+      
