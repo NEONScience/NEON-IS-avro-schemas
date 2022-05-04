@@ -1,2 +1,3 @@
 python-pachyderm
 certifi
+networkx
