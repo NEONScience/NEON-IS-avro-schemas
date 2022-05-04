@@ -10,6 +10,6 @@ WORKDIR /usr/src/app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY ./test.py .
+COPY ./put_folder.py .
 
-CMD [ "python", "./test.py" ]
+RUN [ "python", "./put_folder.py" ]

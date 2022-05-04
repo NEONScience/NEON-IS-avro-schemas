@@ -6,6 +6,10 @@
 
 import python_pachyderm
 import io
+import os
+
+print('Hello, the current working directory is:')
+print(os.getcwd())
 
 config = '''{
   "v2": {
