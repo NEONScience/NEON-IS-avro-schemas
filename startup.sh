@@ -45,5 +45,5 @@ ACTIONS_RUNNER_INPUT_TOKEN="$(curl -sS --request POST --url "https://api.github.
 # configure runner
 RUNNER_ALLOW_RUNASROOT=1 /actions-runner/config.sh --unattended --replace --work "/actions-runner-tmp" --url "$REPO_URL" --token "$ACTIONS_RUNNER_INPUT_TOKEN" --labels gce-runner
 # start runner
-cd /runner
+cd /actions-runner
 ./run.sh
