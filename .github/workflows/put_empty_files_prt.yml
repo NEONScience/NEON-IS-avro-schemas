@@ -2,8 +2,7 @@ name: put-empty-files-prt
 on:
   push:
     branches:
-      - 'master'
-      - 'empty.files'
+      - 'test.actions'
     paths:
       - 'empty_files/prt/**'
 jobs:
