@@ -14,7 +14,7 @@ print(os.getcwd())
 
 
 def setup_client():
-    pachd_address = urlparse(os.environ["PACHD_ADDRESS"])
+    pachd_address = os.environ["PACHD_ADDRESS"]
     return python_pachyderm.Client.new_from_pachd_address(pachd_address)
 
 
