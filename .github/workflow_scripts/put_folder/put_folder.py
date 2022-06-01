@@ -14,17 +14,8 @@ print(os.getcwd())
 
 
 def setup_client():
-    pach_url = urlparse(os.environ["PACHYDERM_CLUSTER_URL"])
-    host = pach_url.hostname
-    port = pach_url.port
-    if port is None:
-        port = 80
-    if pach_url.scheme == "https":
-        tls = True
-    else:
-        tls = False
-    return python_pachyderm.Client(host=host, port=port, tls=tls)
-
+    pachd_address = urlparse(os.environ["PACHD_ADDRESS"])
+    return python_pachyderm.Client.new_from_pachd_address(pachd_address)
 
 
 def main():

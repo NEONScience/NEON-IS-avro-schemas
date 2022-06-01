@@ -9,7 +9,7 @@ jobs:
   put-folder:
     runs-on: self-hosted
     env:
-      PACHYDERM_CLUSTER_URL: grpcs://pachd1.sandbox.gcp.neoninternal.org:30650
+      PACHD_ADDRESS: grpcs://pachd1.sandbox.gcp.neoninternal.org:30650
       REPO: empty_files_test
       BRANCH: master
       IN_PATH: 'empty_files/prt'
