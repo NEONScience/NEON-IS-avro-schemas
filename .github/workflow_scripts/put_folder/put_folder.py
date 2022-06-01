@@ -8,21 +8,16 @@ import python_pachyderm
 from urllib.parse import urlparse
 import io
 import os
-
-print('Hello, the current working directory is:')
-print(os.getcwd())
-
-
 def setup_client():
     pachd_address = os.environ["PACHD_ADDRESS"]
     return python_pachyderm.Client.new_from_pachd_address(pachd_address)
 
 
 def main():
-    repo = os.environ["REPO"]
-    branch = os.environ["BRANCH"]
-    in_path = os.environ["IN_PATH"]
-    out_path = os.environ["OUT_PATH"]
+    repo = os.environ["REPO"] # The Pachyderm repo (e.g. "empty_files_prt")
+    branch = os.environ["BRANCH"] # The branch of the pachyderm repo (e.g. "master")
+    in_path = os.environ["IN_PATH"] # The local path to the folder that will be uploaded into pachyderm (e.g. "empty_files/prt"")
+    out_path = os.environ["OUT_PATH"] # The path where the folder will be placed in the pachydemr repo (e.g. "prt")
     # Setup connection to Pachyderm
     client = setup_client()
     # Put the updated files in Git into Pachyderm
