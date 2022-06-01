@@ -8,6 +8,12 @@ on:
 jobs:
   put-folder:
     runs-on: self-hosted
+    env:
+      PACHYDERM_CLUSTER_URL: grpcs://pachd1.sandbox.gcp.neoninternal.org:30650
+      REPO: empty_files_test
+      BRANCH: master
+      IN_PATH: 'empty_files/prt'
+      OUT_PATH: '/prt'
     steps:
       - uses: actions/checkout@v3
       - run: ls -la
