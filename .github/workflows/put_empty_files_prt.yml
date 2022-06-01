@@ -2,7 +2,7 @@ name: put-empty-files-prt
 on:
   push:
     branches:
-      - 'test.actions'
+      - 'master'
     paths:
       - 'empty_files/prt/**'
 jobs:
@@ -10,7 +10,7 @@ jobs:
     runs-on: self-hosted
     env:
       PACHD_ADDRESS: grpcs://pachd1.sandbox.gcp.neoninternal.org:30650
-      REPO: empty_files_test
+      REPO: empty_files_prt
       BRANCH: master
       IN_PATH: 'empty_files/prt'
       OUT_PATH: '/prt'
