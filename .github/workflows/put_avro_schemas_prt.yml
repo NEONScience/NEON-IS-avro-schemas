@@ -2,7 +2,7 @@ name: put-avro-schemas-prt
 on:
   push:
     branches:
-      - 'avro.schemas.git.action'
+      - 'master'
     paths:
       - 'avro_schemas/prt/**'
 jobs:
