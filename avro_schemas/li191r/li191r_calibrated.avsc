@@ -31,14 +31,14 @@
       "__neon_units": "millisecond"
     },
     {
-      "name": "linePAR",
+      "name": "par",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Incident photosynthetically active radiation along the length of the quantum line sensor",
-      "__neon_units": "volt"
+      "doc": "Incident photosynthetically active radiation",
+      "__neon_units": "micromolesPerSquareMeterPerSecond"
     }
     ]
 }
