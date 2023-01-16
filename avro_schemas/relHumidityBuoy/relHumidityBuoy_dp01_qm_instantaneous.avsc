@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "relHumidityBuoy_dp01_stats_instantaneous",
+  "name": "relHumidityBuoy_dp01_qm_instantaneous",
   "namespace": "org.neonscience.schema.dp01",
   "doc": "L1 instantaneous quality metrics for relative humidity above water on buoy",
   "fields": [
