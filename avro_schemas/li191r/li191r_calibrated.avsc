@@ -11,14 +11,7 @@
     },
     {
       "name": "site_id",
-      "type": [
-          "null",
-          {
-            "type": "fixed",
-            "size": 4,
-            "name": "utf8"
-          }
-      ],
+      "type": "string",
       "doc": "NEON site identifier"
     },
     {
