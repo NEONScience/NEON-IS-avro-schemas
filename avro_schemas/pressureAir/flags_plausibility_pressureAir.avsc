@@ -16,7 +16,7 @@
       "name": "nullQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the null test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -26,7 +26,7 @@
       "name": "gapQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the gap test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -36,7 +36,7 @@
       "name": "rangeQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -46,7 +46,7 @@
       "name": "stepQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -56,7 +56,7 @@
       "name": "spikeQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the spike test detailed in NEON.DOC.000783 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -66,7 +66,7 @@
       "name": "persistenceQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",

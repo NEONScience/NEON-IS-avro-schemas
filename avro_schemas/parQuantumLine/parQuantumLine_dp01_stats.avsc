@@ -63,7 +63,7 @@
 			"name": "linePARNumPts",
 			"type": [
 				"null",
-				"long"
+				"int16"
 			],
 			"default": null,
 			"doc": "Number of points used to calculate the arithmetic mean of spatial average of photosynthetically active radiation over the sensor length",
