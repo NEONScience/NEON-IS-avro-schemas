@@ -471,6 +471,36 @@
       "__neon_units": "percent"
     },
     {
+      "name": "sWatTempPersistencePassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the persistence test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "sWatTempPersistenceFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the persistence test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "sWatTempPersistenceNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when the persistence test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
       "name": "sWatZeroPressurePassQM",
       "type": [
         "null",
