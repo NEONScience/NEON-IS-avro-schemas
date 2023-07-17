@@ -21,7 +21,7 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "sWatElevValidCalPassQM",
+      "name": "validCalPassQM",
       "type": [
         "null",
         "float"
@@ -31,7 +31,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatElevValidCalFailQM",
+      "name": "validCalFailQM",
       "type": [
         "null",
         "float"
@@ -41,7 +41,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatElevValidCalNAQM",
+      "name": "validCalNAQM",
       "type": [
         "null",
         "float"
@@ -111,7 +111,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatElevSuspectCalPassQM",
+      "name": "suspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -121,7 +121,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatElevSuspectCalFailQM",
+      "name": "suspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -131,7 +131,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatElevSuspectCalNAQM",
+      "name": "suspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -741,7 +741,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatMissingTempPassQM",
+      "name": "missingTempPassQM",
       "type": [
         "null",
         "float"
@@ -751,7 +751,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatMissingTempFailQM",
+      "name": "missingTempFailQM",
       "type": [
         "null",
         "float"
@@ -761,7 +761,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatMissingTempNAQM",
+      "name": "missingTempNAQM",
       "type": [
         "null",
         "float"
@@ -771,7 +771,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatZeroPressurePassQM",
+      "name": "zeroPressurePassQM",
       "type": [
         "null",
         "float"
@@ -781,7 +781,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatZeroPressureFailQM",
+      "name": "zeroPressureFailQM",
       "type": [
         "null",
         "float"
@@ -791,7 +791,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatZeroPressureNAQM",
+      "name": "zeroPressureNAQM",
       "type": [
         "null",
         "float"

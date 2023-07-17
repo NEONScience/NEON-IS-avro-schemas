@@ -21,7 +21,7 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "gWatElevValidCalQF",
+      "name": "validCalQF",
       "type": [
         "null",
         "int"
@@ -51,7 +51,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatElevSuspectCalQF",
+      "name": "suspectCalQF",
       "type": [
         "null",
         "int"
@@ -261,7 +261,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatMissingTempQF",
+      "name": "missingTempQF",
       "type": [
         "null",
         "int"
@@ -271,7 +271,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatZeroPressureQF",
+      "name": "zeroPressureQF",
       "type": [
         "null",
         "int"
