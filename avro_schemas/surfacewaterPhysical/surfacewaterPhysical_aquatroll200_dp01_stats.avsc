@@ -81,7 +81,7 @@
       "__neon_units": "celcius"
     },
     {
-      "name": "surfacewaterSpecCondMean",
+      "name": "surfacewaterSCondMean",
       "type": [
         "null",
         "float"
@@ -91,7 +91,7 @@
       "__neon_units": "microsiemensPerCentimeter"
     },
     {
-      "name": "surfacewaterSpecCondMinimum",
+      "name": "surfacewaterSCondMinimum",
       "type": [
         "null",
         "float"
@@ -101,7 +101,7 @@
       "__neon_units": "microsiemensPerCentimeter"
     },
     {
-      "name": "surfacewaterSpecCondMaximum",
+      "name": "surfacewaterSCondMaximum",
       "type": [
         "null",
         "float"
@@ -111,7 +111,7 @@
       "__neon_units": "microsiemensPerCentimeter"
     },
     {
-      "name": "surfacewaterSpecCondVariance",
+      "name": "surfacewaterSCondVariance",
       "type": [
         "null",
         "float"
@@ -121,7 +121,7 @@
       "__neon_units": "microsiemensPerCentimeter"
     },
     {
-      "name": "surfacewaterSpecCondNumPts",
+      "name": "surfacewaterSCondNumPts",
       "type": [
         "null",
         "float"
@@ -131,7 +131,7 @@
       "__neon_units": "number"
     },
     {
-      "name": "surfacewaterSpecCondStdErMean",
+      "name": "surfacewaterSCondStdErMean",
       "type": [
         "null",
         "float"
