@@ -191,7 +191,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempPersistQF",
+      "name": "groundwaterTempPersistenceQF",
       "type": [
         "null",
         "int"
