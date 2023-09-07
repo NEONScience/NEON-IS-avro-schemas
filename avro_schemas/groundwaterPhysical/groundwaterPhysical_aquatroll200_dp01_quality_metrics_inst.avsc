@@ -24,7 +24,7 @@
       "name": "validCalQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the valid calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -34,7 +34,7 @@
       "name": "gWatTempValidCalQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the valid calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -44,7 +44,7 @@
       "name": "gWatSCondValidCalQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the valid calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -54,7 +54,7 @@
       "name": "suspectCalQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the suspect calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -64,7 +64,7 @@
       "name": "gWatTempSuspectCalQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the suspect calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -74,7 +74,7 @@
       "name": "gWatSCondSuspectCalQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the suspect calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -84,7 +84,7 @@
       "name": "groundwaterElevNullQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the null test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -94,7 +94,7 @@
       "name": "groundwaterElevGapQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the gap test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -104,7 +104,7 @@
       "name": "groundwaterElevRangeQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -114,7 +114,7 @@
       "name": "groundwaterElevStepQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -124,7 +124,7 @@
       "name": "groundwaterElevSpikeQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the spike test detailed in NEON.DOC.000783 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -134,7 +134,7 @@
       "name": "groundwaterElevPersistQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -144,7 +144,7 @@
       "name": "groundwaterTempNullQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the null test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -154,7 +154,7 @@
       "name": "groundwaterTempGapQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the gap test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -164,7 +164,7 @@
       "name": "groundwaterTempRangeQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -174,7 +174,7 @@
       "name": "groundwaterTempStepQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -184,7 +184,7 @@
       "name": "groundwaterTempSpikeQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the spike test detailed in NEON.DOC.000783 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -194,7 +194,7 @@
       "name": "groundwaterTempPersistenceQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -204,7 +204,7 @@
       "name": "groundwaterSpecCondNullQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the null test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -214,7 +214,7 @@
       "name": "groundwaterSpecCondGapQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the gap test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -224,7 +224,7 @@
       "name": "groundwaterSpecCondRangeQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -234,7 +234,7 @@
       "name": "groundwaterSpecCondStepQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -244,7 +244,7 @@
       "name": "groundwaterSpecCondSpikeQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the spike test detailed in NEON.DOC.000783 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -254,7 +254,7 @@
       "name": "groundwaterSpecCondPersistQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -264,7 +264,7 @@
       "name": "missingTempQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the missing temperature test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -274,7 +274,7 @@
       "name": "zeroPressureQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the zero pressure test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -284,7 +284,7 @@
       "name": "gWatElevAlphaQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Alpha quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -294,7 +294,7 @@
       "name": "gWatElevBetaQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Beta quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -304,7 +304,7 @@
       "name": "gWatElevFinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
@@ -314,7 +314,7 @@
       "name": "gWatTempAlphaQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Alpha quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -324,7 +324,7 @@
       "name": "gWatTempBetaQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Beta quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -334,7 +334,7 @@
       "name": "gWatTempFinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
@@ -344,7 +344,7 @@
       "name": "gWatSCondAlphaQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Alpha quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -354,7 +354,7 @@
       "name": "gWatSCondBetaQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Beta quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -364,7 +364,7 @@
       "name": "gWatSCondFinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",

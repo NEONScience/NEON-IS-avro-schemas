@@ -64,7 +64,7 @@
 			"name": "RHNumPts",
 			"type": [
 				"null",
-				"long"
+				"int16"
 			],
 			"default": null,
 			"doc": "Number of points used to calculate the arithmetic mean of relative humidity",
@@ -134,7 +134,7 @@
 			"name": "tempRHNumPts",
 			"type": [
 				"null",
-				"long"
+				"int16"
 			],
 			"default": null,
 			"doc": "Number of points used to calculate the arithmetic mean of relative humidity sensor temperature",
@@ -204,7 +204,7 @@
 			"name": "dewTempNumPts",
 			"type": [
 				"null",
-				"long"
+				"int16"
 			],
 			"default": null,
 			"doc": "Number of points used to calculate the arithmetic mean of dew/frost point",

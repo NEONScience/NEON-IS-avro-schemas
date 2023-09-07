@@ -64,7 +64,7 @@
       "name": "surfWaterTempNumPts",
       "type": [
         "null",
-        "long"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",

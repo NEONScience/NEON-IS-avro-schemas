@@ -64,7 +64,7 @@
       "name": "depth0WaterTempNumPts",
       "type": [
         "null",
-        "long"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
@@ -134,7 +134,7 @@
       "name": "depth1WaterTempNumPts",
       "type": [
         "null",
-        "long"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
@@ -204,7 +204,7 @@
       "name": "depth2WaterTempNumPts",
       "type": [
         "null",
-        "long"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
@@ -274,7 +274,7 @@
       "name": "depth3WaterTempNumPts",
       "type": [
         "null",
-        "long"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
@@ -344,7 +344,7 @@
       "name": "depth4WaterTempNumPts",
       "type": [
         "null",
-        "long"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
@@ -414,7 +414,7 @@
       "name": "depth5WaterTempNumPts",
       "type": [
         "null",
-        "long"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
@@ -483,7 +483,7 @@
       "name": "depth6WaterTempNumPts",
       "type": [
         "null",
-        "long"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
@@ -553,7 +553,7 @@
       "name": "depth7WaterTempNumPts",
       "type": [
         "null",
-        "long"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
@@ -623,7 +623,7 @@
       "name": "depth8WaterTempNumPts",
       "type": [
         "null",
-        "long"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
@@ -693,7 +693,7 @@
       "name": "depth9WaterTempNumPts",
       "type": [
         "null",
-        "long"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
@@ -763,7 +763,7 @@
       "name": "depth10WaterTempNumPts",
       "type": [
         "null",
-        "long"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",

@@ -64,7 +64,7 @@
       "name": "surfacewaterPressureNumPts",
       "type": [
         "null",
-        "float"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of surface water pressure",
@@ -124,7 +124,7 @@
       "name": "surfacewaterElevNumPts",
       "type": [
         "null",
-        "float"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of surface water elevation",

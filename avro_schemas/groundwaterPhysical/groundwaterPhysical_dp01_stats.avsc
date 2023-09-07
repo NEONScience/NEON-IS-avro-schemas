@@ -64,7 +64,7 @@
       "name": "groundwaterTempNumPts",
       "type": [
         "null",
-        "float"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of groundwater temperature",
@@ -124,7 +124,7 @@
       "name": "groundwaterSpecCondNumPts",
       "type": [
         "null",
-        "float"
+        "int16"
         ],
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of groundwater conductivity",
