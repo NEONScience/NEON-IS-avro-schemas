@@ -51,6 +51,16 @@
       "__neon_units": "microsiemensPerCentimeter"
     },
     {
+      "name": "groundwaterColumnHeight",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Water column height of surface water",
+      "__neon_units": "meter"
+    },
+    {
       "name": "groundwaterElev",
       "type": [
         "null",
