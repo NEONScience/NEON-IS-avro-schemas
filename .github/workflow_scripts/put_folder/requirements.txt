@@ -1,3 +1,0 @@
-# Python 3.8
-python-pachyderm
-certifi
