@@ -1,10 +1,10 @@
-name: li191r-empty-files
+name: DEV-parQuantumLine-avro-schemas
 on:
   push:
     branches:
       - 'master'
     paths:
-      - 'empty_files/li191r/**'
+      - 'avro_schemas/parQuantumLine/**'
   workflow_dispatch: {} # Allows trigger of workflow from web interface
 jobs:
   put-file:
@@ -13,10 +13,10 @@ jobs:
     env:
       PACHD_ADDRESS: grpcs://pachyderm-dev.transitions-nonprod.gcp.neoninternal.org:443
       PACH_TOKEN: ${{ secrets.RepoOwnerPachydermDev }}
-      REPO: li191r_empty_files # Pachyderm repo
+      REPO: parQuantumLine_avro_schemas # Pachyderm repo
       BRANCH: master 
-      IN_PATH: 'empty_files/li191r' # Single path to local file or directory. If directory, all files in directory will be place in pachyderm at OUT_PATH. 
-      OUT_PATH: '/li191r' # Path to place the file(s) in Pachyderm. If IN_PATH is a file, specify to the file. If IN_PATH is a directory, specify to the directory. 
+      IN_PATH: 'avro_schemas/parQuantumLine' # Single path to local file or directory. If directory, all files in directory will be place in pachyderm at OUT_PATH. 
+      OUT_PATH: '/parQuantumLine' # Path to place the file(s) in Pachyderm. If IN_PATH is a file, specify to the file. If IN_PATH is a directory, specify to the directory. 
     steps:
       - uses: actions/checkout@v4
       - run: ls -la
