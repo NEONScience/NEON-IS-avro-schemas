@@ -47,10 +47,12 @@ def main():
     if Path(in_path).is_dir():
         with client.pfs.commit(branch=branch) as commit:
             client.pfs.put_files(commit=commit,source=in_path,path=out_path)
+            print(f'Added directory',in_path,'to',repo_name+"@"+branch_name,':',out_path)
     else:
         with client.pfs.commit(branch=branch) as commit:
             with open(in_path, "rb") as source:
                 client.pfs.put_file_from_file(commit=commit,path=out_path,file=source,append=False)
+                print(f'Added file',in_path,'to',repo_name+"@"+branch_name,':',out_path)
 
 if __name__ == "__main__":
     main()
