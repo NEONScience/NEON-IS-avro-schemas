@@ -41,13 +41,13 @@
       "__neon_units": "kilopascal"
     },
     {
-      "name": "surfacewaterElevExpUncert",
+      "name": "surfacewaterColumnNonSystematicUnc",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Expanded uncertainty for surface water elevation above sea level",
+      "doc": "Non-systematic uncertainty for surface water column height",
       "__neon_units": "meter"
     }
     ]
