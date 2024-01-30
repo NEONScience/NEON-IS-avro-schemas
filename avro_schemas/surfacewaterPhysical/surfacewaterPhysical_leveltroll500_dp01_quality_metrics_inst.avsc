@@ -31,7 +31,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatTempValidCalQF",
+      "name": "sWatTempValidCalQF",
       "type": [
         "null",
         "int8"
@@ -51,7 +51,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatTempSuspectCalQF",
+      "name": "sWatTempSuspectCalQF",
       "type": [
         "null",
         "int8"
@@ -61,7 +61,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterElevNullQF",
+      "name": "sWatElevNullQF",
       "type": [
         "null",
         "int8"
@@ -71,7 +71,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterElevGapQF",
+      "name": "sWatElevGapQF",
       "type": [
         "null",
         "int8"
@@ -81,7 +81,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterElevRangeQF",
+      "name": "sWatElevRangeQF",
       "type": [
         "null",
         "int8"
@@ -91,7 +91,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterElevStepQF",
+      "name": "sWatElevStepQF",
       "type": [
         "null",
         "int8"
@@ -101,7 +101,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterElevSpikeQF",
+      "name": "sWatElevSpikeQF",
       "type": [
         "null",
         "int8"
@@ -111,7 +111,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterElevPersistQF",
+      "name": "sWatElevPersistQF",
       "type": [
         "null",
         "int8"
@@ -121,7 +121,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempNullQF",
+      "name": "sWatTempNullQF",
       "type": [
         "null",
         "int8"
@@ -131,7 +131,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempGapQF",
+      "name": "sWatTempGapQF",
       "type": [
         "null",
         "int8"
@@ -141,7 +141,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempRangeQF",
+      "name": "sWatTempRangeQF",
       "type": [
         "null",
         "int8"
@@ -151,7 +151,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempStepQF",
+      "name": "sWatTempStepQF",
       "type": [
         "null",
         "int8"
@@ -161,7 +161,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempSpikeQF",
+      "name": "sWatTempSpikeQF",
       "type": [
         "null",
         "int8"
@@ -171,7 +171,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempPersistenceQF",
+      "name": "sWatTempPersistenceQF",
       "type": [
         "null",
         "int8"
@@ -191,7 +191,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatElevAlphaQF",
+      "name": "sWatElevAlphaQF",
       "type": [
         "null",
         "int8"
@@ -201,7 +201,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatElevBetaQF",
+      "name": "sWatElevBetaQF",
       "type": [
         "null",
         "int8"
@@ -211,7 +211,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatElevFinalQF",
+      "name": "sWatElevFinalQF",
       "type": [
         "null",
         "int8"
