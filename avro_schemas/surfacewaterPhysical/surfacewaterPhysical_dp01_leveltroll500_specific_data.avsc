@@ -41,7 +41,7 @@
       "__neon_units": "celsius"
     },
     {
-      "name": "surfacewaterColumnHeight",
+      "name": "waterColumnHeight",
       "type": [
         "null",
         "float"

@@ -51,7 +51,7 @@
       "__neon_units": "meter"
     },
     {
-      "name": "surfacewaterColumnNonSysUncert",
+      "name": "waterColumnHeightNonSysUncert",
       "type": [
         "null",
         "float"

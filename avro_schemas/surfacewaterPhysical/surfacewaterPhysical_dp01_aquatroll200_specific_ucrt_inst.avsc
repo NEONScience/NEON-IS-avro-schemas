@@ -61,7 +61,7 @@
       "__neon_units": "microsiemensPerCentimeter"
     },
     {
-      "name": "surfacewaterColumnNonSysUncert",
+      "name": "waterColumnHeightNonSysUncert",
       "type": [
         "null",
         "float"

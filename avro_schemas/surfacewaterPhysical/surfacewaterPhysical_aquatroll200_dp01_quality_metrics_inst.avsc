@@ -81,7 +81,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sWatElevNullQF",
+      "name": "waterColumnHeightNullQF",
       "type": [
         "null",
         "int8"
@@ -91,7 +91,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sWatElevGapQF",
+      "name": "waterColumnHeightGapQF",
       "type": [
         "null",
         "int8"
@@ -101,7 +101,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sWatElevRangeQF",
+      "name": "waterColumnHeightRangeQF",
       "type": [
         "null",
         "int8"
@@ -111,7 +111,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sWatElevStepQF",
+      "name": "waterColumnHeightStepQF",
       "type": [
         "null",
         "int8"
@@ -121,7 +121,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sWatElevSpikeQF",
+      "name": "waterColumnHeightSpikeQF",
       "type": [
         "null",
         "int8"
@@ -131,7 +131,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sWatElevPersistQF",
+      "name": "waterColumnHeightPersistQF",
       "type": [
         "null",
         "int8"
@@ -281,7 +281,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sWatElevAlphaQF",
+      "name": "waterColumnHeightAlphaQF",
       "type": [
         "null",
         "int8"
@@ -291,7 +291,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sWatElevBetaQF",
+      "name": "waterColumnHeightBetaQF",
       "type": [
         "null",
         "int8"
@@ -301,7 +301,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sWatElevFinalQF",
+      "name": "waterColumnHeightFinalQF",
       "type": [
         "null",
         "int8"
