@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "groundwaterPhysical_aquatroll200_dp01_quality_metrics_inst",
+  "name": "surfacewaterPhysical_aquatroll200_dp01_quality_metrics_inst",
   "namespace": "org.neonscience.schema.dp01",
   "doc": "L1 final quality flags for Aqua Troll 200 sensor instantaneous data",
   "fields": [
@@ -31,7 +31,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatTempValidCalQF",
+      "name": "sWatTempValidCalQF",
       "type": [
         "null",
         "int8"
@@ -41,7 +41,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatSCondValidCalQF",
+      "name": "sWatSCondValidCalQF",
       "type": [
         "null",
         "int8"
@@ -61,7 +61,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatTempSuspectCalQF",
+      "name": "sWatTempSuspectCalQF",
       "type": [
         "null",
         "int8"
@@ -71,7 +71,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatSCondSuspectCalQF",
+      "name": "sWatSCondSuspectCalQF",
       "type": [
         "null",
         "int8"
@@ -81,7 +81,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterElevNullQF",
+      "name": "surfacewaterColumnHeightNullQF",
       "type": [
         "null",
         "int8"
@@ -91,7 +91,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterElevGapQF",
+      "name": "surfacewaterColumnHeightGapQF",
       "type": [
         "null",
         "int8"
@@ -101,7 +101,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterElevRangeQF",
+      "name": "surfacewaterColumnHeightRangeQF",
       "type": [
         "null",
         "int8"
@@ -111,7 +111,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterElevStepQF",
+      "name": "surfacewaterColumnHeightStepQF",
       "type": [
         "null",
         "int8"
@@ -121,7 +121,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterElevSpikeQF",
+      "name": "surfacewaterColumnHeightSpikeQF",
       "type": [
         "null",
         "int8"
@@ -131,7 +131,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterElevPersistQF",
+      "name": "surfacewaterColumnHeightPersistQF",
       "type": [
         "null",
         "int8"
@@ -141,7 +141,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempNullQF",
+      "name": "sWatTempNullQF",
       "type": [
         "null",
         "int8"
@@ -151,7 +151,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempGapQF",
+      "name": "sWatTempGapQF",
       "type": [
         "null",
         "int8"
@@ -161,7 +161,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempRangeQF",
+      "name": "sWatTempRangeQF",
       "type": [
         "null",
         "int8"
@@ -171,7 +171,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempStepQF",
+      "name": "sWatTempStepQF",
       "type": [
         "null",
         "int8"
@@ -181,7 +181,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempSpikeQF",
+      "name": "sWatTempSpikeQF",
       "type": [
         "null",
         "int8"
@@ -191,7 +191,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterTempPersistenceQF",
+      "name": "sWatTempPersistenceQF",
       "type": [
         "null",
         "int8"
@@ -201,7 +201,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterSpecCondNullQF",
+      "name": "sWatSpecCondNullQF",
       "type": [
         "null",
         "int8"
@@ -211,7 +211,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterSpecCondGapQF",
+      "name": "sWatSpecCondGapQF",
       "type": [
         "null",
         "int8"
@@ -221,7 +221,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterSpecCondRangeQF",
+      "name": "sWatSpecCondRangeQF",
       "type": [
         "null",
         "int8"
@@ -231,7 +231,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterSpecCondStepQF",
+      "name": "sWatSpecCondStepQF",
       "type": [
         "null",
         "int8"
@@ -241,7 +241,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterSpecCondSpikeQF",
+      "name": "sWatSpecCondSpikeQF",
       "type": [
         "null",
         "int8"
@@ -251,7 +251,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "groundwaterSpecCondPersistQF",
+      "name": "sWatSpecCondPersistQF",
       "type": [
         "null",
         "int8"
@@ -281,7 +281,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatElevAlphaQF",
+      "name": "surfacewaterColumnHeightAlphaQF",
       "type": [
         "null",
         "int8"
@@ -291,7 +291,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatElevBetaQF",
+      "name": "surfacewaterColumnHeightBetaQF",
       "type": [
         "null",
         "int8"
@@ -301,69 +301,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "gWatElevFinalQF",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    },
-    ,
-    {
-      "name": "gWatTempAlphaQF",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Alpha quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "gWatTempBetaQF",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Beta quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "gWatTempFinalQF",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    },
-    ,
-    {
-      "name": "gWatSCondAlphaQF",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Alpha quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "gWatSCondBetaQF",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Beta quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "gWatSCondFinalQF",
+      "name": "surfacewaterColumnHeightFinalQF",
       "type": [
         "null",
         "int8"
