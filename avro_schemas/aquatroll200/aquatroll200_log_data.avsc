@@ -1,8 +1,8 @@
 {
     "type": "record",
-    "name": "aquatroll200_cond_corrected",
-    "namespace": "org.neonscience.schema.device",
-    "doc": "Calibrated In-Situ Aqua TROLL 200",
+    "name": "aquatroll200_log_data",
+    "namespace": "org.neonscience.schema.dp0p",
+    "doc": "Log data for the Aqua Troll 520 sensor",
     "__version": "1.0",
     "__neon_parts": [
         "0317730000"
@@ -34,8 +34,8 @@
                 "float"
             ],
             "default": null,
-            "doc": "Calibrated pressure of water",
-            "__neon_units": "kilopascal",
+            "doc": "Raw pressure of water",
+            "__neon_units": "psi",
             "__neon_stream_id": "0"            
         },
         {
@@ -55,7 +55,7 @@
                 "float"
             ],
             "default": null,
-            "doc": "Calibrated temperature in water",
+            "doc": "Raw temperature in water",
             "__neon_units": "celsius",
             "__neon_stream_id": "2"
         },
@@ -70,13 +70,13 @@
             "__neon_stream_id": "3"
         },
         {
-            "name": "raw_conductivity",
+            "name": "conductivity",
             "type": [
                 "null",
                 "float"
             ],
             "default": null,
-            "doc": "Calibrated raw conductivity in water",
+            "doc": "Raw specific conductance in water",
             "__neon_units": "microsiemensPerCentimeter",
             "__neon_stream_id": "4"
         },
@@ -89,16 +89,6 @@
             "default": null,
             "doc": "Data quality code from sensor for conductivity represented by a 16 bit unsigned integer",
             "__neon_stream_id": "5"
-        },
-        {
-            "name": "conductivity",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Calibrated specific conductance in water",
-            "__neon_units": "microsiemensPerCentimeter"
         },
         {
             "name": "internal_battery",
