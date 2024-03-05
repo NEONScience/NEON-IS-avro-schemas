@@ -1,0 +1,221 @@
+{
+    "type": "record",
+    "name": "aepg600m_calibrated",
+    "namespace": "org.neonscience.schema.dp0p",
+    "doc": "Belfort AEPG-600M Precipitation Gauge - Non heated",
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "strain_gauge1_temperature",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Strain gauge 1 transducer temperature in the primary precipitation sensor",
+            "__neon_units": "celsius",
+            "__neon_stream_id": "0"
+            
+        },
+        {
+            "name": "strain_gauge2_temperature",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Strain gauge 2 transducer temperature in the primary precipitation sensor",
+            "__neon_units": "celsius",
+            "__neon_stream_id": "1"
+            
+        },
+        {
+            "name": "strain_gauge3_temperature",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Strain gauge 3 transducer temperature in the primary precipitation sensor",
+            "__neon_units": "celsius",
+            "__neon_stream_id": "2"
+        },
+        {
+            "name": "strain_gauge1_depth",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The calculated depth from strain gauge raw frequency for strain gauge 1 in the primary precipitation sensor (i.e., uncompensated for temperature)",
+            "__neon_units": "mm"
+        },
+        {
+            "name": "strain_gauge2_depth",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The calculated depth from strain gauge raw frequency for strain gauge 2 in the primary precipitation sensor (i.e., uncompensated for temperature)",
+            "__neon_units": "mm"
+        },
+        {
+            "name": "strain_gauge3_depth",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The calculated depth from strain gauge raw frequency for strain gauge 3 in the primary precipitation sensor (i.e., uncompensated for temperature)",
+            "__neon_units": "mm"
+        },
+        {
+            "name": "strain_gauge1_frequency_compensated",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The temperature compensated frequency reported by strain gauge 1 in the primary precipitation sensor",
+            "__neon_units": "hertz",
+            "__neon_stream_id": "6"
+        },
+        {
+            "name": "strain_gauge2_frequency_compensated",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The temperature compensated frequency reported by strain gauge 2 in the primary precipitation sensor",
+            "__neon_units": "hertz",
+            "__neon_stream_id": "7"
+        },
+        {
+            "name": "strain_gauge3_frequency_compensated",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The temperature compensated frequency reported by strain gauge 3 in the primary precipitation sensor",
+            "__neon_units": "hertz",
+            "__neon_stream_id": "8"
+        },
+        {
+            "name": "strain_gauge1_weight",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The weight reported by strain gauge 1 in the primary precipitation sensor",
+            "__neon_units": "kilogram",
+            "__neon_stream_id": "9"
+        },
+        {
+            "name": "strain_gauge2_weight",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The weight reported by strain gauge 2 in the primary precipitation sensor",
+            "__neon_units": "kilogram",
+            "__neon_stream_id": "10"
+        },
+        {
+            "name": "strain_gauge3_weight",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The weight reported by strain gauge 3 in the primary precipitation sensor",
+            "__neon_units": "kilogram",
+            "__neon_stream_id": "11"
+        },
+        {
+            "name": "total_gauge_weight",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The combined weight from the 3 strain gauges in the primary precipitation sensor",
+            "__neon_units": "kilogram",
+            "__neon_stream_id": "12"
+        },
+        {
+            "name": "total_precipitation_depth",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "The total depth reported by the internal calculations of the 3 strain gauges in the primary precipitation sensor",
+            "__neon_units": "millimeter",
+            "__neon_stream_id": "13"
+        },
+        {
+            "name": "precipiation_accumulation_rate",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Accumulation of precipitation calculated by internal calculations of the 3 strain gauges in the primary precipitation sensor",
+            "__neon_units": "millimeter",
+            "__neon_stream_id": "14"
+        },
+        {
+            "name": "strain_gauge1_stability",
+            "type": [
+                "null",
+                "int"
+            ],
+            "default": null,
+            "doc": "Stability flag indicating if strain gauge 1 in the primary precipitation sensor is reporting a stable frequency (1 = stable, 0 = unstable, -1 = sensor failure)",
+            "__neon_stream_id": "15"
+        },
+        {
+            "name": "strain_gauge2_stability",
+            "type": [
+                "null",
+                "int"
+            ],
+            "default": null,
+            "doc": "Stability flag indicating if strain gauge 2 in the primary precipitation sensor is reporting a stable frequency (1 = stable, 0 = unstable, -1 = sensor failure)",
+            "__neon_stream_id": "16"
+        },
+        {
+            "name": "strain_gauge3_stability",
+            "type": [
+                "null",
+                "int"
+            ],
+            "default": null,
+            "doc": "Stability flag indicating if strain gauge 3 in the primary precipitation sensor is reporting a stable frequency (1 = stable, 0 = unstable, -1 = sensor failure)",
+            "__neon_stream_id": "17"
+        }
+    ]
+}
