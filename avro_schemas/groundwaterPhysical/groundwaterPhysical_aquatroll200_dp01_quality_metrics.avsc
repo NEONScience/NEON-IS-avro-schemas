@@ -741,6 +741,36 @@
       "__neon_units": "percent"
     },
     {
+      "name": "missingTempPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the missing temperature test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "missingTempFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the missing temperature test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "missingTempNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when the missing temperature test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
       "name": "gWatElevLogDataPassQM",
       "type": [
         "null",
@@ -858,36 +888,6 @@
         ],
       "default": null,
       "doc": "Quality metric for when the specific conductivity log data summary could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "missingTempPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the missing temperature test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "missingTempFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the missing temperature test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "missingTempNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the missing temperature test could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
