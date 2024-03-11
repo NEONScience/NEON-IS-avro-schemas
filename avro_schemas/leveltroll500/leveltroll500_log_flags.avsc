@@ -34,7 +34,7 @@
             "int8"
             ],
           "default": null,
-          "doc": "Quality flag for the log data readout time (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+          "doc": "Quality flag for edited log data readout time (1=fail, 0=pass, -1=NA (i.e., could not be run))",
           "__neon_units": "NA"
         },
         {
@@ -44,7 +44,7 @@
             "int8"
             ],
           "default": null,
-          "doc": "Quality flag for the pressure log data (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+          "doc": "Quality flag for the temperature log data (1=fail, 0=pass, -1=NA (i.e., could not be run))",
           "__neon_units": "NA"
         }
     ]
