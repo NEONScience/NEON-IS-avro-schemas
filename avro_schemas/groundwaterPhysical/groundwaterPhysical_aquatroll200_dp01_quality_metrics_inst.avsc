@@ -298,7 +298,8 @@
         ],
       "default": null,
       "doc": "Quality flag for the temperature log data (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "_
+      "__neon_units": "NA"
+    },
     {
       "name": "gWatSCondLogDataQF",
       "type": [
