@@ -350,7 +350,6 @@
       "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
       "__neon_units": "NA"
     },
-    ,
     {
       "name": "gWatTempAlphaQF",
       "type": [
