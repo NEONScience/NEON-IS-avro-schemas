@@ -271,6 +271,46 @@
       "__neon_units": "NA"
     },
     {
+      "name": "gWatElevLogDataQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the pressure log data (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "logDataDateQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for edited log data readout time (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "gWatTempLogDataQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the temperature log data (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "gWatSCondLogDataQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the specific conductiviry log data (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
       "name": "zeroPressureQF",
       "type": [
         "null",
@@ -310,7 +350,6 @@
       "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
       "__neon_units": "NA"
     },
-    ,
     {
       "name": "gWatTempAlphaQF",
       "type": [
@@ -341,7 +380,6 @@
       "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
       "__neon_units": "NA"
     },
-    ,
     {
       "name": "gWatSCondAlphaQF",
       "type": [
