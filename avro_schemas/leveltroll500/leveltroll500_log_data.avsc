@@ -15,7 +15,10 @@
         },
         {
             "name": "site_id",
-            "type": "string",
+            "type": [
+                "null",
+                "string"
+            ],
             "doc": "NEON site identifier"
         },
         {
