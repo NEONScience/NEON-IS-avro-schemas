@@ -10,7 +10,10 @@
     "fields": [
         {
             "name": "source_id",
-            "type": "string",
+            "type": [
+                "null",
+                "string"
+            ],
             "doc": "Source serial number or MAC address"
         },
         {
