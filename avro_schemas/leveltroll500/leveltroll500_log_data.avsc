@@ -1,11 +1,11 @@
 {
     "type": "record",
-    "name": "aquatroll200_calibrated",
-    "namespace": "org.neonscience.schema.device",
-    "doc": "Calibrated In-Situ Aqua TROLL 200",
+    "name": "leveltroll500_log_data",
+    "namespace": "org.neonscience.schema.dp0p",
+    "doc": "Log data for the Level Troll 500 sensor",
     "__version": "1.0",
     "__neon_parts": [
-        "0317730000"
+        "0317680000"
     ],
     "fields": [
         {
@@ -37,8 +37,8 @@
                 "float"
             ],
             "default": null,
-            "doc": "Calibrated pressure of water",
-            "__neon_units": "kilopascal",
+            "doc": "Raw pressure of water",
+            "__neon_units": "psi",
             "__neon_stream_id": "0"            
         },
         {
@@ -58,7 +58,7 @@
                 "float"
             ],
             "default": null,
-            "doc": "Calibrated temperature in water",
+            "doc": "Raw temperature in water",
             "__neon_units": "celsius",
             "__neon_stream_id": "2"
         },
@@ -71,27 +71,6 @@
             "default": null,
             "doc": "Data quality code from sensor for temperature represented by a 16 bit unsigned integer",
             "__neon_stream_id": "3"
-        },
-        {
-            "name": "conductivity",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Calibrated specific conductance in water",
-            "__neon_units": "microsiemensPerCentimeter",
-            "__neon_stream_id": "4"
-        },
-        {
-            "name": "conductivity_data_quality",
-            "type": [
-                "null",
-                "uint16"
-            ],
-            "default": null,
-            "doc": "Data quality code from sensor for conductivity represented by a 16 bit unsigned integer",
-            "__neon_stream_id": "5"
         },
         {
             "name": "internal_battery",

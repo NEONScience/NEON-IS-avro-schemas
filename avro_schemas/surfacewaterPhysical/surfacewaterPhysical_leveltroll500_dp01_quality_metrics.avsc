@@ -501,6 +501,96 @@
       "__neon_units": "percent"
     },
     {
+      "name": "sWatElevLogDataPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the pressure log data gap filling test over the averaging period, as a percent (100=No log data were used for gap filling)",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "sWatElevLogDataFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the pressure log data gap filling test over the averaging period, as a percent (100=log data were used for gap filling 100 percent of the data points)",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "sWatElevLogDataNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric for when the pressure log data summary could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "logDataDatePassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the edited log data readout time test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "logDataDateFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the edited log data readout time test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "logDataDateNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric for when the edited log data readout time test could not be run, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "sWatTempLogDataPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the temperature log data gap filling test over the averaging period, as a percent (100=No log data were used for gap filling)",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "sWatTempLogDataFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the temperature log data gap filling test over the averaging period, as a percent (100=log data were used for gap filling 100 percent of the data points)",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "sWatTempLogDataNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric for when the temperature log data summary could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
       "name": "zeroPressurePassQM",
       "type": [
         "null",
