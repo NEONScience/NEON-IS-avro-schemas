@@ -1,10 +1,11 @@
-name: DEV-aquatroll200-empty-files
+name: DEV-troll-empty-files
 on:
   push:
     branches:
       - 'master'
     paths:
       - 'empty_files/aquatroll200/**'
+      - 'empty_files/leveltroll500/**'
   workflow_dispatch: {} # Allows trigger of workflow from web interface
 jobs:
   put-file:
@@ -13,10 +14,10 @@ jobs:
     env:
       PACHD_ADDRESS: grpcs://pachyderm-dev.transitions-nonprod.gcp.neoninternal.org:443
       PACH_TOKEN: ${{ secrets.RepoOwnerPachydermDev }}
-      REPO: aquatroll200_empty_files # Pachyderm repo
+      REPO: troll_empty_files # Pachyderm repo
       BRANCH: master 
-      IN_PATH: 'empty_files/aquatroll200' # Single path to local file or directory. If directory, all files in directory will be place in pachyderm at OUT_PATH. 
-      OUT_PATH: '/aquatroll200' # Path to place the file(s) in Pachyderm. If IN_PATH is a file, specify to the file. If IN_PATH is a directory, specify to the directory. 
+      IN_PATHS: 'empty_files/aquatroll200,empty_files/leveltroll500' # Comma-separated list (no spaces) to one or more paths or directories. Length must match OUT_PATHS. If directory, all files in directory will be placed in pachyderm at corresponding entry of OUT_PATHS. 
+      OUT_PATHS: '/aquatroll200,/leveltroll500' # Comma-separated list (no spaces) of corresponding path(s) to place the files(s) in Pachyderm. Must be same length as IN_PATHS. If corresponding entry in IN_PATHS is a file, specify to the file. If corresponding entry in IN_PATHS is a directory, specify to the directory. 
     steps:
       - uses: actions/checkout@v4
       - run: ls -la
