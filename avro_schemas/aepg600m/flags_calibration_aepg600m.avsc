@@ -13,7 +13,7 @@
       "doc": "Timestamp of readout expressed in milliseconds since epoch"
     },
     {
-      "name": "strain_gauge1_depth_ValidCalQF",
+      "name": "strainGauge1DepthValidCalQF",
       "type": [
         "null",
         "int8"
@@ -23,7 +23,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "strain_gauge2_depth_ValidCalQF",
+      "name": "strainGauge2DepthValidCalQF",
       "type": [
         "null",
         "int8"
@@ -33,7 +33,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "strain_gauge3_depth_ValidCalQF",
+      "name": "strainGauge3DepthValidCalQF",
       "type": [
         "null",
         "int8"
@@ -43,7 +43,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "strain_gauge1_depth_SuspectCalQF",
+      "name": "strainGauge1DepthSuspectCalQF",
       "type": [
         "null",
         "int8"
@@ -53,7 +53,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "strain_gauge2_depth_SuspectCalQF",
+      "name": "strainGauge2DepthSuspectCalQF",
       "type": [
         "null",
         "int8"
@@ -63,7 +63,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "strain_gauge3_depth_SuspectCalQF",
+      "name": "strainGauge3DepthSuspectCalQF",
       "type": [
         "null",
         "int8"
