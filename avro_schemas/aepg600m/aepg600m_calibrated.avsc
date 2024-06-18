@@ -59,34 +59,34 @@
             "__neon_stream_id": "2"
         },
         {
-            "name": "strain_gauge1_depth",
+            "name": "strainGauge1Depth",
             "type": [
                 "null",
                 "float"
             ],
             "default": null,
-            "doc": "The calculated depth from strain gauge raw frequency for strain gauge 1 in the primary precipitation sensor (i.e., uncompensated for temperature)",
-            "__neon_units": "mm"
+            "doc": "The calculated depth from the strain gauge raw frequency for strain gauge 1 in the primary precipitation sensor (uncompensated for temperature)",
+            "__neon_units": "millimeter"
         },
         {
-            "name": "strain_gauge2_depth",
+            "name": "strainGauge2Depth",
             "type": [
                 "null",
                 "float"
             ],
             "default": null,
-            "doc": "The calculated depth from strain gauge raw frequency for strain gauge 2 in the primary precipitation sensor (i.e., uncompensated for temperature)",
-            "__neon_units": "mm"
+            "doc": "The calculated depth from the strain gauge raw frequency for strain gauge 2 in the primary precipitation sensor (uncompensated for temperature)",
+            "__neon_units": "millimeter"
         },
         {
-            "name": "strain_gauge3_depth",
+            "name": "strainGauge3Depth",
             "type": [
                 "null",
                 "float"
             ],
             "default": null,
-            "doc": "The calculated depth from strain gauge raw frequency for strain gauge 3 in the primary precipitation sensor (i.e., uncompensated for temperature)",
-            "__neon_units": "mm"
+            "doc": "The calculated depth from the strain gauge raw frequency for strain gauge 3 in the primary precipitation sensor (uncompensated for temperature)",
+            "__neon_units": "millimeter"
         },
         {
             "name": "strain_gauge1_frequency_compensated",
