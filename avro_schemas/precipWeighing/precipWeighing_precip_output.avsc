@@ -20,6 +20,46 @@
 			"doc": "Date and time at which a sampling is completed (exclusive)"
 		},
 		{
+			"name": "strainGaugeDepth",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Collector depth (average of 3 strain gauge depths)",
+			"__neon_units": "millimeter"
+		},
+		{
+			"name": "bench",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Collector depth after applying smoothing algorithm",
+			"__neon_units": "millimeter"
+		},
+		{
+			"name": "precip",
+			"type": [
+				"null",
+				"boolean"
+			],
+			"default": null,
+			"doc": "TRUE/FALSE indicator of whether algorithm detected precipitation",
+			"__neon_units": "NA"
+		},
+		{
+			"name": "precipType",
+			"type": [
+				"null",
+				"string"
+			],
+			"default": null,
+			"doc": "Text indicator of the change in benchmark detected or applied by the smoothing algorithm",
+			"__neon_units": "NA"
+		},
+		{
 			"name": "precipBulk",
 			"type": [
 				"null",
