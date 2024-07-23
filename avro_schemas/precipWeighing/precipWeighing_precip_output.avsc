@@ -1,0 +1,33 @@
+{
+	"type": "record",
+	"name": "precipWeighing_precip_output",
+	"namespace": "org.neonscience.schema.dp01",
+	"doc": "Precipitation output",
+	"fields": [{
+			"name": "startDateTime",
+			"type": {
+				"type": "long",
+				"logicalType": "timestamp-millis"
+			},
+			"doc": "Date and time at which a sampling is initiated (inclusive)"
+		},
+		{
+			"name": "endDateTime",
+			"type": {
+				"type": "long",
+				"logicalType": "timestamp-millis"
+			},
+			"doc": "Date and time at which a sampling is completed (exclusive)"
+		},
+		{
+			"name": "precipBulk",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Bulk precipitation measured over the aggregation interval",
+			"__neon_units": "millimeter"
+		}
+	]
+}
