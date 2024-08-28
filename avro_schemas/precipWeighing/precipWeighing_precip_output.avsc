@@ -30,6 +30,36 @@
 			"__neon_units": "millimeter"
 		},
 		{
+			"name": "strainGauge1Depth",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Collector depth for strain gauge 1",
+			"__neon_units": "millimeter"
+		},
+		{
+			"name": "strainGauge2Depth",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Collector depth for strain gauge 2",
+			"__neon_units": "millimeter"
+		},
+		{
+			"name": "strainGauge3Depth",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Collector depth for strain gauge 3",
+			"__neon_units": "millimeter"
+		},
+		{
 			"name": "bench",
 			"type": [
 				"null",
