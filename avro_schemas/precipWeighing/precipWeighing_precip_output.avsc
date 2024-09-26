@@ -30,35 +30,55 @@
 			"__neon_units": "millimeter"
 		},
 		{
-			"name": "strainGauge1Depth",
+			"name": "orificeHeaterFlag",
 			"type": [
 				"null",
-				"float"
+				"int8"
 			],
 			"default": null,
-			"doc": "Collector depth for strain gauge 1",
-			"__neon_units": "millimeter"
+			"doc": "Flag indicating whether the orifice heater was on",
+			"__neon_units": "NA"
 		},
 		{
-			"name": "strainGauge2Depth",
+			"name": "inletHeater1QM",
 			"type": [
 				"null",
 				"float"
 			],
 			"default": null,
-			"doc": "Collector depth for strain gauge 2",
-			"__neon_units": "millimeter"
-		},
+			"doc": "Quality metric indicating the percentage of the aggregation interval that one inlet heater was on",
+			"__neon_units": "percent"
+		},		
 		{
-			"name": "strainGauge3Depth",
+			"name": "inletHeater2QM",
 			"type": [
 				"null",
 				"float"
 			],
 			"default": null,
-			"doc": "Collector depth for strain gauge 3",
-			"__neon_units": "millimeter"
-		},
+			"doc": "Quality metric indicating the percentage of the aggregation interval that two inlet heaters were on",
+			"__neon_units": "percent"
+		},		
+		{
+			"name": "inletHeater3QM",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Quality metric indicating the percentage of the aggregation interval that three inlet heaters were on",
+			"__neon_units": "percent"
+		},		
+		{
+			"name": "inletHeaterNAQM",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Quality metric indicating the percentage of the aggregation interval that inlet heater information was not available",
+			"__neon_units": "percent"
+		},		
 		{
 			"name": "bench",
 			"type": [
