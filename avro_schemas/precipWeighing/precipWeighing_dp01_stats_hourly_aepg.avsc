@@ -27,7 +27,7 @@
 				"float"
 			],
 			"default": null,
-			"doc": "Bulk precipitation measured over the aggregation interval",
+			"doc": "Bulk precipitation accumulated over the aggregation interval",
 			"__neon_units": "millimeter"
 		},
 		{
