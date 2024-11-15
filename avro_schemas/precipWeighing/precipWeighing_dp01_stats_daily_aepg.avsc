@@ -1,0 +1,146 @@
+{
+	"type": "record",
+	"name": "precipWeighing_dp01_stats_daily_aepg",
+	"namespace": "org.neonscience.schema.dp01",
+	"doc": "Level 1 Precipitation output for the Weighing Gauge precipitation product derived from the Belfort AEPG600m sensor",
+	"fields": [
+	{
+			"name": "date",
+			"type": {
+				"type": "long",
+				"logicalType": "timestamp-millis"
+			},
+			"doc": "Date and time at which a sampling is initiated (inclusive)"
+		},
+		{
+			"name": "precipBulk",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Bulk precipitation measured over the aggregation interval",
+			"__neon_units": "millimeter"
+		},
+		{
+			"name": "precipBulkExpUncert",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Expanded uncertainty for bulk precipitation",
+			"__neon_units": "millimeter"
+		},
+		{
+			"name": "insuffDataQF",
+			"type": [
+				"null",
+				"int8"
+			],
+			"default": null,
+			"doc": "Quality flag indicating whether sufficient data was available to compute bulk precipitation (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+			"__neon_units": "NA"
+		},
+		{
+			"name": "extremePrecipQF",
+			"type": [
+				"null",
+				"int8"
+			],
+			"default": null,
+			"doc": "Quality flag indicating whether the computed precipitation amount was within a plausible range (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+			"__neon_units": "NA"
+		},
+		{
+			"name": "heaterErrorQF",
+			"type": [
+				"null",
+				"int8"
+			],
+			"default": null,
+			"doc": "Quality flag indicating whether the heaters were operating properly (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+			"__neon_units": "NA"
+		},
+		{
+			"name": "dielNoiseQF",
+			"type": [
+				"null",
+				"int8"
+			],
+			"default": null,
+			"doc": "Quality flag indicating whether there the diel variability of the measured precipitation depth output was sufficiently low to have high confidence in the computed precipitation (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+			"__neon_units": "NA"
+		},
+		{
+			"name": "strainGaugeStabilityQF",
+			"type": [
+				"null",
+				"int8"
+			],
+			"default": null,
+			"doc": "Quality flag indicating whether the strain gauges reported stable collector status (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+			"__neon_units": "NA"
+		},
+		{
+			"name": "evapDetectedQF",
+			"type": [
+				"null",
+				"int8"
+			],
+			"default": null,
+			"doc": "Quality flag indicating that the depth benchmark of the collector was adjusted downward to account for evaporation (1=evaporation adjustment made, 0=no evaporation adjustment made, -1=NA (i.e., could not be evaluated))",
+			"__neon_units": "NA"
+		},
+		{
+			"name": "inletHeaters1QM",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Quality metric indicating the percentage of the aggregation interval that one inlet heater was on",
+			"__neon_units": "percent"
+		},		
+		{
+			"name": "inletHeaters2QM",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Quality metric indicating the percentage of the aggregation interval that two inlet heaters were on",
+			"__neon_units": "percent"
+		},		
+		{
+			"name": "inletHeaters3QM",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Quality metric indicating the percentage of the aggregation interval that three inlet heaters were on",
+			"__neon_units": "percent"
+		},		
+		{
+			"name": "inletHeatersNAQM",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Quality metric indicating the percentage of the aggregation interval that inlet heater information was not available",
+			"__neon_units": "percent"
+		},
+		{
+			"name": "finalQF",
+			"type": [
+				"null",
+				"int8"
+			],
+			"default": null,
+			"doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+			"__neon_units": "NA"
+		}
+	]
+}

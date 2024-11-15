@@ -1,6 +1,6 @@
 {
 	"type": "record",
-	"name": "precipWeighing_dp01_stats_aepg",
+	"name": "precipWeighing_dp01_stats_hourly_aepg",
 	"namespace": "org.neonscience.schema.dp01",
 	"doc": "Level 1 Precipitation output for the Weighing Gauge precipitation product derived from the Belfort AEPG600m sensor",
 	"fields": [
