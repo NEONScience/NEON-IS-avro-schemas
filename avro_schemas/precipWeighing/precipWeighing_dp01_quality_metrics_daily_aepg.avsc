@@ -1,0 +1,294 @@
+{
+  "type": "record",
+  "name": "precipWeighing_dp01_quality_metrics_daily_aepg",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 quality metrics for daily-aggregated weighing gauge precipitation from the Belfort sensor",
+  "fields": [
+    {
+      "name": "date",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "strainGaugeDepthNullPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthNullFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the null test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthNullNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when the null test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthGapPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the gap test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthGapFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the gap test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthGapNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when the gap test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthRangePassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the range test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthRangeFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the range test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthRangeNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when the range test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthStepPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the step test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthStepFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the step test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthStepNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when the step test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthSpikePassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthSpikeFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the spike test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthSpikeNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when the spike test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthPersistencePassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the persistence test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthPersistenceFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the persistence test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthPersistenceNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when the persistence test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthValidCalPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthValidCalFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthValidCalNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthSuspectCalPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthSuspectCalFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "strainGaugeDepthSuspectCalNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when the suspect calibration test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "alphaQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "betaQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "finalQFNotUsed",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    }
+    ]
+}
