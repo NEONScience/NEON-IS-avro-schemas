@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "flags_plausibility_precipWeighing_aepg",
+  "name": "flags_plausibility_precipWeighing",
   "namespace": "org.neonscience.schema.dp0p",
   "doc": "Plausibility flags for the Weighing Gauge precipitation product derived from the Belfort AEPG600m sensor",
   "fields": [
