@@ -2,7 +2,7 @@
   "type": "record",
   "name": "flags_plausibility_mcseries",
   "namespace": "org.neonscience.schema.dp0p",
-  "doc": "All plausibility flags (range, step, persistence) for mti300ahrs(attitude-motion) measurements",
+  "doc": "All plausibility flags (range, step, persistence) for mcseries(mfcSampTurb etc) measurements",
   "fields": [
     {
       "name": "time",
