@@ -1,0 +1,159 @@
+{
+  "type": "record",
+  "name": "pluvio_metrics",
+  "namespace": "org.neonscience.schema.dp0p",
+  "doc": "OTT Pluvio 2",
+  "fields": [
+    {
+      "name": "source_id",
+      "type": "string",
+      "doc": "Source serial number or MAC address"
+    },
+    {
+      "name": "site_id",
+      "type": "string",
+      "doc": "NEON site identifier"
+    },
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch",
+      "__neon_units": "millisecond"
+    },
+    {
+      "name": "intensity_rt",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Real time intensity",
+      "__neon_units": "millimetersPerMinute",
+      "__neon_stream_id": "0"
+    },
+    {
+      "name": "accu_rt_nrt",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Accumulated amounts of precipitation over the sampling interval",
+      "__neon_units": "millimeter",
+      "__neon_stream_id": "1"
+    },
+    {
+      "name": "accu_nrt",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Accumulated amounts of precipitation over the sampling interval with delay of 5 minutes",
+      "__neon_units": "millimeter",
+      "__neon_stream_id": "2"
+    },
+    {
+      "name": "accu_total_nrt",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Sum of all amounts of precipitation since last device start",
+      "__neon_units": "millimeter",
+      "__neon_stream_id": "3"
+    },
+    {
+      "name": "bucket_rt",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Unfiltered bucket content",
+      "__neon_units": "millimeter",
+      "__neon_stream_id": "4"
+    },
+    {
+      "name": "bucket_nrt",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Filtered bucket content",
+      "__neon_units": "millimeter",
+      "__neon_stream_id": "5"
+    },
+    {
+      "name": "cell_temperature",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Load cell temperature",
+      "__neon_units": "celsius",
+      "__neon_stream_id": "6"
+    },
+    {
+      "name": "heater_status",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null,
+      "doc": "Heater status",
+      "__neon_units": "NA",
+      "__neon_stream_id": "7"
+    },
+    {
+      "name": "sensorStatus",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null,
+      "doc": "Status",
+      "__neon_units": "NA",
+      "__neon_stream_id": "8"
+    },
+    {
+      "name": "electronics_temperature",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Electronics unit temperature",
+      "__neon_units": "celsius",
+      "__neon_stream_id": "9"
+    },
+    {
+      "name": "supply_voltage",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Supply voltage",
+      "__neon_units": "volt",
+      "__neon_stream_id": "10"
+    },
+    {
+      "name": "inletTemp",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Orifice ring rim temperature",
+      "__neon_units": "celsius",
+      "__neon_stream_id": "11"
+    }
+  ]
+}
