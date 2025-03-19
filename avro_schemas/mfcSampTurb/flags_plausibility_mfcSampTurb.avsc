@@ -1,11 +1,11 @@
 {
   "type": "record",
-  "name": "flags_plausibility_mcseries",
+  "name": "flags_plausibility_mfcSampTurb",
   "namespace": "org.neonscience.schema.dp0p",
   "doc": "All plausibility flags (range, step, persistence) for mcseries(mfcSampTurb etc) measurements",
   "fields": [
     {
-      "name": "time",
+      "name": "readout_time",
       "type": {
         "type": "long",
         "logicalType": "timestamp-millis"

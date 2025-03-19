@@ -5,7 +5,7 @@
   "doc": "All plausibility flags (range, step, persistence) for mti300ahrs(attitude-motion) measurements",
   "fields": [
     {
-      "name": "time",
+      "name": "readout_time",
       "type": {
         "type": "long",
         "logicalType": "timestamp-millis"
