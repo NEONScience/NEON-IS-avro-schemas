@@ -2,7 +2,7 @@
   "type": "record",
   "name": "flags_plausibility_precipWeighingv2",
   "namespace": "org.neonscience.schema.dp0p",
-  "doc": "Plausibility flags for the Weighing Gauge precipitation product derived from the Pluvio2 L 200 sensor"",
+  "doc": "Plausibility flags for the Weighing Gauge precipitation product derived from the Pluvio2 L 200 sensor",
   "fields": [
     {
       "name": "readout_time",
@@ -50,6 +50,16 @@
         ],
       "default": null,
       "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+       {
+      "name": "spikeQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag for the spike test detailed in NEON.DOC.000783 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
     }
     ]
