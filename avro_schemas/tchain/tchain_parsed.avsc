@@ -133,17 +133,6 @@
           "doc": "Measurement of water temperature along a fixed chain from 10th shallowest depth.",
           "__neon_units": "celsius",
           "__neon_stream_id": "9"
-        },
-        {
-          "name": "depth10WaterTemp",
-          "type": [
-            "null",
-            "float"
-            ],
-          "default": null,
-          "doc": "Measurement of water temperature along a fixed chain from 11th shallowest depth.",
-          "__neon_units": "celsius",
-          "__neon_stream_id": "10"
         }
     ]
 }

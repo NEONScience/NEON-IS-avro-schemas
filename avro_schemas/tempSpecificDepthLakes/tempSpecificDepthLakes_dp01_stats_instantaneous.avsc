@@ -13,22 +13,6 @@
       "doc": "Date and time at which sampling took place."
     },
     {
-      "name": "startDateTime",
-      "type": {
-        "type": "long",
-        "logicalType": "timestamp-millis"
-      },
-      "doc": "Date and time at which a sampling is initiated (inclusive)"
-    },
-    {
-      "name": "endDateTime",
-      "type": {
-        "type": "long",
-        "logicalType": "timestamp-millis"
-      },
-      "doc": "Date and time at which a sampling is completed (exclusive)"
-    },
-    {
       "name": "depth0WaterTemp",
       "type": [
         "null",
@@ -220,26 +204,6 @@
     },
     {
       "name": "depth9WaterTemp_ucrtExpn",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
-      "__neon_units": "celcius"
-    },
-	  {
-      "name": "depth10WaterTemp",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Instantaneous temperature of surface water in degrees celsius",
-      "__neon_units": "celcius"
-    },
-    {
-      "name": "depth10WaterTemp_ucrtExpn",
       "type": [
         "null",
         "float"

@@ -768,26 +768,6 @@
       "default": null,
       "doc": "Number of points used to calculate the arithmetic mean of temperature of surface water in degrees celsius",
       "__neon_units": "number"
-    },
-    {
-      "name": "depth10WaterTempStdErMean",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Standard error of the mean for temperature of surface water in degrees celsius",
-      "__neon_units": "celsius"
-    },
-    {
-      "name": "depth10WaterTempExpUncert",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Expanded uncertainty for temperature of surface water in degrees celsius",
-      "__neon_units": "celsius"
     }
     ]
 }
