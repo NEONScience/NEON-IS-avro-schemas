@@ -16,7 +16,7 @@
       "name": "missingTempQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag indicating missing temperature data stream (1=fail, 0=pass, -1=NA (i.e., could not be run))",

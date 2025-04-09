@@ -59,6 +59,26 @@
       "default": null,
       "doc": "Expanded uncertainty for surface water specific conductance",
       "__neon_units": "microsiemensPerCentimeter"
+    },
+    {
+      "name": "surfacewaterElevExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Measurement uncertainty for surface water elevation above sea level",
+      "__neon_units": "meter"
+    },
+    {
+      "name": "surfacewaterColumnNonSystematicUnc",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Non-systematic uncertainty for surface water column height",
+      "__neon_units": "meter"
     }
     ]
 }

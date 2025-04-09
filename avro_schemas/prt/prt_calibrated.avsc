@@ -6,7 +6,10 @@
   "fields": [
     {
       "name": "source_id",
-      "type": "string",
+      "type": [
+          "null",
+          "string"
+      ],
       "doc": "Source serial number or mac address"
     },
     {
@@ -27,13 +30,13 @@
       "__neon_units": "millisecond"
     },
     {
-      "name": "temp",
+      "name": "temperature",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "The temperature measured by the PRT as determined by applying the calibration polynomial coefficients to the measured resistance.",
+      "doc": "Physical temperature measured by the PRT as determined by applying the calibration polynomial coefficients to the measured resistance.",
       "__neon_units": "celcius"
     }
     ]
