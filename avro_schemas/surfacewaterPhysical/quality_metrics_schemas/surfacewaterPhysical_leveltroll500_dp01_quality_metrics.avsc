@@ -1,8 +1,8 @@
 {
   "type": "record",
-  "name": "surfacewaterPhysical_aquatroll200_dp01_quality_metrics",
+  "name": "surfacewaterPhysical_leveltroll500_dp01_quality_metrics",
   "namespace": "org.neonscience.schema.dp01",
-  "doc": "L1 quality metrics and final quality flag for Aqua Troll 200 sensor",
+  "doc": "L1 quality metrics and final quality flag for Level Troll 500 sensor",
   "fields": [
     {
       "name": "startDateTime",
@@ -81,36 +81,6 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatSCondValidCalPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondValidCalFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondValidCalNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
       "name": "suspectCalPassQM",
       "type": [
         "null",
@@ -162,36 +132,6 @@
     },
     {
       "name": "sWatTempSuspectCalNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the suspect calibration test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondSuspectCalPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondSuspectCalFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the suspect calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondSuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -561,213 +501,93 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sWatSCondNullPassQM",
+      "name": "sWatElevLogDataPassQM",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent",
+      "doc": "Quality metric that summarizes the passed outcomes of the pressure log data gap filling test over the averaging period, as a percent (100=No log data were used for gap filling)",
       "__neon_units": "percent"
     },
     {
-      "name": "sWatSCondNullFailQM",
+      "name": "sWatElevLogDataFailQM",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the null test over the averaging period, as a percent",
+      "doc": "Quality metric that summarizes the failed outcomes of the pressure log data gap filling test over the averaging period, as a percent (100=log data were used for gap filling 100 percent of the data points)",
       "__neon_units": "percent"
     },
     {
-      "name": "sWatSCondNullNAQM",
+      "name": "sWatElevLogDataNAQM",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Quality metric that summarizes when the null test could not be run over the averaging period, as a percent",
+      "doc": "Quality metric for when the pressure log data summary could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
-      "name": "sWatSCondGapPassQM",
+      "name": "logDataDatePassQM",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the gap test over the averaging period, as a percent",
+      "doc": "Quality metric that summarizes the passed outcomes of the edited log data readout time test over the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
-      "name": "sWatSCondGapFailQM",
+      "name": "logDataDateFailQM",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the gap test over the averaging period, as a percent",
+      "doc": "Quality metric that summarizes the failed outcomes of the edited log data readout time test over the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
-      "name": "sWatSCondGapNAQM",
+      "name": "logDataDateNAQM",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Quality metric that summarizes when the gap test could not be run over the averaging period, as a percent",
+      "doc": "Quality metric for when the edited log data readout time test could not be run, as a percent",
       "__neon_units": "percent"
     },
     {
-      "name": "sWatSCondRangePassQM",
+      "name": "sWatTempLogDataPassQM",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the range test over the averaging period, as a percent",
+      "doc": "Quality metric that summarizes the passed outcomes of the temperature log data gap filling test over the averaging period, as a percent (100=No log data were used for gap filling)",
       "__neon_units": "percent"
     },
     {
-      "name": "sWatSCondRangeFailQM",
+      "name": "sWatTempLogDataFailQM",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the range test over the averaging period, as a percent",
+      "doc": "Quality metric that summarizes the failed outcomes of the temperature log data gap filling test over the averaging period, as a percent (100=log data were used for gap filling 100 percent of the data points)",
       "__neon_units": "percent"
     },
     {
-      "name": "sWatSCondRangeNAQM",
+      "name": "sWatTempLogDataNAQM",
       "type": [
         "null",
         "float"
         ],
       "default": null,
-      "doc": "Quality metric that summarizes when the range test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondStepPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the step test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondStepFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the step test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondStepNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the step test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondSpikePassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondSpikeFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the spike test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondSpikeNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the spike test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondPersistencePassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the persistence test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondPersistenceFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the persistence test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondPersistenceNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the persistence test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "missingTempPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the missing temperature test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "missingTempFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the missing temperature test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "missingTempNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the missing temperature test could not be run over the averaging period, as a percent",
+      "doc": "Quality metric for when the temperature log data summary could not be run over the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
@@ -852,36 +672,6 @@
     },
     {
       "name": "sWatTempFinalQF",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "sWatSCondAlphaQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondBetaQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sWatSCondFinalQF",
       "type": [
         "null",
         "int8"

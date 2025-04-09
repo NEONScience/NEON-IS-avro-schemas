@@ -15,7 +15,10 @@
         },
         {
             "name": "site_id",
-            "type": "string",
+            "type": [
+                "null",
+                "string"
+            ],
             "doc": "NEON site identifier"
         },
         {
@@ -34,7 +37,7 @@
                 "float"
             ],
             "default": null,
-            "doc": "Calibrated pressure of groundwater",
+            "doc": "Calibrated pressure of water",
             "__neon_units": "kilopascal",
             "__neon_stream_id": "0"            
         },
@@ -55,7 +58,7 @@
                 "float"
             ],
             "default": null,
-            "doc": "Calibrated temperature in groundwater",
+            "doc": "Calibrated temperature in water",
             "__neon_units": "celsius",
             "__neon_stream_id": "2"
         },
@@ -76,7 +79,7 @@
                 "float"
             ],
             "default": null,
-            "doc": "Calibrated specific conductance in groundwater",
+            "doc": "Calibrated specific conductance in water",
             "__neon_units": "microsiemensPerCentimeter",
             "__neon_stream_id": "4"
         },

@@ -1,26 +1,44 @@
 {
-  "type": "record",
-  "name": "leveltroll500_calibrated_wo_source",
-  "namespace": "org.neonscience.schema.dp0p",
-  "doc": "In-Situ Level TROLL 500 without source id.",
-  "fields": [
-    {
-      "name": "readout_time",
-      "type": {
-        "type": "long",
-        "logicalType": "timestamp-millis"
-      },
-      "doc": "Timestamp of readout expressed in milliseconds since epoch"
-    },
-    {
+    "type": "record",
+    "name": "leveltroll500_log_data",
+    "namespace": "org.neonscience.schema.dp0p",
+    "doc": "Log data for the Level Troll 500 sensor",
+    "__version": "1.0",
+    "__neon_parts": [
+        "0317680000"
+    ],
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": [
+                "null",
+                "string"
+            ],
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
             "name": "pressure",
             "type": [
                 "null",
                 "float"
             ],
             "default": null,
-            "doc": "Calibrated pressure of groundwater",
-            "__neon_units": "kilopascal",
+            "doc": "Raw pressure of water",
+            "__neon_units": "psi",
             "__neon_stream_id": "0"            
         },
         {
@@ -40,7 +58,7 @@
                 "float"
             ],
             "default": null,
-            "doc": "Calibrated temperature in groundwater",
+            "doc": "Raw temperature in water",
             "__neon_units": "celsius",
             "__neon_stream_id": "2"
         },
@@ -63,7 +81,7 @@
             "default": null,
             "doc": "Internal battery voltage in millivolts represented by a 16 bit unsigned integer",
             "__neon_units": "millivolt",
-            "__neon_stream_id": "4"
+            "__neon_stream_id": "6"
         }
     ]
 }
