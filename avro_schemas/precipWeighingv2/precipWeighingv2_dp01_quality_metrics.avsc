@@ -142,36 +142,6 @@
       "__neon_units": "percent"
     },
     {
-      "name": "spikePassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "spikeFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the failed outcomes of the spike test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "spikeNAQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when the spike test could not be run over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
       "name": "alphaQM",
       "type": [
         "null",
