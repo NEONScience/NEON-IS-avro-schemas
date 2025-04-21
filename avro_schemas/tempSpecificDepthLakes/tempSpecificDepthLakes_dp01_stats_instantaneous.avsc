@@ -5,14 +5,6 @@
   "doc": "L1 instantaneous statistics for temperature at specific depths in water",
   "fields": [
     {
-      "name": "readout_time",
-      "type": {
-        "type": "long",
-        "logicalType": "timestamp-millis"
-      },
-      "doc": "Date and time at which sampling took place."
-    },
-    {
       "name": "startDateTime",
       "type": {
         "type": "long",
@@ -220,26 +212,6 @@
     },
     {
       "name": "depth9WaterTemp_ucrtExpn",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
-      "__neon_units": "celcius"
-    },
-	  {
-      "name": "depth10WaterTemp",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Instantaneous temperature of surface water in degrees celsius",
-      "__neon_units": "celcius"
-    },
-    {
-      "name": "depth10WaterTemp_ucrtExpn",
       "type": [
         "null",
         "float"
