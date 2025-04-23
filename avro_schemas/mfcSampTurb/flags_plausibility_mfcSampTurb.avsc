@@ -1,11 +1,11 @@
 {
   "type": "record",
-  "name": "flags_plausibility_mcseries",
+  "name": "flags_plausibility_mfcSampTurb",
   "namespace": "org.neonscience.schema.dp0p",
-  "doc": "All plausibility flags (range, step, persistence) for mti300ahrs(attitude-motion) measurements",
+  "doc": "All plausibility flags (range, step, persistence) for mcseries(mfcSampTurb etc) measurements",
   "fields": [
     {
-      "name": "time",
+      "name": "readout_time",
       "type": {
         "type": "long",
         "logicalType": "timestamp-millis"
@@ -16,7 +16,7 @@
       "name": "qfRngTemp",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -26,7 +26,7 @@
       "name": "qfStepTemp",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -36,7 +36,7 @@
       "name": "qfPersTemp",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -46,7 +46,7 @@
       "name": "qfRngPresAtm",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -56,7 +56,7 @@
       "name": "qfStepPresAtm",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -66,7 +66,7 @@
       "name": "qfPersPresAtm",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -76,7 +76,7 @@
       "name": "qfRngFrt",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -86,7 +86,7 @@
       "name": "qfPersFrt",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -96,7 +96,7 @@
       "name": "qfRngFrt00",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
