@@ -31,16 +31,6 @@
 			"__neon_units": "millimeter"
 		},
 		{
-			"name": "precipBulkExpUncert",
-			"type": [
-				"null",
-				"float"
-			],
-			"default": null,
-			"doc": "Expanded uncertainty for bulk precipitation",
-			"__neon_units": "millimeter"
-		}, 
-		{
       "name": "numPts",
       "type": [
         "null",
@@ -49,6 +39,16 @@
       "default": null,
       "doc": "Number of points used to calculate the sum of precipitation over the aggregation interval",
       "__neon_units": "number"
-    }
+    },
+    	{
+			"name": "precipBulkExpUncert",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Expanded uncertainty for bulk precipitation",
+			"__neon_units": "millimeter"
+		}
 	]
 }
