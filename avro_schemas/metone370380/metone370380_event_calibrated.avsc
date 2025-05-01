@@ -15,6 +15,11 @@
             "type": "string",
             "doc": "Source serial number or MAC address"
         },
+          {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
         {
             "name": "readout_time",
             "type": {

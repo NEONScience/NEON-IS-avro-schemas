@@ -15,6 +15,11 @@
             "type": "string",
             "doc": "Source serial number or MAC address"
         },
+          {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
         {
             "name": "readout_time",
             "type": {
@@ -25,10 +30,19 @@
             "__neon_units": "millisecond"
         },
         {
-            "name": "bucket_tip",
-            "type":"boolean",
-            "doc": "Indicator of secondary precipitation bucket tip",
-            "__neon_stream_id": "0"
+            "name": "precipitation",
+            "type": "float",
+            "doc": "Calibrated Precipitation" 
+        },
+        {
+            "name": "heater_current",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Heater sensed current which is reported in voltage using a scale factor of 4.6A/V"
         }
     ]
 }
+
