@@ -31,7 +31,10 @@
         },
         {
             "name": "precipitation",
-            "type": "float",
+            "type": [
+                "null",
+                "float"
+            ],
             "doc": "Calibrated Precipitation" 
         },
         {
