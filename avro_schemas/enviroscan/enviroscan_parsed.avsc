@@ -1,0 +1,220 @@
+{
+  "type": "record",
+  "name": "enviroscan_parsed",
+  "source": "enviroscan",
+  "namespace": "org.neonscience.schema.dp0p",
+  "doc": "Parsed enviroscan Data.",
+  "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+          "name": "rawVSWC0",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil water content from shallowest depth",
+          "__neon_units": "percent",
+          "__neon_stream_id": "0",
+          "__raw_array_name": "raw_volumetric_soil_water_content"
+        },
+        {
+          "name": "rawVSIC0",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil ion content from shallowest depth",
+          "__neon_units": "NA",
+          "__neon_stream_id": "1",
+          "__raw_array_name": "raw_volumetric_soil_ion_content"
+        },
+        {
+          "name": "rawVSWC1",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil water content from 2nd shallowest depth",
+          "__neon_units": "percent",
+          "__neon_stream_id": "2",
+          "__raw_array_name": "raw_volumetric_soil_water_content"
+        },
+        {
+          "name": "rawVSIC1",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil ion content from 2nd shallowest depth",
+          "__neon_units": "NA",
+          "__neon_stream_id": "3",
+          "__raw_array_name": "raw_volumetric_soil_ion_content"
+        },
+        {
+          "name": "rawVSWC2",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil water content from 3rd shallowest depth",
+          "__neon_units": "percent",
+          "__neon_stream_id": "4",
+          "__raw_array_name": "raw_volumetric_soil_water_content"
+        },
+        {
+          "name": "rawVSIC2",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil ion content from 3rd shallowest depth",
+          "__neon_units": "NA",
+          "__neon_stream_id": "5",
+          "__raw_array_name": "raw_volumetric_soil_ion_content"
+        },
+        {
+          "name": "rawVSWC3",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil water content from 4th shallowest depth",
+          "__neon_units": "percent",
+          "__neon_stream_id": "6",
+          "__raw_array_name": "raw_volumetric_soil_water_content"
+        },
+        {
+          "name": "rawVSIC3",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil ion content from 4th shallowest depth",
+          "__neon_units": "NA",
+          "__neon_stream_id": "7",
+          "__raw_array_name": "raw_volumetric_soil_ion_content"
+        },
+        {
+          "name": "rawVSWC4",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil water content from 5th shallowest depth",
+          "__neon_units": "percent",
+          "__neon_stream_id": "8",
+          "__raw_array_name": "raw_volumetric_soil_water_content"
+        },
+        {
+          "name": "rawVSIC4",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil ion content from 5th shallowest depth",
+          "__neon_units": "NA",
+          "__neon_stream_id": "9",
+          "__raw_array_name": "raw_volumetric_soil_ion_content"
+        },
+        {
+          "name": "rawVSWC5",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil water content from 6th shallowest depth",
+          "__neon_units": "percent",
+          "__neon_stream_id": "10",
+          "__raw_array_name": "raw_volumetric_soil_water_content"
+        },
+        {
+          "name": "rawVSIC5",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil ion content from 6th shallowest depth",
+          "__neon_units": "NA",
+          "__neon_stream_id": "11",
+          "__raw_array_name": "raw_volumetric_soil_ion_content"
+        },
+        {
+          "name": "rawVSWC6",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil water content from 7th shallowest depth",
+          "__neon_units": "percent",
+          "__neon_stream_id": "12",
+          "__raw_array_name": "raw_volumetric_soil_water_content"
+        },
+        {
+          "name": "rawVSIC6",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil ion content from 7th shallowest depth",
+          "__neon_units": "NA",
+          "__neon_stream_id": "13",
+          "__raw_array_name": "raw_volumetric_soil_ion_content"
+        },         
+        {
+          "name": "rawVSWC7",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil water content from 8th shallowest depth",
+          "__neon_units": "percent",
+          "__neon_stream_id": "14",
+          "__raw_array_name": "raw_volumetric_soil_water_content"
+        },
+        {
+          "name": "rawVSIC7",
+          "type": [
+            "null",
+            "float"
+            ],
+          "default": null,
+          "doc": "Raw measurement of volumetric soil ion content from 8th shallowest depth",
+          "__neon_units": "NA",
+          "__neon_stream_id": "15",
+          "__raw_array_name": "raw_volumetric_soil_ion_content"
+        }
+    ]
+}
