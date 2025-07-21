@@ -219,6 +219,26 @@
       "default": null,
       "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
       "__neon_units": "celcius"
+    },
+    {
+      "name": "depth10WaterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Instantaneous temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
+    },
+    {
+      "name": "depth10WaterTemp_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty of temperature of surface water in degrees celsius",
+      "__neon_units": "celcius"
     }
 	]
 }
