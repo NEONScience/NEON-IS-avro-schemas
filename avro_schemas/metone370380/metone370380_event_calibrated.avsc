@@ -1,0 +1,39 @@
+{
+    "type": "record",
+    "name": "metone370380_event",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "Met One Instrumnets 370-380 Series Precipitation Gauges",
+    "__version": "1.0",
+    "__neon_parts": [
+        "CD03720000",
+        "CD03710000",
+        "CF04550000"
+    ],
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+          {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "precipitation",
+            "type": "float",
+            "doc": "Calibrated Precipitation" 
+        }
+    ]
+}
+

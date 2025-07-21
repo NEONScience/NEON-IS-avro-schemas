@@ -1,0 +1,124 @@
+{
+	"type": "record",
+	"name": "precipBucket_dp01_stats_flags_metone",
+	"namespace": "org.neonscience.schema.dp01",
+	"doc": "Level 1 Precipitation output for the tipping bucket and throughfall precipitation products derived from the Metone 370380 sensor",
+	"fields": [
+	{
+			"name": "startDateTime",
+			"type": {
+				"type": "long",
+				"logicalType": "timestamp-millis"
+			},
+			"doc": "Date and time at which a sampling is initiated (inclusive)"
+		},
+		{
+			"name": "endDateTime",
+			"type": {
+				"type": "long",
+				"logicalType": "timestamp-millis"
+			},
+			"doc": "Date and time at which a sampling is completed (exclusive)"
+		},
+		{
+			"name": "precipBulk",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Bulk precipitation accumulated over the aggregation interval",
+			"__neon_units": "millimeter"
+		},
+		{
+			"name": "precipBulkExpUncert",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Expanded uncertainty for bulk precipitation",
+			"__neon_units": "millimeter"
+		}, 
+		{
+			"name": "precipHeater0QM",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Percentage of aggregation interval in which heater is inactive",
+			"__neon_units": "millimeter"
+		},
+		{
+			"name": "precipHeater1QM",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Percentage of aggregation interval in which base heater is active",
+			"__neon_units": "millimeter"
+		}, 
+		{
+			"name": "precipHeater2QM",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Percentage of aggregation interval in which funnel heater is active",
+			"__neon_units": "millimeter"
+		}, 
+		{
+			"name": "precipHeater3QM",
+			"type": [
+				"null",
+				"float"
+			],
+			"default": null,
+			"doc": "Percentage of aggregation interval in which both base and funnel heater are active",
+			"__neon_units": "millimeter"
+		}, 
+		{
+      "name": "validCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "suspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+			"name": "extremePrecipQF",
+			"type": [
+				"null",
+				"int8"
+			],
+			"default": null,
+			"doc": "Quality flag indicating whether the computed precipitation amount was within a plausible range (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+			"__neon_units": "NA"
+		},
+    {
+      "name": "finalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.000816(1=fail, 0=pass)",
+      "__neon_units": "NA"
+    }
+	]
+}
