@@ -1,6 +1,6 @@
 {
     "type": "record",
-    "name": "metone370380_event",
+    "name": "metone370380_calibrated",
     "namespace": "org.neonscience.schema.device",
     "doc": "Met One Instrumnets 370-380 Series Precipitation Gauges",
     "__version": "1.0",
