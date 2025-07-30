@@ -151,7 +151,7 @@
             "float"
             ],
           "default": null,
-          "doc": "Measurement of water temperature along a fixed chain from 10th shallowest depth.",
+          "doc": "Measurement of water temperature along a fixed chain from 11th shallowest depth.",
           "__neon_units": "celsius",
           "__neon_stream_id": "10",
           "__raw_array_name": "water_temperature"
