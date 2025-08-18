@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "flags_calibration",
+  "name": "sunav2_calibration_flags",
   "namespace": "org.neonscience.schema.dp0p",
   "doc": "Calibration flags for the SUNA V2 sensor",
   "fields": [
