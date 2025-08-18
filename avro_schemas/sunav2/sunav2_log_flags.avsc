@@ -1,6 +1,6 @@
 {
     "type": "record",
-    "name": "sunav2",
+    "name": "sunav2_log_flags",
     "namespace": "org.neonscience.schema.device",
     "doc": "Seabird Scientific SUNA V2 UV Nitrate Analyzer",
     "__version": "1.0",
