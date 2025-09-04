@@ -2,7 +2,7 @@ name: DEV-cmp22-empty-files
 on:
   push:
     branches:
-      - 'cmp22'
+      - 'master'
     paths:
       - 'empty_files/cmp22/**'
   workflow_dispatch: {} # Allows trigger of workflow from web interface
