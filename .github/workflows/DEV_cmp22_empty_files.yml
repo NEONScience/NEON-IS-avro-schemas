@@ -1,4 +1,4 @@
-name: DEV-aepg600m-empty-files
+name: DEV-cmp22-empty-files
 on:
   push:
     branches:
