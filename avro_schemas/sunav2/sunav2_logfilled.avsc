@@ -157,24 +157,7 @@
       "name": "spectrum_channels",
       "type": [
         "null",
-        {
-          "type": "array",
-          "items": {
-              "name": "at_channel",
-              "type": "record",
-              "fields": [
-                  {
-                      "name": "readout",
-                      "type": [
-                          "null",
-                          "int"
-                      ],
-                      "default": null,
-                      "doc": "256 different measurements of spectrometer intensity at a wavelength number defined by the array index plus one"
-                  }
-              ]
-          }
-        }
+        "int"
       ],
       "default": null,            
       "doc": "256 different measurements of spectrometer intensity at a wavelength number defined by the array index plus one"
