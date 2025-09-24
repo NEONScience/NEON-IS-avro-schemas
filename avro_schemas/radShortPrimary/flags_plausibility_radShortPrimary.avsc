@@ -2,7 +2,7 @@
   "type": "record",
   "name": "flags_plausibility",
   "namespace": "org.neonscience.schema.dp0p",
-  "doc": "All plausibility flags (null, gap, range, step, spike, persistence) for sensor with a single stream",
+  "doc": "Plausibility flags (null, gap, range, step, persistence) for sensor with a single stream",
   "fields": [
     {
       "name": "readout_time",
