@@ -1,6 +1,6 @@
 {
     "type": "record",
-    "name": "cmp22",
+    "name": "cmp22_calibrated",
     "namespace": "org.neonscience.schema.device",
     "doc": "Calibrated Kipp & Zonen CMP22 Pyranometer",
     "__version": "1.0",
