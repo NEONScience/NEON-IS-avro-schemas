@@ -1,0 +1,94 @@
+{
+  "type": "record",
+  "name": "radShortPrimary_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for shortwave radiation",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "shortRadMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of Incoming Shortwave Radiation",
+      "__neon_units": "wattsPerSquareMeter"
+    },
+    {
+      "name": "shortRadMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum Incoming Shortwave Radiation",
+      "__neon_units": "wattsPerSquareMeter"
+    },
+    {
+      "name": "shortRadMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum Incoming Shortwave Radiation",
+      "__neon_units": "wattsPerSquareMeter"
+    },
+    {
+      "name": "shortRadVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in Incoming Shortwave Radiation",
+      "__neon_units": "wattsPerMeterSquared"
+    },
+    {
+      "name": "shortRadNumPts",
+      "type": [
+        "null",
+        "int16"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of Incoming Shortwave Radiation",
+      "__neon_units": "number"
+    },
+    {
+      "name": "shortRadStdErMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for Incoming Shortwave Radiation",
+      "__neon_units": "wattsPerSquareMeter"
+    },
+    {
+      "name": "shortRadExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for Incoming Shortwave Radiation",
+      "__neon_units": "wattsPerSquareMeter"
+    }
+    ]
+}
