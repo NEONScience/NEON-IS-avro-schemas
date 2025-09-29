@@ -2,7 +2,7 @@
   "type": "record",
   "name": "flags_plausibility_pumpTurb",
   "namespace": "org.neonscience.schema.dp0p",
-  "doc": "All plausibility flags (range, step, persistence) for pump(pumpTurb and pumpStor) measurements",
+  "doc": "All plausibility flags (range, step, persistence) for pumpTurb measurements",
   "fields": [
     {
       "name": "readout_time",
