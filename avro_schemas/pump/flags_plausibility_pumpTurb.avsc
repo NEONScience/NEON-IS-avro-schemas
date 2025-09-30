@@ -1,0 +1,46 @@
+{
+  "type": "record",
+  "name": "flags_plausibility_pumpTurb",
+  "namespace": "org.neonscience.schema.dp0p",
+  "doc": "All plausibility flags (range, step, persistence) for pumpTurb measurements",
+  "fields": [
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch"
+    },
+    {
+      "name": "qfRngPumpVoltage",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "qfStepPumpVoltage",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "qfPersPumpVoltage",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    }
+  ]
+}
