@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "flags_plausibility",
+  "name": "radShortPrimary_flags_plausibility",
   "namespace": "org.neonscience.schema.dp0p",
   "doc": "Plausibility flags (null, gap, range, step, persistence) for sensor with a single stream",
   "fields": [

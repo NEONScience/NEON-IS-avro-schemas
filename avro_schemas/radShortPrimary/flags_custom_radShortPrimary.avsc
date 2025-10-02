@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "flags_custom",
+  "name": "radShortPrimary_flags_custom",
   "namespace": "org.neonscience.schema.dp0p",
   "doc": "Custom heater and lightning rod shading flags for CMP22 sensor",
   "fields": [
