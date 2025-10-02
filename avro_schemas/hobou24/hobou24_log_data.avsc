@@ -50,13 +50,13 @@
             "__neon_units": "celsius"
         },
         {
-            "name": "conductivity",
+            "name": "raw_conductivity",
             "type": [
                 "null",
                 "float"
             ],
             "default": null,
-            "doc": "Raw conductivity in water",
+            "doc": "Calibrated actual conductivity in water",
             "__neon_units": "microsiemensPerCentimeter"
         }
     ]

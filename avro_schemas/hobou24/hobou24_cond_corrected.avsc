@@ -30,6 +30,16 @@
             "__neon_units": "celsius"
         },
         {
+            "name": "raw_conductivity",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Calibrated actual conductivity in water",
+            "__neon_units": "microsiemensPerCentimeter"
+        },
+        {
             "name": "conductivity",
             "type": [
                 "null",
@@ -39,5 +49,6 @@
             "doc": "Calibrated specific conductance in water",
             "__neon_units": "microsiemensPerCentimeter"
         }
+        
     ]
 }
