@@ -24,7 +24,7 @@
       "name": "stationHorizontalID",
       "type": [
         "null",
-        "str"
+        "string"
         ],
       "default": null,
       "doc": "Horizontal code for station",
@@ -34,7 +34,7 @@
       "name": "curveID",
       "type": [
         "null",
-        "str"
+        "string"
         ],
       "default": null,
       "doc": "Unique identifier for the curve fit to gauge and discharge measurements",
@@ -44,7 +44,7 @@
       "name": "regressionID",
       "type": [
         "null",
-        "str"
+        "string"
         ],
       "default": null,
       "doc": "Unique identifier for a gauge height vs. water column height regression equation",
@@ -108,6 +108,16 @@
         ],
       "default": null,
       "doc": "Upper bound of the 95% confidence interval (two standard deviations) for mean discharge including parametric and remnant error associated with the rating curve fit",
+      "__neon_units": "litersPerSecond"
+    },
+	{
+      "name": "dischargeLowerRemnUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Lower bound of the 95% confidence interval (two standard deviations) for mean discharge including parametric and remnant error associated with the rating curve fit",
       "__neon_units": "litersPerSecond"
     },
     {
@@ -270,5 +280,5 @@
       "doc": "Discharge final quality flag indicating whether a data product has passed or failed an overall assessment of its quality; detailed in ATBD (1=fail; 0=pass)",
       "__neon_units": "NA"
     }
-    ]
+  ]
 }
