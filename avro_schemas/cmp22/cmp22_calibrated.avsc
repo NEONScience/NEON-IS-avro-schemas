@@ -45,7 +45,7 @@
             ],
             "default": null,
             "doc": "Measured resistance of the optional PT-100 thermistor attachment",
-            "__neon_units": "ohm",
+            "__neon_units": "ohm"
         },
         {
             "name": "cvf3_fan_speed",
@@ -55,8 +55,7 @@
             ],
             "default": null,
             "doc": "Measured revolutions per minute of the optional CVF 3 Ventilation Unit",
-            "__neon_units": "revolutionsPerMinute",
-            "__neon_stream_id": "2"
+            "__neon_units": "revolutionsPerMinute"
         },
         {
             "name": "heater_1",
@@ -65,7 +64,7 @@
                 "int"
                 ],
             "default": null,
-            "doc": "Heater 1 flag",
+            "doc": "Heater 1 flag"
         },
         {
             "name": "heater_2",
@@ -74,7 +73,7 @@
                 "int"
             ],
             "default": null,
-            "doc": "Heater 2 flag",
+            "doc": "Heater 2 flag"
         }
 
     ]
