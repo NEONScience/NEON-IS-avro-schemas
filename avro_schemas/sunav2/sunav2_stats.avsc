@@ -1,0 +1,96 @@
+{
+    "type": "record",
+    "name": "sunav2_stats",
+    "namespace": "org.neonscience.schema.dp01",
+    "doc": "L1 statistics for sunav2 sensor",
+    "__version": "1.0",
+    "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "nitrateMean",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Arithmetic mean of nitrate-N",
+      "__neon_units": "micromolesPerLiter"
+    },
+    {
+      "name": "nitrateMinimum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Minimum nitrate-N",
+      "__neon_units": "micromolesPerLiter"
+    },
+    {
+      "name": "nitrateMaximum",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Maximum nitrate-N",
+      "__neon_units": "micromolesPerLiter"
+    },
+    {
+      "name": "PARVariance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Variance in nitrate-N",
+      "__neon_units": "micromolesPerLiterSquared"
+    },
+    {
+      "name": "nitrateNumPts",
+      "type": [
+        "null",
+        "int16"
+        ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of nitrate-N",
+      "__neon_units": "number"
+    },
+    {
+      "name": "nitrateStdEr",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Standard error of the mean for nitrate-N",
+      "__neon_units": "micromolesPerLiter"
+    },
+    {
+      "name": "nitrateExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for nitrate-N",
+      "__neon_units": "micromolesPerLiter"
+    }
+    ]
+}
+
