@@ -22,7 +22,7 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "nitrateMean",
+      "name": "surfWaterNitrateMean",
       "type": [
         "null",
         "float"
@@ -32,7 +32,7 @@
       "__neon_units": "micromolesPerLiter"
     },
     {
-      "name": "nitrateMinimum",
+      "name": "surfWaterNitrateMinimum",
       "type": [
         "null",
         "float"
@@ -42,7 +42,7 @@
       "__neon_units": "micromolesPerLiter"
     },
     {
-      "name": "nitrateMaximum",
+      "name": "surfWaterNitrateMaximum",
       "type": [
         "null",
         "float"
@@ -52,7 +52,7 @@
       "__neon_units": "micromolesPerLiter"
     },
     {
-      "name": "PARVariance",
+      "name": "surfWaterNitrateVariance",
       "type": [
         "null",
         "float"
@@ -62,7 +62,7 @@
       "__neon_units": "micromolesPerLiterSquared"
     },
     {
-      "name": "nitrateNumPts",
+      "name": "surfWaterNitrateNumPts",
       "type": [
         "null",
         "int16"
@@ -72,7 +72,7 @@
       "__neon_units": "number"
     },
     {
-      "name": "nitrateStdEr",
+      "name": "surfWaterNitrateStdErMean",
       "type": [
         "null",
         "float"
@@ -82,7 +82,7 @@
       "__neon_units": "micromolesPerLiter"
     },
     {
-      "name": "nitrateExpUncert",
+      "name": "surfWaterNitrateExpUncert",
       "type": [
         "null",
         "float"
