@@ -292,26 +292,6 @@
       "__neon_units": "percent"
     },
     {
-      "name": "sunaLogDataPassQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when logged data was used over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "sunaLogDataFailQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes when logged data was not used over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
       "name": "nitrateAlphaQM",
       "type": [
         "null",
@@ -329,6 +309,26 @@
         ],
       "default": null,
       "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "nitrateLogDataPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when logged data was included within the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "nitrateLogDataFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when logged data was not included within the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
