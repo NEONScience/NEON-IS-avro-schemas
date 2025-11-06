@@ -1,0 +1,63 @@
+{
+    "type": "record",
+    "name": "hobou24_log_data",
+    "namespace": "org.neonscience.schema.dp0p",
+    "doc": "Log data for the hobou24 sensor",
+    "__version": "1.0",
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "conductivity_low",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Raw low conductivity in water",
+            "__neon_units": "microsiemensPerCentimeter"          
+        },
+        {
+            "name": "conductivity_high",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Raw high conductivity in water",
+            "__neon_units": "microsiemensPerCentimeter"          
+        },
+        {
+            "name": "temperature",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Raw temperature in water",
+            "__neon_units": "celsius"
+        },
+        {
+            "name": "raw_conductivity",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Calibrated actual conductivity in water",
+            "__neon_units": "microsiemensPerCentimeter"
+        }
+    ]
+}

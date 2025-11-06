@@ -1,0 +1,164 @@
+{
+  "type": "record",
+  "name": "subsurfMoorTempCond_dp01_pressure_QF",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 quality flags for subsurface moored temperature chain",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "thermistorDepthNullQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Thermistor depth quality flag for the null test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "thermistorDepthGapQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Thermistor depth quality flag for the gap test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "thermistorDepthRangeQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Thermistor depth quality flag for the range test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "thermistorDepthStepQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Thermistor depth quality flag for the step test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "thermistorDepthSpikeQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Thermistor depth quality flag for the spike test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "pressurePersistenceQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "missingBarometricPressureQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating missing barometric pressure data (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "thermistorDepthValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Thermistor depth quality flag for the  valid calibration check detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "trollTempValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for thevalid calibration check detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "thermistorDepthSuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Thermistor depth quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "trollTempSuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "pressureAlphaQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Thermistor depth quality flag for the alpha check detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "pressureBetaQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Thermistor depth quality flag for the beta check detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "thermistorDepthFinalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Thermistor depth final quality flag indicating whether a data product has passed or failed an overall assessment of its quality; detailed in NEON.DOC.004931 (1=fail; 0=pass)",
+      "__neon_units": "NA"
+    }
+  ]
+}
