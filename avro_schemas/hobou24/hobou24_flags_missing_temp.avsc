@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "flags_hobou24_missing_temp",
+  "name": "hobou24_flags_missing_temp",
   "namespace": "org.neonscience.schema.dp0p",
   "doc": "Sensor-specific missing temperature qaqc flags for hobou24",
   "fields": [
