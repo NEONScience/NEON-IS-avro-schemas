@@ -48,6 +48,11 @@
             "default": null,
             "doc": "Calibrated specific conductance in water",
             "__neon_units": "microsiemensPerCentimeter"
+        },
+        {
+            "name": "high_or_low",
+            "type": "string",
+            "doc": "Indicator of high or low conductivity conversion"
         }
         
     ]
