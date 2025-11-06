@@ -318,7 +318,7 @@
         "float"
         ],
       "default": null,
-      "doc": "Quality metric that summarizes when logged data was included within the averaging period, as a percent",
+      "doc": "Indicator metric that summarizes when logged data was included within the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
@@ -328,7 +328,7 @@
         "float"
         ],
       "default": null,
-      "doc": "Quality metric that summarizes when logged data was not included within the averaging period, as a percent",
+      "doc": "Indicator metric that summarizes when logged data was not included within the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
