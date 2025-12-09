@@ -1,8 +1,8 @@
 {
   "type": "record",
-  "name": "hobou24_flags_calibration",
+  "name": "hobou24_flags_calibration_corrected",
   "namespace": "org.neonscience.schema.dp0p",
-  "doc": "Calibration flags for the hobou24 sensor",
+  "doc": "Calibration flags for the hobou24 sensor after the conductivity correction",
   "fields": [
     {
       "name": "readout_time",
@@ -13,7 +13,7 @@
       "doc": "Timestamp of readout expressed in milliseconds since epoch"
     },
     {
-      "name": "conductivity_low_qfExpi",
+      "name": "temperatureValidCalQF",
       "type": [
         "null",
         "int8"
@@ -23,7 +23,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "conductivity_high_qfExpi",
+      "name": "conductivityVaildCalQF",
       "type": [
         "null",
         "int8"
@@ -33,17 +33,7 @@
       "__neon_units": "NA"
     },    
     {
-      "name": "temperature_qfExpi",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "conductivity_low_qfSusp",
+      "name": "temperatureSuspectCalQF",
       "type": [
         "null",
         "int8"
@@ -53,17 +43,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "conductivity_high_qfSusp",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "temperature_qfSusp",
+      "name": "conductivitySuspectCalQF",
       "type": [
         "null",
         "int8"
