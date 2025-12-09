@@ -23,7 +23,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "conductivityVaildCalQF",
+      "name": "conductivityValidCalQF",
       "type": [
         "null",
         "int8"
