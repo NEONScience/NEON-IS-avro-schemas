@@ -31,7 +31,207 @@
       "__neon_units": "percent"
     },
     {
+      "name": "depth1WaterTempValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth2WaterTempValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth3WaterTempValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth4WaterTempValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth5WaterTempValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth6WaterTempValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth7WaterTempValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth8WaterTempValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth9WaterTempValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth10WaterTempValidCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
       "name": "depth0WaterTempSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth1WaterTempSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth2WaterTempSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth3WaterTempSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth4WaterTempSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth5WaterTempSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth6WaterTempSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth7WaterTempSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth8WaterTempSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth9WaterTempSuspectCalQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth10WaterTempSuspectCalQF",
       "type": [
         "null",
         "float"
@@ -91,56 +291,6 @@
       "__neon_units": "percent"
     },
     {
-      "name": "depth0WaterTempAlphaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempBetaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth0WaterTempFinalQF",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "depth1WaterTempValidCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth1WaterTempSuspectCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
       "name": "depth1WaterTempNullQF",
       "type": [
         "null",
@@ -188,56 +338,6 @@
         ],
       "default": null,
       "doc": "Quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth1WaterTempAlphaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth1WaterTempBetaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth1WaterTempFinalQF",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "depth2WaterTempValidCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth2WaterTempSuspectCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
@@ -291,56 +391,6 @@
       "__neon_units": "percent"
     },
     {
-      "name": "depth2WaterTempAlphaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth2WaterTempBetaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth2WaterTempFinalQF",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "depth3WaterTempValidCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth3WaterTempSuspectCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
       "name": "depth3WaterTempNullQF",
       "type": [
         "null",
@@ -388,56 +438,6 @@
         ],
       "default": null,
       "doc": "Quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth3WaterTempAlphaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth3WaterTempBetaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth3WaterTempFinalQF",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "depth4WaterTempValidCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth4WaterTempSuspectCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
@@ -491,56 +491,6 @@
       "__neon_units": "percent"
     },
     {
-      "name": "depth4WaterTempAlphaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth4WaterTempBetaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth4WaterTempFinalQF",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "depth5WaterTempValidCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth5WaterTempSuspectCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
       "name": "depth5WaterTempNullQF",
       "type": [
         "null",
@@ -588,56 +538,6 @@
         ],
       "default": null,
       "doc": "Quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth5WaterTempAlphaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth5WaterTempBetaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth5WaterTempFinalQF",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "depth6WaterTempValidCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth6WaterTempSuspectCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
@@ -691,56 +591,6 @@
       "__neon_units": "percent"
     },
     {
-      "name": "depth6WaterTempAlphaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth6WaterTempBetaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth6WaterTempFinalQF",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "depth7WaterTempValidCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth7WaterTempSuspectCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
       "name": "depth7WaterTempNullQF",
       "type": [
         "null",
@@ -788,56 +638,6 @@
         ],
       "default": null,
       "doc": "Quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth7WaterTempAlphaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth7WaterTempBetaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth7WaterTempFinalQF",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "depth8WaterTempValidCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth8WaterTempSuspectCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
       "__neon_units": "percent"
     },
     {
@@ -891,56 +691,6 @@
       "__neon_units": "percent"
     },
     {
-      "name": "depth8WaterTempAlphaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth8WaterTempBetaQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth8WaterTempFinalQF",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "depth9WaterTempValidCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "depth9WaterTempSuspectCalQF",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
-      "__neon_units": "percent"
-    },
-    {
       "name": "depth9WaterTempNullQF",
       "type": [
         "null",
@@ -991,6 +741,326 @@
       "__neon_units": "percent"
     },
     {
+      "name": "depth10WaterTempNullQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth10WaterTempGapQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the gap test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth10WaterTempRangeQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the range test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth10WaterTempStepQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the step test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth10WaterTempSpikeQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth0WaterTempAlphaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth0WaterTempBetaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth0WaterTempFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "depth1WaterTempAlphaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth1WaterTempBetaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth1WaterTempFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "depth2WaterTempAlphaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth2WaterTempBetaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth2WaterTempFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "depth3WaterTempAlphaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth3WaterTempBetaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth3WaterTempFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "depth4WaterTempAlphaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth4WaterTempBetaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth4WaterTempFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "depth5WaterTempAlphaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth5WaterTempBetaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth5WaterTempFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "depth6WaterTempAlphaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth6WaterTempBetaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth6WaterTempFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "depth7WaterTempAlphaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth7WaterTempBetaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth7WaterTempFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "depth8WaterTempAlphaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth8WaterTempBetaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth8WaterTempFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    },
+    {
       "name": "depth9WaterTempAlphaQF",
       "type": [
         "null",
@@ -1012,6 +1082,36 @@
     },
     {
       "name": "depth9WaterTempFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "depth10WaterTempAlphaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth10WaterTempBetaQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "depth10WaterTempFinalQF",
       "type": [
         "null",
         "int"

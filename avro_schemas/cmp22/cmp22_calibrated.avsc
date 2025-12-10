@@ -1,0 +1,80 @@
+{
+    "type": "record",
+    "name": "cmp22_calibrated",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "Calibrated Kipp & Zonen CMP22 Pyranometer",
+    "__version": "1.0",
+    "__neon_parts": [
+        "CA00170000"
+    ],
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "shortwaveRadiation",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Calibrated voltage to shortwave radiation output",
+            "__neon_units": "wattsPerMeterSquared"
+        },
+        {
+            "name": "pt100_resistance",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Measured resistance of the optional PT-100 thermistor attachment",
+            "__neon_units": "ohm"
+        },
+        {
+            "name": "cvf3_fan_speed",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Measured revolutions per minute of the optional CVF 3 Ventilation Unit",
+            "__neon_units": "revolutionsPerMinute"
+        },
+        {
+            "name": "heater_1",
+            "type": [
+                "null",
+                "int"
+                ],
+            "default": null,
+            "doc": "Heater 1 flag"
+        },
+        {
+            "name": "heater_2",
+            "type": [
+                "null",
+                "int"
+            ],
+            "default": null,
+            "doc": "Heater 2 flag"
+        }
+
+    ]
+}
