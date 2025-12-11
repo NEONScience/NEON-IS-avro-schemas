@@ -1,14 +1,9 @@
 {
     "type": "record",
-    "name": "sunav2_all_flags",
+    "name": "nitrate_all_flags",
     "namespace": "org.neonscience.schema.device",
-    "doc": "Seabird Scientific SUNA V2 UV Nitrate Analyzer",
+    "doc": "Combined flags for nitrate in surfacewater",
     "__version": "1.0",
-    "__neon_parts": [
-        "0329950000",
-        "0329950100",
-        "0329950005"
-    ],
     "fields": [
         {
             "name": "readout_time",

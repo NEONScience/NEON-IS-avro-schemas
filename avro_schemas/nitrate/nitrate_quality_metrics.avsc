@@ -1,8 +1,8 @@
 {
   "type": "record",
-  "name": "sunav2_quality_metrics",
+  "name": "nitrate_quality_metrics",
   "namespace": "org.neonscience.schema.dp01",
-  "doc": "L1 statistics for sunav2 sensor",
+  "doc": "L1 statistics for nitrate in surfacewater",
     "__version": "1.0",
     "fields": [
     {
@@ -292,26 +292,6 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateAlphaQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
-      "name": "nitrateBetaQM",
-      "type": [
-        "null",
-        "float"
-        ],
-      "default": null,
-      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
-      "__neon_units": "percent"
-    },
-    {
       "name": "nitrateLogDataPassQM",
       "type": [
         "null",
@@ -329,6 +309,36 @@
         ],
       "default": null,
       "doc": "Indicator metric that summarizes when logged data was not included within the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "nitrateLogDataNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when logged data test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "nitrateAlphaQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "nitrateBetaQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
       "__neon_units": "percent"
     },
     {
@@ -350,6 +360,6 @@
       "default": null,
       "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
       "__neon_units": "NA"
-    },
+    }
         ]
 }

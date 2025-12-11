@@ -1,8 +1,8 @@
 {
     "type": "record",
-    "name": "sunav2_stats",
+    "name": "nitrate_stats",
     "namespace": "org.neonscience.schema.dp01",
-    "doc": "L1 statistics for sunav2 sensor",
+    "doc": "L1 statistics for nitrate in surfacewater",
     "__version": "1.0",
     "fields": [
     {

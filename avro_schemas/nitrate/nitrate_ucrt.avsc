@@ -1,8 +1,8 @@
 {
     "type": "record",
-    "name": "sunav2_ucrt",
+    "name": "nitrate_ucrt",
     "namespace": "org.neonscience.schema.dp01",
-    "doc": "L1 stats plus uncertainty for sunav2 sensor",
+    "doc": "L1 stats plus uncertainty for nitrate in surfacewater",
     "__version": "1.0",
     "fields": [
     {
