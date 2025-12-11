@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "nitrate_quality_metrics",
+  "name": "nitrate_insufficient_data",
   "namespace": "org.neonscience.schema.dp01",
   "doc": "L1 statistics for nitrate in surfacewater",
     "__version": "1.0",
@@ -370,6 +370,16 @@
       "default": null,
       "doc": "Quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
       "__neon_units": "percent"
+    },
+    {
+      "name": "insufficientDataQF",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether less than the required number of data points were available during the averaging period (1=fail, 0=pass)",
+      "__neon_units": "NA"
     },
     {
       "name": "nitrateFinalQF",
