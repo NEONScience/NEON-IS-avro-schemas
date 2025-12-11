@@ -1,8 +1,8 @@
 {
     "type": "record",
-    "name": "sunav2_stats",
+    "name": "sunav2_ucrt",
     "namespace": "org.neonscience.schema.dp01",
-    "doc": "L1 statistics for sunav2 sensor",
+    "doc": "L1 stats plus uncertainty for sunav2 sensor",
     "__version": "1.0",
     "fields": [
     {
@@ -79,6 +79,16 @@
         ],
       "default": null,
       "doc": "Standard error of the mean for nitrate-N",
+      "__neon_units": "micromolesPerLiter"
+    },
+    {
+      "name": "surfWaterNitrateExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for nitrate-N",
       "__neon_units": "micromolesPerLiter"
     }
     ]
