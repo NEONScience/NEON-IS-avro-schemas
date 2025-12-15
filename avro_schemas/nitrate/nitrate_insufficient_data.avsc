@@ -22,7 +22,7 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "nitrateRangePassQM",
+      "name": "rangePassQM",
       "type": [
         "null",
         "float"
@@ -32,7 +32,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateRangeFailQM",
+      "name": "rangeFailQM",
       "type": [
         "null",
         "float"
@@ -42,7 +42,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateRangeNAQM",
+      "name": "rangeNAQM",
       "type": [
         "null",
         "float"
@@ -52,7 +52,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateStepPassQM",
+      "name": "stepPassQM",
       "type": [
         "null",
         "float"
@@ -62,7 +62,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateStepFailQM",
+      "name": "stepFailQM",
       "type": [
         "null",
         "float"
@@ -72,7 +72,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateStepNAQM",
+      "name": "stepNAQM",
       "type": [
         "null",
         "float"
@@ -82,7 +82,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitratePersistencePassQM",
+      "name": "persistencePassQM",
       "type": [
         "null",
         "float"
@@ -92,7 +92,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitratePersistenceFailQM",
+      "name": "persistenceFailQM",
       "type": [
         "null",
         "float"
@@ -102,7 +102,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitratePersistenceNAQM",
+      "name": "persistenceNAQM",
       "type": [
         "null",
         "float"
@@ -112,7 +112,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateSpikePassQM",
+      "name": "spikePassQM",
       "type": [
         "null",
         "float"
@@ -122,7 +122,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateSpikeFailQM",
+      "name": "spikeFailQM",
       "type": [
         "null",
         "float"
@@ -132,7 +132,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateSpikeNAQM",
+      "name": "spikeNAQM",
       "type": [
         "null",
         "float"
@@ -142,7 +142,8 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateHumidityPassQM",
+      "name": "nitrateInternalHumidityPassQM
+",
       "type": [
         "null",
         "float"
@@ -152,7 +153,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateHumidityFailQM",
+      "name": "nitrateInternalHumidityFailQM",
       "type": [
         "null",
         "float"
@@ -162,7 +163,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateHumidityNAQM",
+      "name": "nitrateInternalHumidityNAQM",
       "type": [
         "null",
         "float"
@@ -202,7 +203,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateLightDarkRatioPassQM",
+      "name": "nitrateLightDarkSpectralRatioPassQM",
       "type": [
         "null",
         "float"
@@ -212,7 +213,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateLightDarkRatioFailQM",
+      "name": "nitrateLightDarkSpectralRatioFailQM",
       "type": [
         "null",
         "float"
@@ -222,7 +223,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateLightDarkNAQM",
+      "name": "nitrateLightDarkSpectralRatioNAQM",
       "type": [
         "null",
         "float"
@@ -352,7 +353,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateAlphaQM",
+      "name": "alphaQM",
       "type": [
         "null",
         "float"
@@ -362,7 +363,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateBetaQM",
+      "name": "betaQM",
       "type": [
         "null",
         "float"
@@ -382,7 +383,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "nitrateFinalQF",
+      "name": "finalQF",
       "type": [
         "null",
         "int8"
