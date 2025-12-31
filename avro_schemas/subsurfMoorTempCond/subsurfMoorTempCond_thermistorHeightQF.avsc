@@ -31,6 +31,96 @@
       "default": null,
       "doc": "Final quality flag for thermistor height above the substrate (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
+    },
+    {
+      "name": "pressureNullQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Pressure quality flag for the null test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "pressureGapQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Pressure quality flag for the gap test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "pressureRangeQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Pressure quality flag for the range test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "pressureStepQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Pressure quality flag for the step test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "pressureSpikeQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Pressure quality flag for the spike test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "pressurePersistenceQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Pressure quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "baroPresQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the barometric pressure test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "pressureValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "pressureSuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration test detailed in NEON.DOC.011081 (1=fail 0=pass -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
     }
   ]
 }
