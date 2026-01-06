@@ -2,7 +2,7 @@
   "type": "record",
   "name": "nitrate_quality_metrics",
   "namespace": "org.neonscience.schema.dp01",
-  "doc": "L1 statistics for nitrate in surfacewater",
+  "doc": "L1 quality metrics for nitrate in surfacewater",
     "__version": "1.0",
     "fields": [
     {

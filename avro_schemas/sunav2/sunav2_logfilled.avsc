@@ -2,7 +2,7 @@
   "type": "record",
   "name": "sunav2_logfilled",
   "namespace": "org.neonscience.schema.dp0p",
-  "doc": "Calibrated sunav2 Data.",
+  "doc": "Log filled SUNA V2 data.",
   "fields": [
     {
       "name": "source_id",
@@ -127,7 +127,7 @@
       "name": "spec_average",
       "type": [
         "null",
-        "int"
+        "int16"
       ],
       "default": null,
       "doc": "Spec Average or SW Average(Dark Correction Method)",
@@ -137,7 +137,7 @@
       "name": "dark_signal_average",
       "type": [
         "null",
-        "int"
+        "int16"
       ],
       "default": null,
       "doc": "Dark Signal Average (average dark intensity)",
@@ -147,7 +147,7 @@
       "name": "integration_time_factor",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Integration Time Factor",
@@ -199,7 +199,7 @@
       "name": "lamp_time",
       "type": [
         "null",
-        "int"
+        "int32"
       ],
       "default": null,
       "doc": "Cumulative lamp time",
@@ -254,7 +254,7 @@
       "name": "main_current",
       "type": [
         "null",
-        "int"
+        "int16"
       ],
       "default": null,
       "doc": "Main current",
@@ -315,7 +315,7 @@
       "name": "ctd_time",
       "type": [
         "null",
-        "int"
+        "int16"
       ],
       "default": null,
       "doc": "CTD time",
@@ -326,7 +326,7 @@
       "name": "ctd_salinity",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "CTD salinity",
@@ -337,7 +337,7 @@
       "name": "ctd_temperature",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "CTD temperature",
@@ -348,7 +348,7 @@
       "name": "ctd_pressure",
       "type": [
         "null",
-        "int"
+        "int16"
       ],
       "default": null,
       "doc": "CTD pressure",
@@ -359,7 +359,7 @@
       "name": "crc",
       "type": [
         "null",
-        "int"
+        "int16"
       ],
       "default": null,
       "doc": "Data crc",
