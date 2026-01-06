@@ -142,8 +142,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "nitrateInternalHumidityPassQM
-",
+      "name": "nitrateInternalHumidityPassQM",
       "type": [
         "null",
         "float"
