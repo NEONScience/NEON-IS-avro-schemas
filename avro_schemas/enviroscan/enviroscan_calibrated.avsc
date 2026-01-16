@@ -58,7 +58,7 @@
             "__neon_units": "dimensionless"
         },
         {
-            "name": "soilMoistureDepth01",
+            "name": "depth01SoilMoisture",
             "type": [
                 "null",
                 "float"
@@ -99,7 +99,7 @@
             "__neon_units": "dimensionless"
         },
         {
-            "name": "soilMoistureDepth02",
+            "name": "depth02SoilMoisture",
             "type": [
                 "null",
                 "float"
@@ -140,7 +140,7 @@
             "__neon_units": "dimensionless"
         },
         {
-            "name": "soilMoistureDepth03",
+            "name": "depth03SoilMoisture",
             "type": [
                 "null",
                 "float"
@@ -181,7 +181,7 @@
             "__neon_units": "dimensionless"
         },
         {
-            "name": "soilMoistureDepth04",
+            "name": "depth04SoilMoisture",
             "type": [
                 "null",
                 "float"
@@ -222,7 +222,7 @@
             "__neon_units": "dimensionless"
         },
         {
-            "name": "soilMoistureDepth05",
+            "name": "depth05SoilMoisture",
             "type": [
                 "null",
                 "float"
@@ -263,7 +263,7 @@
             "__neon_units": "dimensionless"
         },
         {
-            "name": "soilMoistureDepth06",
+            "name": "depth06SoilMoisture",
             "type": [
                 "null",
                 "float"
@@ -304,7 +304,7 @@
             "__neon_units": "dimensionless"
         },
         {
-            "name": "soilMoistureDepth07",
+            "name": "depth07SoilMoisture",
             "type": [
                 "null",
                 "float"
@@ -345,7 +345,7 @@
             "__neon_units": "dimensionless"
         },
         {
-            "name": "soilMoistureDepth08",
+            "name": "depth08SoilMoisture",
             "type": [
                 "null",
                 "float"
