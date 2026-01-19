@@ -46,7 +46,7 @@
       "name": "light_dark_frame",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Light or dark frame flag"
@@ -55,7 +55,7 @@
       "name": "year_and_day",
       "type": [
         "null",
-        "int"
+        "int32"
       ],
       "default": null,
       "doc": "year_and_day",
