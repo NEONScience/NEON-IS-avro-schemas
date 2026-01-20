@@ -1,359 +1,264 @@
 {
-    "type": "record",
-    "name": "enviroscan_calibrated",
-    "namespace": "org.neonscience.schema.device",
-    "doc": "Calibrated Sentek EnviroSCAN TriSCAN",
-    "__version": "1.0",
-    "__neon_parts": [
-        "CF00810000, CF00810010, CF00810020, CF00810030, CF00810040, CF00810060, CF00813000"
-    ],
-    "fields": [
-        {
-            "name": "source_id",
-            "type": "string",
-            "doc": "Source serial number or MAC address"
-        },
-        {
-            "name": "site_id",
-            "type": "string",
-            "doc": "NEON site identifier"
-        },
-        {
-            "name": "readout_time",
-            "type": {
-                "type": "long",
-                "logicalType": "timestamp-millis"
-            },
-            "doc": "Timestamp of readout expressed in milliseconds since epoch",
-            "__neon_units": "millisecond"
-        },
-        {
-            "name": "VSWCfactoryDepth01",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on the factory calibration at the shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSWCsoilSpecificDepth01",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on a soil-specific calibration at the shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSICDepth01",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil ion content at the shallowest depth",
-            "__neon_units": "dimensionless"
-        },
-        {
-            "name": "depth01SoilMoisture",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Depth relative to the soil surface at the shallowest depth; negative values are below the soil surface",
-            "__neon_units": "meters"
-        },
+  "type": "record",
+  "name": "enviroscan_calibrated",
+  "namespace": "org.neonscience.schema.device",
+  "doc": "Calibrated Sentek EnviroSCAN TriSCAN",
+  "__version": "1.0",
+  "__neon_parts": [
+    "CF00810000, CF00810010, CF00810020, CF00810030, CF00810040, CF00810060, CF00813000"
+  ],
+  "fields": [
+    {
+      "name": "source_id",
+      "type": "string",
+      "doc": "Source serial number or MAC address"
+    },
+    {
+      "name": "site_id",
+      "type": "string",
+      "doc": "NEON site identifier"
+    },
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch",
+      "__neon_units": "millisecond"
+    },
 
-        {
-            "name": "VSWCfactoryDepth02",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on the factory calibration at the 2nd shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSWCsoilSpecificDepth02",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on a soil-specific calibration at the 2nd shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSICDepth02",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil ion content at the 2nd shallowest depth",
-            "__neon_units": "dimensionless"
-        },
-        {
-            "name": "depth02SoilMoisture",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Depth relative to the soil surface at the 2nd shallowest depth; negative values are below the soil surface",
-            "__neon_units": "meters"
-        },
+    {
+      "name": "VSWCfactoryDepth01",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on the factory calibration at the shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on a soil-specific calibration at the shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSICDepth01",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil ion content at the shallowest depth",
+      "__neon_units": "dimensionless"
+    },
 
-        {
-            "name": "VSWCfactoryDepth03",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on the factory calibration at the 3rd shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSWCsoilSpecificDepth03",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on a soil-specific calibration at the 3rd shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSICDepth03",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil ion content at the 3rd shallowest depth",
-            "__neon_units": "dimensionless"
-        },
-        {
-            "name": "depth03SoilMoisture",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Depth relative to the soil surface at the 3rd shallowest depth; negative values are below the soil surface",
-            "__neon_units": "meters"
-        },
+    {
+      "name": "VSWCfactoryDepth02",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on the factory calibration at the 2nd shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on a soil-specific calibration at the 2nd shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSICDepth02",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil ion content at the 2nd shallowest depth",
+      "__neon_units": "dimensionless"
+    },
 
-        {
-            "name": "VSWCfactoryDepth04",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on the factory calibration at the 4th shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSWCsoilSpecificDepth04",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on a soil-specific calibration at the 4th shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSICDepth04",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil ion content at the 4th shallowest depth",
-            "__neon_units": "dimensionless"
-        },
-        {
-            "name": "depth04SoilMoisture",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Depth relative to the soil surface at the 4th shallowest depth; negative values are below the soil surface",
-            "__neon_units": "meters"
-        },
+    {
+      "name": "VSWCfactoryDepth03",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on the factory calibration at the 3rd shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on a soil-specific calibration at the 3rd shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSICDepth03",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil ion content at the 3rd shallowest depth",
+      "__neon_units": "dimensionless"
+    },
 
-        {
-            "name": "VSWCfactoryDepth05",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on the factory calibration at the 5th shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSWCsoilSpecificDepth05",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on a soil-specific calibration at the 5th shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSICDepth05",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil ion content at the 5th shallowest depth",
-            "__neon_units": "dimensionless"
-        },
-        {
-            "name": "depth05SoilMoisture",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Depth relative to the soil surface at the 5th shallowest depth; negative values are below the soil surface",
-            "__neon_units": "meters"
-        },
+    {
+      "name": "VSWCfactoryDepth04",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on the factory calibration at the 4th shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on a soil-specific calibration at the 4th shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSICDepth04",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil ion content at the 4th shallowest depth",
+      "__neon_units": "dimensionless"
+    },
 
-        {
-            "name": "VSWCfactoryDepth06",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on the factory calibration at the 6th shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSWCsoilSpecificDepth06",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on a soil-specific calibration at the 6th shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSICDepth06",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil ion content at the 6th shallowest depth",
-            "__neon_units": "dimensionless"
-        },
-        {
-            "name": "depth06SoilMoisture",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Depth relative to the soil surface at the 6th shallowest depth; negative values are below the soil surface",
-            "__neon_units": "meters"
-        },
+    {
+      "name": "VSWCfactoryDepth05",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on the factory calibration at the 5th shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on a soil-specific calibration at the 5th shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSICDepth05",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil ion content at the 5th shallowest depth",
+      "__neon_units": "dimensionless"
+    },
 
-        {
-            "name": "VSWCfactoryDepth07",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on the factory calibration at the 7th shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSWCsoilSpecificDepth07",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on a soil-specific calibration at the 7th shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSICDepth07",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil ion content at the 7th shallowest depth",
-            "__neon_units": "dimensionless"
-        },
-        {
-            "name": "depth07SoilMoisture",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Depth relative to the soil surface at the 7th shallowest depth; negative values are below the soil surface",
-            "__neon_units": "meters"
-        },
+    {
+      "name": "VSWCfactoryDepth06",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on the factory calibration at the 6th shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on a soil-specific calibration at the 6th shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSICDepth06",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil ion content at the 6th shallowest depth",
+      "__neon_units": "dimensionless"
+    },
 
-        {
-            "name": "VSWCfactoryDepth08",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on the factory calibration at the 8th shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSWCsoilSpecificDepth08",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil water content based on a soil-specific calibration at the 8th shallowest depth",
-            "__neon_units": "cubicCentimetersPerCubicCentimeter"
-        },
-        {
-            "name": "VSICDepth08",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Volumetric soil ion content at the 8th shallowest depth",
-            "__neon_units": "dimensionless"
-        },
-        {
-            "name": "depth08SoilMoisture",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Depth relative to the soil surface at the 8th shallowest depth; negative values are below the soil surface",
-            "__neon_units": "meters"
-        }
+    {
+      "name": "VSWCfactoryDepth07",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on the factory calibration at the 7th shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on a soil-specific calibration at the 7th shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSICDepth07",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil ion content at the 7th shallowest depth",
+      "__neon_units": "dimensionless"
+    },
 
-    ]
+    {
+      "name": "VSWCfactoryDepth08",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on the factory calibration at the 8th shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil water content based on a soil-specific calibration at the 8th shallowest depth",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSICDepth08",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Volumetric soil ion content at the 8th shallowest depth",
+      "__neon_units": "dimensionless"
+    },
+
+    {
+      "name": "depth01SoilMoisture",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Depth relative to the soil surface at the shallowest depth; negative values are below the soil surface",
+      "__neon_units": "meters"
+    },
+    {
+      "name": "depth02SoilMoisture",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Depth relative to the soil surface at the 2nd shallowest depth; negative values are below the soil surface",
+      "__neon_units": "meters"
+    },
+    {
+      "name": "depth03SoilMoisture",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Depth relative to the soil surface at the 3rd shallowest depth; negative values are below the soil surface",
+      "__neon_units": "meters"
+    },
+    {
+      "name": "depth04SoilMoisture",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Depth relative to the soil surface at the 4th shallowest depth; negative values are below the soil surface",
+      "__neon_units": "meters"
+    },
+    {
+      "name": "depth05SoilMoisture",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Depth relative to the soil surface at the 5th shallowest depth; negative values are below the soil surface",
+      "__neon_units": "meters"
+    },
+    {
+      "name": "depth06SoilMoisture",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Depth relative to the soil surface at the 6th shallowest depth; negative values are below the soil surface",
+      "__neon_units": "meters"
+    },
+    {
+      "name": "depth07SoilMoisture",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Depth relative to the soil surface at the 7th shallowest depth; negative values are below the soil surface",
+      "__neon_units": "meters"
+    },
+    {
+      "name": "depth08SoilMoisture",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Depth relative to the soil surface at the 8th shallowest depth; negative values are below the soil surface",
+      "__neon_units": "meters"
+    }
+  ]
 }
