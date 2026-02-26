@@ -1,0 +1,53 @@
+{
+  "type": "record",
+  "name": "rmyoung",
+  "namespace": "org.neonscience.schema.device",
+  "doc": "RM Young Wind speed sensor",
+  "__version": "1.0",
+  "__neon_parts": [
+    "0354780000"
+  ],
+  "fields": [
+    {
+      "name": "source_id",
+      "type": "string",
+      "doc": "Source serial number or MAC address"
+    },
+    {
+      "name": "site_id",
+      "type": "string",
+      "doc": "NEON site identifier"
+    },
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch",
+      "__neon_units": "millisecond"
+    },
+    {
+      "name": "speed",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Wind speed in meters per second",
+      "__neon_units": "metersPerSecond",
+      "__neon_stream_id": "0"
+    },
+    {
+      "name": "direction",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Wind Direction in degrees",
+      "__neon_units": "degree",
+      "__neon_stream_id": "1"
+    }
+  ]
+}
