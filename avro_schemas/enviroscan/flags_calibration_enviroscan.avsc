@@ -1,0 +1,337 @@
+
+{
+  "type": "record",
+  "name": "flags_calibration",
+  "namespace": "org.neonscience.schema.dp0p",
+  "doc": "Calibration flags for Sentek EnviroSCAN TriSCAN",
+  "fields": [
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch"
+    },
+    {
+      "name": "VSWCDepth01ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth01ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth02ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth02ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth03ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth03ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth04ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth04ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth05ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth05ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth06ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth06ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth07ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth07ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth08ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth08ValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCDepth01SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth01SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth02SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth02SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth03SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth03SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth04SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth04SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth05SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth05SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth06SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth06SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth07SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth07SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+        {
+      "name": "VSWCDepth08SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth08SuspectCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    }
+    ]
+}
