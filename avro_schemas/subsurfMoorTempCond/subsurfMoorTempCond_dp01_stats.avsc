@@ -1,0 +1,104 @@
+{
+  "type": "record",
+  "name": "subsurfMoorTempCond_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 instantaneous statistics for subsurface moored temperature chain",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "waterTemp",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Temperature of water (C)",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "specificConductance",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Conductivity auto-corrected to 25 degrees C",
+      "__neon_units": "microsiemensPerCentimeter"
+    },
+    {
+      "name": "thermistorDepth",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Depth of the temperature sensor (thermistor) from water surface",
+      "__neon_units": "meter"
+    },
+    {
+      "name": "thermistorHeightFromAnchor",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Height of the temperature sensor (thermistor) from mooring anchor",
+      "__neon_units": "meter"
+    },
+    {
+      "name": "waterTempExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for water temperature",
+      "__neon_units": "celsius"
+    },
+    {
+      "name": "specificConductanceExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for specific conductance",
+      "__neon_units": "microsiemensPerCentimeter"
+    },
+    {
+      "name": "thermistorDepthExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for depth of the temperature sensor (thermistor) from water surface",
+      "__neon_units": "meter"
+    },
+    {
+      "name": "thermistorHeightExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for height of the temperature sensor (thermistor) above the substrate",
+      "__neon_units": "meter"
+    }
+	]
+}

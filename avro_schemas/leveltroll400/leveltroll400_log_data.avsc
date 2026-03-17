@@ -1,0 +1,43 @@
+{
+    "type": "record",
+    "name": "leveltroll400_log_data",
+    "namespace": "org.neonscience.schema.dp0p",
+    "doc": "Log data for the Level Troll 400 sensor",
+    "__version": "1.0",
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "pressure",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Raw pressure of water",
+            "__neon_units": "psi"           
+        },
+        {
+            "name": "temperature",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Raw temperature in water",
+            "__neon_units": "celsius"
+        }
+    ]
+}

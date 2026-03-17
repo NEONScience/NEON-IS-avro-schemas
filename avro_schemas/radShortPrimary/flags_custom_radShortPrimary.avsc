@@ -1,0 +1,36 @@
+{
+  "type": "record",
+  "name": "radShortPrimary_flags_custom",
+  "namespace": "org.neonscience.schema.dp0p",
+  "doc": "Custom heater and lightning rod shading flags for CMP22 sensor",
+  "fields": [
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch"
+    },
+    {
+      "name": "heaterQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether either heater was firing (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "shadowQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating shading of sensor via man-made obstructions. Determined by tower top layout and solar angles (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    }
+    ]
+}
