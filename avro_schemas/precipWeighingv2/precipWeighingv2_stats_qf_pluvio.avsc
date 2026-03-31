@@ -41,7 +41,7 @@
 			"__neon_units": "millimeter"
 		}, 
 		{
-      "name": "numPts",
+      "name": "precipNumPts",
       "type": [
         "null",
         "int16"
