@@ -127,7 +127,7 @@
       "name": "spec_average",
       "type": [
         "null",
-        "int16"
+        "int32"
       ],
       "default": null,
       "doc": "Spec Average or SW Average(Dark Correction Method)",
@@ -254,7 +254,7 @@
       "name": "main_current",
       "type": [
         "null",
-        "int16"
+        "int32"
       ],
       "default": null,
       "doc": "Main current",
@@ -315,7 +315,7 @@
       "name": "ctd_time",
       "type": [
         "null",
-        "int16"
+        "int32"
       ],
       "default": null,
       "doc": "CTD time",
@@ -326,7 +326,7 @@
       "name": "ctd_salinity",
       "type": [
         "null",
-        "int8"
+        "int"
       ],
       "default": null,
       "doc": "CTD salinity",
@@ -337,7 +337,7 @@
       "name": "ctd_temperature",
       "type": [
         "null",
-        "int8"
+        "int"
       ],
       "default": null,
       "doc": "CTD temperature",
@@ -348,7 +348,7 @@
       "name": "ctd_pressure",
       "type": [
         "null",
-        "int16"
+        "int"
       ],
       "default": null,
       "doc": "CTD pressure",
@@ -359,7 +359,7 @@
       "name": "crc",
       "type": [
         "null",
-        "int16"
+        "int"
       ],
       "default": null,
       "doc": "Data crc",
