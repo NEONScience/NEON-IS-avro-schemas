@@ -137,7 +137,7 @@
       "name": "dark_signal_average",
       "type": [
         "null",
-        "int16"
+        "int32"
       ],
       "default": null,
       "doc": "Dark Signal Average (average dark intensity)",
@@ -147,7 +147,7 @@
       "name": "integration_time_factor",
       "type": [
         "null",
-        "int8"
+        "int16"
       ],
       "default": null,
       "doc": "Integration Time Factor",
