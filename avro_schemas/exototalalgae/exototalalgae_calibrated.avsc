@@ -25,14 +25,24 @@
             "__neon_units": "millisecond"
         },
         {
-            "name": "blueGreenAlgaeRaw",
+            "name": "chlorophyll",
             "type": [
                 "null",
                 "float"
             ],
             "default": null,
-            "doc": "Raw signal of blue-green algae sensor",
-            "__neon_units": "percent"
+            "doc": "Chlorophyll a concentration in water",
+            "__neon_units": "microgramsPerLiter"
+        },
+	{
+            "name": "chlaRelativeFluorescence",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Chlorophyll a relative fluorescence units",
+            "__neon_units": "NA"
         },
         {
             "name": "blueGreenAlgaePhycocyanin",
@@ -42,26 +52,6 @@
             ],
             "default": null,
             "doc": "Blue-green algae phycocyanin concentration in water",
-            "__neon_units": "microgramsPerLiter"
-        },
-        {
-            "name": "chlorophyllRaw",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Raw signal of chlorophyll a sensor",
-            "__neon_units": "percent"
-        },
-        {
-            "name": "chlorophyll",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Chlorophyll a concentration in water",
             "__neon_units": "microgramsPerLiter"
         }
     ]

@@ -25,16 +25,6 @@
             "__neon_units": "millisecond"
         },
         {
-            "name": "turbidityRaw",
-            "type": [
-                "null",
-                "float"
-            ],
-            "default": null,
-            "doc": "Raw signal of turbidity sensor",
-            "__neon_units": "percent"
-        },
-        {
             "name": "turbidity",
             "type": [
                 "null",
