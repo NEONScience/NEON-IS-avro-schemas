@@ -1,0 +1,804 @@
+{
+  "type": "record",
+  "name": "concH2oSoilSalinity_dp01_quality_metrics_split",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 quality metrics and final quality flags for soil water content and volumetric soil ion content from the EnviroSCAN sensor, for a single depth position as indicated by the HOR.VER of the output path",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "VSWCValidCalQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCValidCalQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCValidCalQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICValidCalQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the passed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICValidCalQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the failed outcomes of the valid calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICValidCalQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes when the valid calibration test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCSuspectCalQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCSuspectCalQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCSuspectCalQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the suspect calibration test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICSuspectCalQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the passed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICSuspectCalQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the failed outcomes of the suspect calibration test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICSuspectCalQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes when the suspect calibration test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICNullQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICNullQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the failed outcomes of the null test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICNullQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes when the null test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryNullQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryNullQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the null test over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryNullQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the null test could not be run over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificNullQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the null test over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificNullQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the null test over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificNullQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the null test could not be run over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICGapQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the passed outcomes of the gap test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICGapQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the failed outcomes of the gap test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICGapQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes when the gap test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryGapQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the gap test over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryGapQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the gap test over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryGapQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the gap test could not be run over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificGapQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the gap test over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificGapQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the gap test over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificGapQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the gap test could not be run over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICRangeQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the passed outcomes of the range test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICRangeQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the failed outcomes of the range test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICRangeQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes when the range test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryRangeQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the range test over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryRangeQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the range test over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryRangeQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the range test could not be run over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificRangeQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the range test over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificRangeQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the range test over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificRangeQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the range test could not be run over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICStepQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the passed outcomes of the step test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICStepQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the failed outcomes of the step test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICStepQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes when the step test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryStepQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the step test over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryStepQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the step test over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryStepQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the step test could not be run over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificStepQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the step test over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificStepQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the step test over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificStepQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the step test could not be run over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICPersistenceQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the passed outcomes of the persistence test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICPersistenceQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the failed outcomes of the persistence test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICPersistenceQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes when the persistence test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryPersistenceQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the persistence test over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryPersistenceQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the persistence test over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryPersistenceQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the persistence test could not be run over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificPersistenceQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the persistence test over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificPersistenceQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the persistence test over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificPersistenceQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the persistence test could not be run over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICSpikeQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICSpikeQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes the failed outcomes of the spike test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICSpikeQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric that summarizes when the spike test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactorySpikeQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactorySpikeQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the spike test over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactorySpikeQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the spike test could not be run over the averaging period, as a percent, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificSpikeQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the passed outcomes of the spike test over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificSpikeQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes the failed outcomes of the spike test over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificSpikeQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric that summarizes when the spike test could not be run over the averaging period, as a percent, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "tempTestQFPassQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the passed outcomes of the temperature test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "tempTestQFFailQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes the failed outcomes of the temperature test over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "tempTestQFNAQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Quality metric that summarizes when the temperature test could not be run over the averaging period, as a percent",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificAlphaQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificBetaQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113, based on a soil-specific calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCsoilSpecificFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on a soil-specific calibration",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryAlphaQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryBetaQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113, based on the factory calibration",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSWCfactoryFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on the factory calibration",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICAlphaQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric detailing the outcomes of the alpha quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICBetaQM",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality metric detailing the outcomes of the beta quality flag over the averaging period, as a percent and detailed in NEON.DOC.001113",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "VSICFinalQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Volumetric soil ion content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
+      "__neon_units": "NA"
+    }
+    ]
+}

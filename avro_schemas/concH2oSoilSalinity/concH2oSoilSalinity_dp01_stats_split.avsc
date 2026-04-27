@@ -1,0 +1,174 @@
+{
+  "type": "record",
+  "name": "concH2oSoilSalinity_dp01_stats_split",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for soil water content and volumetric soil ion content from the EnviroSCAN sensor, for a single depth position as indicated by the HOR.VER of the output path",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+
+    {
+      "name": "VSWCsoilSpecificMean",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on a soil-specific calibration",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificMinimum",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on a soil-specific calibration",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificMaximum",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on a soil-specific calibration",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificVariance",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on a soil-specific calibration",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCsoilSpecificNumPts",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on a soil-specific calibration",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCsoilSpecificStdEr",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on a soil-specific calibration",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificExpUncert",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on a soil-specific calibration",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+
+    {
+      "name": "VSWCfactoryMean",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on the factory calibration",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryMinimum",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on the factory calibration",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryMaximum",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on the factory calibration",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryVariance",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on the factory calibration",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCfactoryNumPts",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on the factory calibration",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCfactoryStdEr",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on the factory calibration",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryExpUncert",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on the factory calibration",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+
+    {
+      "name": "VSICMean",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil ion content",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICMinimum",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Minimum volumetric soil ion content",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICMaximum",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Maximum volumetric soil ion content",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICVariance",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Variance in volumetric soil ion content",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICNumPts",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil ion content",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSICStdEr",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil ion content",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICExpUncert",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil ion content",
+      "__neon_units": "dimensionless"
+    }
+  ]
+}
