@@ -21,7 +21,7 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "VSWCDepth01ValidCalQFPassQM",
+      "name": "VSWCDepth01ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -31,7 +31,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth01ValidCalQFFailQM",
+      "name": "VSWCDepth01ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -41,7 +41,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth01ValidCalQFNAQM",
+      "name": "VSWCDepth01ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -51,7 +51,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01ValidCalQFPassQM",
+      "name": "VSICDepth01ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -61,7 +61,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01ValidCalQFFailQM",
+      "name": "VSICDepth01ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -71,7 +71,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01ValidCalQFNAQM",
+      "name": "VSICDepth01ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -81,7 +81,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth02ValidCalQFPassQM",
+      "name": "VSWCDepth02ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -91,7 +91,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth02ValidCalQFFailQM",
+      "name": "VSWCDepth02ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -101,7 +101,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth02ValidCalQFNAQM",
+      "name": "VSWCDepth02ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -111,7 +111,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02ValidCalQFPassQM",
+      "name": "VSICDepth02ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -121,7 +121,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02ValidCalQFFailQM",
+      "name": "VSICDepth02ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -131,7 +131,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02ValidCalQFNAQM",
+      "name": "VSICDepth02ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -141,7 +141,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth03ValidCalQFPassQM",
+      "name": "VSWCDepth03ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -151,7 +151,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth03ValidCalQFFailQM",
+      "name": "VSWCDepth03ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -161,7 +161,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth03ValidCalQFNAQM",
+      "name": "VSWCDepth03ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -171,7 +171,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03ValidCalQFPassQM",
+      "name": "VSICDepth03ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -181,7 +181,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03ValidCalQFFailQM",
+      "name": "VSICDepth03ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -191,7 +191,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03ValidCalQFNAQM",
+      "name": "VSICDepth03ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -201,7 +201,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth04ValidCalQFPassQM",
+      "name": "VSWCDepth04ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -211,7 +211,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth04ValidCalQFFailQM",
+      "name": "VSWCDepth04ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -221,7 +221,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth04ValidCalQFNAQM",
+      "name": "VSWCDepth04ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -231,7 +231,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04ValidCalQFPassQM",
+      "name": "VSICDepth04ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -241,7 +241,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04ValidCalQFFailQM",
+      "name": "VSICDepth04ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -251,7 +251,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04ValidCalQFNAQM",
+      "name": "VSICDepth04ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -261,7 +261,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth05ValidCalQFPassQM",
+      "name": "VSWCDepth05ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -271,7 +271,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth05ValidCalQFFailQM",
+      "name": "VSWCDepth05ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -281,7 +281,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth05ValidCalQFNAQM",
+      "name": "VSWCDepth05ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -291,7 +291,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05ValidCalQFPassQM",
+      "name": "VSICDepth05ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -301,7 +301,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05ValidCalQFFailQM",
+      "name": "VSICDepth05ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -311,7 +311,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05ValidCalQFNAQM",
+      "name": "VSICDepth05ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -321,7 +321,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth06ValidCalQFPassQM",
+      "name": "VSWCDepth06ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -331,7 +331,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth06ValidCalQFFailQM",
+      "name": "VSWCDepth06ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -341,7 +341,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth06ValidCalQFNAQM",
+      "name": "VSWCDepth06ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -351,7 +351,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06ValidCalQFPassQM",
+      "name": "VSICDepth06ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -361,7 +361,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06ValidCalQFFailQM",
+      "name": "VSICDepth06ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -371,7 +371,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06ValidCalQFNAQM",
+      "name": "VSICDepth06ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -381,7 +381,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth07ValidCalQFPassQM",
+      "name": "VSWCDepth07ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -391,7 +391,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth07ValidCalQFFailQM",
+      "name": "VSWCDepth07ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -401,7 +401,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth07ValidCalQFNAQM",
+      "name": "VSWCDepth07ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -411,7 +411,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07ValidCalQFPassQM",
+      "name": "VSICDepth07ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -421,7 +421,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07ValidCalQFFailQM",
+      "name": "VSICDepth07ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -431,7 +431,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07ValidCalQFNAQM",
+      "name": "VSICDepth07ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -441,7 +441,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth08ValidCalQFPassQM",
+      "name": "VSWCDepth08ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -451,7 +451,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth08ValidCalQFFailQM",
+      "name": "VSWCDepth08ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -461,7 +461,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth08ValidCalQFNAQM",
+      "name": "VSWCDepth08ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -471,7 +471,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08ValidCalQFPassQM",
+      "name": "VSICDepth08ValidCalPassQM",
       "type": [
         "null",
         "float"
@@ -481,7 +481,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08ValidCalQFFailQM",
+      "name": "VSICDepth08ValidCalFailQM",
       "type": [
         "null",
         "float"
@@ -491,7 +491,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08ValidCalQFNAQM",
+      "name": "VSICDepth08ValidCalNAQM",
       "type": [
         "null",
         "float"
@@ -501,7 +501,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth01SuspectCalQFPassQM",
+      "name": "VSWCDepth01SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -511,7 +511,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth01SuspectCalQFFailQM",
+      "name": "VSWCDepth01SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -521,7 +521,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth01SuspectCalQFNAQM",
+      "name": "VSWCDepth01SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -531,7 +531,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01SuspectCalQFPassQM",
+      "name": "VSICDepth01SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -541,7 +541,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01SuspectCalQFFailQM",
+      "name": "VSICDepth01SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -551,7 +551,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01SuspectCalQFNAQM",
+      "name": "VSICDepth01SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -561,7 +561,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth02SuspectCalQFPassQM",
+      "name": "VSWCDepth02SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -571,7 +571,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth02SuspectCalQFFailQM",
+      "name": "VSWCDepth02SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -581,7 +581,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth02SuspectCalQFNAQM",
+      "name": "VSWCDepth02SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -591,7 +591,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02SuspectCalQFPassQM",
+      "name": "VSICDepth02SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -601,7 +601,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02SuspectCalQFFailQM",
+      "name": "VSICDepth02SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -611,7 +611,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02SuspectCalQFNAQM",
+      "name": "VSICDepth02SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -621,7 +621,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth03SuspectCalQFPassQM",
+      "name": "VSWCDepth03SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -631,7 +631,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth03SuspectCalQFFailQM",
+      "name": "VSWCDepth03SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -641,7 +641,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth03SuspectCalQFNAQM",
+      "name": "VSWCDepth03SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -651,7 +651,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03SuspectCalQFPassQM",
+      "name": "VSICDepth03SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -661,7 +661,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03SuspectCalQFFailQM",
+      "name": "VSICDepth03SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -671,7 +671,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03SuspectCalQFNAQM",
+      "name": "VSICDepth03SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -681,7 +681,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth04SuspectCalQFPassQM",
+      "name": "VSWCDepth04SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -691,7 +691,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth04SuspectCalQFFailQM",
+      "name": "VSWCDepth04SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -701,7 +701,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth04SuspectCalQFNAQM",
+      "name": "VSWCDepth04SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -711,7 +711,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04SuspectCalQFPassQM",
+      "name": "VSICDepth04SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -721,7 +721,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04SuspectCalQFFailQM",
+      "name": "VSICDepth04SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -731,7 +731,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04SuspectCalQFNAQM",
+      "name": "VSICDepth04SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -741,7 +741,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth05SuspectCalQFPassQM",
+      "name": "VSWCDepth05SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -751,7 +751,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth05SuspectCalQFFailQM",
+      "name": "VSWCDepth05SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -761,7 +761,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth05SuspectCalQFNAQM",
+      "name": "VSWCDepth05SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -771,7 +771,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05SuspectCalQFPassQM",
+      "name": "VSICDepth05SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -781,7 +781,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05SuspectCalQFFailQM",
+      "name": "VSICDepth05SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -791,7 +791,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05SuspectCalQFNAQM",
+      "name": "VSICDepth05SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -801,7 +801,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth06SuspectCalQFPassQM",
+      "name": "VSWCDepth06SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -811,7 +811,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth06SuspectCalQFFailQM",
+      "name": "VSWCDepth06SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -821,7 +821,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth06SuspectCalQFNAQM",
+      "name": "VSWCDepth06SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -831,7 +831,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06SuspectCalQFPassQM",
+      "name": "VSICDepth06SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -841,7 +841,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06SuspectCalQFFailQM",
+      "name": "VSICDepth06SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -851,7 +851,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06SuspectCalQFNAQM",
+      "name": "VSICDepth06SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -861,7 +861,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth07SuspectCalQFPassQM",
+      "name": "VSWCDepth07SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -871,7 +871,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth07SuspectCalQFFailQM",
+      "name": "VSWCDepth07SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -881,7 +881,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth07SuspectCalQFNAQM",
+      "name": "VSWCDepth07SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -891,7 +891,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07SuspectCalQFPassQM",
+      "name": "VSICDepth07SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -901,7 +901,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07SuspectCalQFFailQM",
+      "name": "VSICDepth07SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -911,7 +911,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07SuspectCalQFNAQM",
+      "name": "VSICDepth07SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -921,7 +921,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth08SuspectCalQFPassQM",
+      "name": "VSWCDepth08SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -931,7 +931,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth08SuspectCalQFFailQM",
+      "name": "VSWCDepth08SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -941,7 +941,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCDepth08SuspectCalQFNAQM",
+      "name": "VSWCDepth08SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -951,7 +951,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08SuspectCalQFPassQM",
+      "name": "VSICDepth08SuspectCalPassQM",
       "type": [
         "null",
         "float"
@@ -961,7 +961,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08SuspectCalQFFailQM",
+      "name": "VSICDepth08SuspectCalFailQM",
       "type": [
         "null",
         "float"
@@ -971,7 +971,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08SuspectCalQFNAQM",
+      "name": "VSICDepth08SuspectCalNAQM",
       "type": [
         "null",
         "float"
@@ -981,7 +981,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01NullQFPassQM",
+      "name": "VSICDepth01NullPassQM",
       "type": [
         "null",
         "float"
@@ -991,7 +991,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01NullQFPassQM",
+      "name": "VSWCfactoryDepth01NullPassQM",
       "type": [
         "null",
         "float"
@@ -1001,7 +1001,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01NullQFPassQM",
+      "name": "VSWCsoilSpecificDepth01NullPassQM",
       "type": [
         "null",
         "float"
@@ -1011,7 +1011,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01NullQFFailQM",
+      "name": "VSICDepth01NullFailQM",
       "type": [
         "null",
         "float"
@@ -1021,7 +1021,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01NullQFFailQM",
+      "name": "VSWCfactoryDepth01NullFailQM",
       "type": [
         "null",
         "float"
@@ -1031,7 +1031,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01NullQFFailQM",
+      "name": "VSWCsoilSpecificDepth01NullFailQM",
       "type": [
         "null",
         "float"
@@ -1041,7 +1041,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01NullQFNAQM",
+      "name": "VSICDepth01NullNAQM",
       "type": [
         "null",
         "float"
@@ -1051,7 +1051,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01NullQFNAQM",
+      "name": "VSWCfactoryDepth01NullNAQM",
       "type": [
         "null",
         "float"
@@ -1061,7 +1061,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01NullQFNAQM",
+      "name": "VSWCsoilSpecificDepth01NullNAQM",
       "type": [
         "null",
         "float"
@@ -1071,7 +1071,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01GapQFPassQM",
+      "name": "VSICDepth01GapPassQM",
       "type": [
         "null",
         "float"
@@ -1081,7 +1081,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01GapQFPassQM",
+      "name": "VSWCfactoryDepth01GapPassQM",
       "type": [
         "null",
         "float"
@@ -1091,7 +1091,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01GapQFPassQM",
+      "name": "VSWCsoilSpecificDepth01GapPassQM",
       "type": [
         "null",
         "float"
@@ -1101,7 +1101,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01GapQFFailQM",
+      "name": "VSICDepth01GapFailQM",
       "type": [
         "null",
         "float"
@@ -1111,7 +1111,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01GapQFFailQM",
+      "name": "VSWCfactoryDepth01GapFailQM",
       "type": [
         "null",
         "float"
@@ -1121,7 +1121,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01GapQFFailQM",
+      "name": "VSWCsoilSpecificDepth01GapFailQM",
       "type": [
         "null",
         "float"
@@ -1131,7 +1131,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01GapQFNAQM",
+      "name": "VSICDepth01GapNAQM",
       "type": [
         "null",
         "float"
@@ -1141,7 +1141,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01GapQFNAQM",
+      "name": "VSWCfactoryDepth01GapNAQM",
       "type": [
         "null",
         "float"
@@ -1151,7 +1151,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01GapQFNAQM",
+      "name": "VSWCsoilSpecificDepth01GapNAQM",
       "type": [
         "null",
         "float"
@@ -1161,7 +1161,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01RangeQFPassQM",
+      "name": "VSICDepth01RangePassQM",
       "type": [
         "null",
         "float"
@@ -1171,7 +1171,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01RangeQFPassQM",
+      "name": "VSWCfactoryDepth01RangePassQM",
       "type": [
         "null",
         "float"
@@ -1181,7 +1181,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01RangeQFPassQM",
+      "name": "VSWCsoilSpecificDepth01RangePassQM",
       "type": [
         "null",
         "float"
@@ -1191,7 +1191,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01RangeQFFailQM",
+      "name": "VSICDepth01RangeFailQM",
       "type": [
         "null",
         "float"
@@ -1201,7 +1201,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01RangeQFFailQM",
+      "name": "VSWCfactoryDepth01RangeFailQM",
       "type": [
         "null",
         "float"
@@ -1211,7 +1211,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01RangeQFFailQM",
+      "name": "VSWCsoilSpecificDepth01RangeFailQM",
       "type": [
         "null",
         "float"
@@ -1221,7 +1221,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01RangeQFNAQM",
+      "name": "VSICDepth01RangeNAQM",
       "type": [
         "null",
         "float"
@@ -1231,7 +1231,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01RangeQFNAQM",
+      "name": "VSWCfactoryDepth01RangeNAQM",
       "type": [
         "null",
         "float"
@@ -1241,7 +1241,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01RangeQFNAQM",
+      "name": "VSWCsoilSpecificDepth01RangeNAQM",
       "type": [
         "null",
         "float"
@@ -1251,7 +1251,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01StepQFPassQM",
+      "name": "VSICDepth01StepPassQM",
       "type": [
         "null",
         "float"
@@ -1261,7 +1261,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01StepQFPassQM",
+      "name": "VSWCfactoryDepth01StepPassQM",
       "type": [
         "null",
         "float"
@@ -1271,7 +1271,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01StepQFPassQM",
+      "name": "VSWCsoilSpecificDepth01StepPassQM",
       "type": [
         "null",
         "float"
@@ -1281,7 +1281,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01StepQFFailQM",
+      "name": "VSICDepth01StepFailQM",
       "type": [
         "null",
         "float"
@@ -1291,7 +1291,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01StepQFFailQM",
+      "name": "VSWCfactoryDepth01StepFailQM",
       "type": [
         "null",
         "float"
@@ -1301,7 +1301,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01StepQFFailQM",
+      "name": "VSWCsoilSpecificDepth01StepFailQM",
       "type": [
         "null",
         "float"
@@ -1311,7 +1311,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01StepQFNAQM",
+      "name": "VSICDepth01StepNAQM",
       "type": [
         "null",
         "float"
@@ -1321,7 +1321,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01StepQFNAQM",
+      "name": "VSWCfactoryDepth01StepNAQM",
       "type": [
         "null",
         "float"
@@ -1331,7 +1331,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01StepQFNAQM",
+      "name": "VSWCsoilSpecificDepth01StepNAQM",
       "type": [
         "null",
         "float"
@@ -1341,7 +1341,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01PersistenceQFPassQM",
+      "name": "VSICDepth01PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -1351,7 +1351,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01PersistenceQFPassQM",
+      "name": "VSWCfactoryDepth01PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -1361,7 +1361,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01PersistenceQFPassQM",
+      "name": "VSWCsoilSpecificDepth01PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -1371,7 +1371,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01PersistenceQFFailQM",
+      "name": "VSICDepth01PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -1381,7 +1381,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01PersistenceQFFailQM",
+      "name": "VSWCfactoryDepth01PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -1391,7 +1391,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01PersistenceQFFailQM",
+      "name": "VSWCsoilSpecificDepth01PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -1401,7 +1401,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01PersistenceQFNAQM",
+      "name": "VSICDepth01PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -1411,7 +1411,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01PersistenceQFNAQM",
+      "name": "VSWCfactoryDepth01PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -1421,7 +1421,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01PersistenceQFNAQM",
+      "name": "VSWCsoilSpecificDepth01PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -1431,7 +1431,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01SpikeQFPassQM",
+      "name": "VSICDepth01SpikePassQM",
       "type": [
         "null",
         "float"
@@ -1441,7 +1441,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01SpikeQFPassQM",
+      "name": "VSWCfactoryDepth01SpikePassQM",
       "type": [
         "null",
         "float"
@@ -1451,7 +1451,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01SpikeQFPassQM",
+      "name": "VSWCsoilSpecificDepth01SpikePassQM",
       "type": [
         "null",
         "float"
@@ -1461,7 +1461,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01SpikeQFFailQM",
+      "name": "VSICDepth01SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -1471,7 +1471,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01SpikeQFFailQM",
+      "name": "VSWCfactoryDepth01SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -1481,7 +1481,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01SpikeQFFailQM",
+      "name": "VSWCsoilSpecificDepth01SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -1491,7 +1491,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth01SpikeQFNAQM",
+      "name": "VSICDepth01SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -1501,7 +1501,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth01SpikeQFNAQM",
+      "name": "VSWCfactoryDepth01SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -1511,7 +1511,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth01SpikeQFNAQM",
+      "name": "VSWCsoilSpecificDepth01SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -1521,7 +1521,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth01QFPassQM",
+      "name": "tempTestDepth01PassQM",
       "type": [
         "null",
         "float"
@@ -1531,7 +1531,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth01QFFailQM",
+      "name": "tempTestDepth01FailQM",
       "type": [
         "null",
         "float"
@@ -1541,7 +1541,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth01QFNAQM",
+      "name": "tempTestDepth01NAQM",
       "type": [
         "null",
         "float"
@@ -1551,7 +1551,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02NullQFPassQM",
+      "name": "VSICDepth02NullPassQM",
       "type": [
         "null",
         "float"
@@ -1561,7 +1561,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02NullQFPassQM",
+      "name": "VSWCfactoryDepth02NullPassQM",
       "type": [
         "null",
         "float"
@@ -1571,7 +1571,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02NullQFPassQM",
+      "name": "VSWCsoilSpecificDepth02NullPassQM",
       "type": [
         "null",
         "float"
@@ -1581,7 +1581,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02NullQFFailQM",
+      "name": "VSICDepth02NullFailQM",
       "type": [
         "null",
         "float"
@@ -1591,7 +1591,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02NullQFFailQM",
+      "name": "VSWCfactoryDepth02NullFailQM",
       "type": [
         "null",
         "float"
@@ -1601,7 +1601,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02NullQFFailQM",
+      "name": "VSWCsoilSpecificDepth02NullFailQM",
       "type": [
         "null",
         "float"
@@ -1611,7 +1611,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02NullQFNAQM",
+      "name": "VSICDepth02NullNAQM",
       "type": [
         "null",
         "float"
@@ -1621,7 +1621,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02NullQFNAQM",
+      "name": "VSWCfactoryDepth02NullNAQM",
       "type": [
         "null",
         "float"
@@ -1631,7 +1631,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02NullQFNAQM",
+      "name": "VSWCsoilSpecificDepth02NullNAQM",
       "type": [
         "null",
         "float"
@@ -1641,7 +1641,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02GapQFPassQM",
+      "name": "VSICDepth02GapPassQM",
       "type": [
         "null",
         "float"
@@ -1651,7 +1651,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02GapQFPassQM",
+      "name": "VSWCfactoryDepth02GapPassQM",
       "type": [
         "null",
         "float"
@@ -1661,7 +1661,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02GapQFPassQM",
+      "name": "VSWCsoilSpecificDepth02GapPassQM",
       "type": [
         "null",
         "float"
@@ -1671,7 +1671,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02GapQFFailQM",
+      "name": "VSICDepth02GapFailQM",
       "type": [
         "null",
         "float"
@@ -1681,7 +1681,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02GapQFFailQM",
+      "name": "VSWCfactoryDepth02GapFailQM",
       "type": [
         "null",
         "float"
@@ -1691,7 +1691,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02GapQFFailQM",
+      "name": "VSWCsoilSpecificDepth02GapFailQM",
       "type": [
         "null",
         "float"
@@ -1701,7 +1701,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02GapQFNAQM",
+      "name": "VSICDepth02GapNAQM",
       "type": [
         "null",
         "float"
@@ -1711,7 +1711,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02GapQFNAQM",
+      "name": "VSWCfactoryDepth02GapNAQM",
       "type": [
         "null",
         "float"
@@ -1721,7 +1721,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02GapQFNAQM",
+      "name": "VSWCsoilSpecificDepth02GapNAQM",
       "type": [
         "null",
         "float"
@@ -1731,7 +1731,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02RangeQFPassQM",
+      "name": "VSICDepth02RangePassQM",
       "type": [
         "null",
         "float"
@@ -1741,7 +1741,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02RangeQFPassQM",
+      "name": "VSWCfactoryDepth02RangePassQM",
       "type": [
         "null",
         "float"
@@ -1751,7 +1751,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02RangeQFPassQM",
+      "name": "VSWCsoilSpecificDepth02RangePassQM",
       "type": [
         "null",
         "float"
@@ -1761,7 +1761,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02RangeQFFailQM",
+      "name": "VSICDepth02RangeFailQM",
       "type": [
         "null",
         "float"
@@ -1771,7 +1771,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02RangeQFFailQM",
+      "name": "VSWCfactoryDepth02RangeFailQM",
       "type": [
         "null",
         "float"
@@ -1781,7 +1781,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02RangeQFFailQM",
+      "name": "VSWCsoilSpecificDepth02RangeFailQM",
       "type": [
         "null",
         "float"
@@ -1791,7 +1791,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02RangeQFNAQM",
+      "name": "VSICDepth02RangeNAQM",
       "type": [
         "null",
         "float"
@@ -1801,7 +1801,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02RangeQFNAQM",
+      "name": "VSWCfactoryDepth02RangeNAQM",
       "type": [
         "null",
         "float"
@@ -1811,7 +1811,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02RangeQFNAQM",
+      "name": "VSWCsoilSpecificDepth02RangeNAQM",
       "type": [
         "null",
         "float"
@@ -1821,7 +1821,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02StepQFPassQM",
+      "name": "VSICDepth02StepPassQM",
       "type": [
         "null",
         "float"
@@ -1831,7 +1831,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02StepQFPassQM",
+      "name": "VSWCfactoryDepth02StepPassQM",
       "type": [
         "null",
         "float"
@@ -1841,7 +1841,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02StepQFPassQM",
+      "name": "VSWCsoilSpecificDepth02StepPassQM",
       "type": [
         "null",
         "float"
@@ -1851,7 +1851,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02StepQFFailQM",
+      "name": "VSICDepth02StepFailQM",
       "type": [
         "null",
         "float"
@@ -1861,7 +1861,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02StepQFFailQM",
+      "name": "VSWCfactoryDepth02StepFailQM",
       "type": [
         "null",
         "float"
@@ -1871,7 +1871,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02StepQFFailQM",
+      "name": "VSWCsoilSpecificDepth02StepFailQM",
       "type": [
         "null",
         "float"
@@ -1881,7 +1881,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02StepQFNAQM",
+      "name": "VSICDepth02StepNAQM",
       "type": [
         "null",
         "float"
@@ -1891,7 +1891,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02StepQFNAQM",
+      "name": "VSWCfactoryDepth02StepNAQM",
       "type": [
         "null",
         "float"
@@ -1901,7 +1901,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02StepQFNAQM",
+      "name": "VSWCsoilSpecificDepth02StepNAQM",
       "type": [
         "null",
         "float"
@@ -1911,7 +1911,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02PersistenceQFPassQM",
+      "name": "VSICDepth02PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -1921,7 +1921,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02PersistenceQFPassQM",
+      "name": "VSWCfactoryDepth02PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -1931,7 +1931,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02PersistenceQFPassQM",
+      "name": "VSWCsoilSpecificDepth02PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -1941,7 +1941,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02PersistenceQFFailQM",
+      "name": "VSICDepth02PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -1951,7 +1951,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02PersistenceQFFailQM",
+      "name": "VSWCfactoryDepth02PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -1961,7 +1961,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02PersistenceQFFailQM",
+      "name": "VSWCsoilSpecificDepth02PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -1971,7 +1971,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02PersistenceQFNAQM",
+      "name": "VSICDepth02PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -1981,7 +1981,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02PersistenceQFNAQM",
+      "name": "VSWCfactoryDepth02PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -1991,7 +1991,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02PersistenceQFNAQM",
+      "name": "VSWCsoilSpecificDepth02PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -2001,7 +2001,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02SpikeQFPassQM",
+      "name": "VSICDepth02SpikePassQM",
       "type": [
         "null",
         "float"
@@ -2011,7 +2011,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02SpikeQFPassQM",
+      "name": "VSWCfactoryDepth02SpikePassQM",
       "type": [
         "null",
         "float"
@@ -2021,7 +2021,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02SpikeQFPassQM",
+      "name": "VSWCsoilSpecificDepth02SpikePassQM",
       "type": [
         "null",
         "float"
@@ -2031,7 +2031,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02SpikeQFFailQM",
+      "name": "VSICDepth02SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -2041,7 +2041,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02SpikeQFFailQM",
+      "name": "VSWCfactoryDepth02SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -2051,7 +2051,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02SpikeQFFailQM",
+      "name": "VSWCsoilSpecificDepth02SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -2061,7 +2061,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth02SpikeQFNAQM",
+      "name": "VSICDepth02SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -2071,7 +2071,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth02SpikeQFNAQM",
+      "name": "VSWCfactoryDepth02SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -2081,7 +2081,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth02SpikeQFNAQM",
+      "name": "VSWCsoilSpecificDepth02SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -2091,7 +2091,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth02QFPassQM",
+      "name": "tempTestDepth02PassQM",
       "type": [
         "null",
         "float"
@@ -2101,7 +2101,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth02QFFailQM",
+      "name": "tempTestDepth02FailQM",
       "type": [
         "null",
         "float"
@@ -2111,7 +2111,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth02QFNAQM",
+      "name": "tempTestDepth02NAQM",
       "type": [
         "null",
         "float"
@@ -2121,7 +2121,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03NullQFPassQM",
+      "name": "VSICDepth03NullPassQM",
       "type": [
         "null",
         "float"
@@ -2131,7 +2131,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03NullQFPassQM",
+      "name": "VSWCfactoryDepth03NullPassQM",
       "type": [
         "null",
         "float"
@@ -2141,7 +2141,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03NullQFPassQM",
+      "name": "VSWCsoilSpecificDepth03NullPassQM",
       "type": [
         "null",
         "float"
@@ -2151,7 +2151,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03NullQFFailQM",
+      "name": "VSICDepth03NullFailQM",
       "type": [
         "null",
         "float"
@@ -2161,7 +2161,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03NullQFFailQM",
+      "name": "VSWCfactoryDepth03NullFailQM",
       "type": [
         "null",
         "float"
@@ -2171,7 +2171,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03NullQFFailQM",
+      "name": "VSWCsoilSpecificDepth03NullFailQM",
       "type": [
         "null",
         "float"
@@ -2181,7 +2181,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03NullQFNAQM",
+      "name": "VSICDepth03NullNAQM",
       "type": [
         "null",
         "float"
@@ -2191,7 +2191,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03NullQFNAQM",
+      "name": "VSWCfactoryDepth03NullNAQM",
       "type": [
         "null",
         "float"
@@ -2201,7 +2201,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03NullQFNAQM",
+      "name": "VSWCsoilSpecificDepth03NullNAQM",
       "type": [
         "null",
         "float"
@@ -2211,7 +2211,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03GapQFPassQM",
+      "name": "VSICDepth03GapPassQM",
       "type": [
         "null",
         "float"
@@ -2221,7 +2221,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03GapQFPassQM",
+      "name": "VSWCfactoryDepth03GapPassQM",
       "type": [
         "null",
         "float"
@@ -2231,7 +2231,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03GapQFPassQM",
+      "name": "VSWCsoilSpecificDepth03GapPassQM",
       "type": [
         "null",
         "float"
@@ -2241,7 +2241,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03GapQFFailQM",
+      "name": "VSICDepth03GapFailQM",
       "type": [
         "null",
         "float"
@@ -2251,7 +2251,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03GapQFFailQM",
+      "name": "VSWCfactoryDepth03GapFailQM",
       "type": [
         "null",
         "float"
@@ -2261,7 +2261,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03GapQFFailQM",
+      "name": "VSWCsoilSpecificDepth03GapFailQM",
       "type": [
         "null",
         "float"
@@ -2271,7 +2271,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03GapQFNAQM",
+      "name": "VSICDepth03GapNAQM",
       "type": [
         "null",
         "float"
@@ -2281,7 +2281,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03GapQFNAQM",
+      "name": "VSWCfactoryDepth03GapNAQM",
       "type": [
         "null",
         "float"
@@ -2291,7 +2291,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03GapQFNAQM",
+      "name": "VSWCsoilSpecificDepth03GapNAQM",
       "type": [
         "null",
         "float"
@@ -2301,7 +2301,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03RangeQFPassQM",
+      "name": "VSICDepth03RangePassQM",
       "type": [
         "null",
         "float"
@@ -2311,7 +2311,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03RangeQFPassQM",
+      "name": "VSWCfactoryDepth03RangePassQM",
       "type": [
         "null",
         "float"
@@ -2321,7 +2321,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03RangeQFPassQM",
+      "name": "VSWCsoilSpecificDepth03RangePassQM",
       "type": [
         "null",
         "float"
@@ -2331,7 +2331,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03RangeQFFailQM",
+      "name": "VSICDepth03RangeFailQM",
       "type": [
         "null",
         "float"
@@ -2341,7 +2341,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03RangeQFFailQM",
+      "name": "VSWCfactoryDepth03RangeFailQM",
       "type": [
         "null",
         "float"
@@ -2351,7 +2351,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03RangeQFFailQM",
+      "name": "VSWCsoilSpecificDepth03RangeFailQM",
       "type": [
         "null",
         "float"
@@ -2361,7 +2361,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03RangeQFNAQM",
+      "name": "VSICDepth03RangeNAQM",
       "type": [
         "null",
         "float"
@@ -2371,7 +2371,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03RangeQFNAQM",
+      "name": "VSWCfactoryDepth03RangeNAQM",
       "type": [
         "null",
         "float"
@@ -2381,7 +2381,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03RangeQFNAQM",
+      "name": "VSWCsoilSpecificDepth03RangeNAQM",
       "type": [
         "null",
         "float"
@@ -2391,7 +2391,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03StepQFPassQM",
+      "name": "VSICDepth03StepPassQM",
       "type": [
         "null",
         "float"
@@ -2401,7 +2401,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03StepQFPassQM",
+      "name": "VSWCfactoryDepth03StepPassQM",
       "type": [
         "null",
         "float"
@@ -2411,7 +2411,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03StepQFPassQM",
+      "name": "VSWCsoilSpecificDepth03StepPassQM",
       "type": [
         "null",
         "float"
@@ -2421,7 +2421,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03StepQFFailQM",
+      "name": "VSICDepth03StepFailQM",
       "type": [
         "null",
         "float"
@@ -2431,7 +2431,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03StepQFFailQM",
+      "name": "VSWCfactoryDepth03StepFailQM",
       "type": [
         "null",
         "float"
@@ -2441,7 +2441,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03StepQFFailQM",
+      "name": "VSWCsoilSpecificDepth03StepFailQM",
       "type": [
         "null",
         "float"
@@ -2451,7 +2451,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03StepQFNAQM",
+      "name": "VSICDepth03StepNAQM",
       "type": [
         "null",
         "float"
@@ -2461,7 +2461,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03StepQFNAQM",
+      "name": "VSWCfactoryDepth03StepNAQM",
       "type": [
         "null",
         "float"
@@ -2471,7 +2471,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03StepQFNAQM",
+      "name": "VSWCsoilSpecificDepth03StepNAQM",
       "type": [
         "null",
         "float"
@@ -2481,7 +2481,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03PersistenceQFPassQM",
+      "name": "VSICDepth03PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -2491,7 +2491,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03PersistenceQFPassQM",
+      "name": "VSWCfactoryDepth03PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -2501,7 +2501,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03PersistenceQFPassQM",
+      "name": "VSWCsoilSpecificDepth03PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -2511,7 +2511,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03PersistenceQFFailQM",
+      "name": "VSICDepth03PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -2521,7 +2521,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03PersistenceQFFailQM",
+      "name": "VSWCfactoryDepth03PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -2531,7 +2531,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03PersistenceQFFailQM",
+      "name": "VSWCsoilSpecificDepth03PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -2541,7 +2541,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03PersistenceQFNAQM",
+      "name": "VSICDepth03PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -2551,7 +2551,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03PersistenceQFNAQM",
+      "name": "VSWCfactoryDepth03PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -2561,7 +2561,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03PersistenceQFNAQM",
+      "name": "VSWCsoilSpecificDepth03PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -2571,7 +2571,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03SpikeQFPassQM",
+      "name": "VSICDepth03SpikePassQM",
       "type": [
         "null",
         "float"
@@ -2581,7 +2581,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03SpikeQFPassQM",
+      "name": "VSWCfactoryDepth03SpikePassQM",
       "type": [
         "null",
         "float"
@@ -2591,7 +2591,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03SpikeQFPassQM",
+      "name": "VSWCsoilSpecificDepth03SpikePassQM",
       "type": [
         "null",
         "float"
@@ -2601,7 +2601,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03SpikeQFFailQM",
+      "name": "VSICDepth03SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -2611,7 +2611,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03SpikeQFFailQM",
+      "name": "VSWCfactoryDepth03SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -2621,7 +2621,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03SpikeQFFailQM",
+      "name": "VSWCsoilSpecificDepth03SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -2631,7 +2631,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth03SpikeQFNAQM",
+      "name": "VSICDepth03SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -2641,7 +2641,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth03SpikeQFNAQM",
+      "name": "VSWCfactoryDepth03SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -2651,7 +2651,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth03SpikeQFNAQM",
+      "name": "VSWCsoilSpecificDepth03SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -2661,7 +2661,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth03QFPassQM",
+      "name": "tempTestDepth03PassQM",
       "type": [
         "null",
         "float"
@@ -2671,7 +2671,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth03QFFailQM",
+      "name": "tempTestDepth03FailQM",
       "type": [
         "null",
         "float"
@@ -2681,7 +2681,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth03QFNAQM",
+      "name": "tempTestDepth03NAQM",
       "type": [
         "null",
         "float"
@@ -2691,7 +2691,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04NullQFPassQM",
+      "name": "VSICDepth04NullPassQM",
       "type": [
         "null",
         "float"
@@ -2701,7 +2701,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04NullQFPassQM",
+      "name": "VSWCfactoryDepth04NullPassQM",
       "type": [
         "null",
         "float"
@@ -2711,7 +2711,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04NullQFPassQM",
+      "name": "VSWCsoilSpecificDepth04NullPassQM",
       "type": [
         "null",
         "float"
@@ -2721,7 +2721,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04NullQFFailQM",
+      "name": "VSICDepth04NullFailQM",
       "type": [
         "null",
         "float"
@@ -2731,7 +2731,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04NullQFFailQM",
+      "name": "VSWCfactoryDepth04NullFailQM",
       "type": [
         "null",
         "float"
@@ -2741,7 +2741,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04NullQFFailQM",
+      "name": "VSWCsoilSpecificDepth04NullFailQM",
       "type": [
         "null",
         "float"
@@ -2751,7 +2751,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04NullQFNAQM",
+      "name": "VSICDepth04NullNAQM",
       "type": [
         "null",
         "float"
@@ -2761,7 +2761,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04NullQFNAQM",
+      "name": "VSWCfactoryDepth04NullNAQM",
       "type": [
         "null",
         "float"
@@ -2771,7 +2771,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04NullQFNAQM",
+      "name": "VSWCsoilSpecificDepth04NullNAQM",
       "type": [
         "null",
         "float"
@@ -2781,7 +2781,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04GapQFPassQM",
+      "name": "VSICDepth04GapPassQM",
       "type": [
         "null",
         "float"
@@ -2791,7 +2791,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04GapQFPassQM",
+      "name": "VSWCfactoryDepth04GapPassQM",
       "type": [
         "null",
         "float"
@@ -2801,7 +2801,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04GapQFPassQM",
+      "name": "VSWCsoilSpecificDepth04GapPassQM",
       "type": [
         "null",
         "float"
@@ -2811,7 +2811,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04GapQFFailQM",
+      "name": "VSICDepth04GapFailQM",
       "type": [
         "null",
         "float"
@@ -2821,7 +2821,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04GapQFFailQM",
+      "name": "VSWCfactoryDepth04GapFailQM",
       "type": [
         "null",
         "float"
@@ -2831,7 +2831,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04GapQFFailQM",
+      "name": "VSWCsoilSpecificDepth04GapFailQM",
       "type": [
         "null",
         "float"
@@ -2841,7 +2841,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04GapQFNAQM",
+      "name": "VSICDepth04GapNAQM",
       "type": [
         "null",
         "float"
@@ -2851,7 +2851,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04GapQFNAQM",
+      "name": "VSWCfactoryDepth04GapNAQM",
       "type": [
         "null",
         "float"
@@ -2861,7 +2861,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04GapQFNAQM",
+      "name": "VSWCsoilSpecificDepth04GapNAQM",
       "type": [
         "null",
         "float"
@@ -2871,7 +2871,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04RangeQFPassQM",
+      "name": "VSICDepth04RangePassQM",
       "type": [
         "null",
         "float"
@@ -2881,7 +2881,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04RangeQFPassQM",
+      "name": "VSWCfactoryDepth04RangePassQM",
       "type": [
         "null",
         "float"
@@ -2891,7 +2891,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04RangeQFPassQM",
+      "name": "VSWCsoilSpecificDepth04RangePassQM",
       "type": [
         "null",
         "float"
@@ -2901,7 +2901,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04RangeQFFailQM",
+      "name": "VSICDepth04RangeFailQM",
       "type": [
         "null",
         "float"
@@ -2911,7 +2911,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04RangeQFFailQM",
+      "name": "VSWCfactoryDepth04RangeFailQM",
       "type": [
         "null",
         "float"
@@ -2921,7 +2921,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04RangeQFFailQM",
+      "name": "VSWCsoilSpecificDepth04RangeFailQM",
       "type": [
         "null",
         "float"
@@ -2931,7 +2931,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04RangeQFNAQM",
+      "name": "VSICDepth04RangeNAQM",
       "type": [
         "null",
         "float"
@@ -2941,7 +2941,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04RangeQFNAQM",
+      "name": "VSWCfactoryDepth04RangeNAQM",
       "type": [
         "null",
         "float"
@@ -2951,7 +2951,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04RangeQFNAQM",
+      "name": "VSWCsoilSpecificDepth04RangeNAQM",
       "type": [
         "null",
         "float"
@@ -2961,7 +2961,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04StepQFPassQM",
+      "name": "VSICDepth04StepPassQM",
       "type": [
         "null",
         "float"
@@ -2971,7 +2971,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04StepQFPassQM",
+      "name": "VSWCfactoryDepth04StepPassQM",
       "type": [
         "null",
         "float"
@@ -2981,7 +2981,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04StepQFPassQM",
+      "name": "VSWCsoilSpecificDepth04StepPassQM",
       "type": [
         "null",
         "float"
@@ -2991,7 +2991,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04StepQFFailQM",
+      "name": "VSICDepth04StepFailQM",
       "type": [
         "null",
         "float"
@@ -3001,7 +3001,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04StepQFFailQM",
+      "name": "VSWCfactoryDepth04StepFailQM",
       "type": [
         "null",
         "float"
@@ -3011,7 +3011,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04StepQFFailQM",
+      "name": "VSWCsoilSpecificDepth04StepFailQM",
       "type": [
         "null",
         "float"
@@ -3021,7 +3021,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04StepQFNAQM",
+      "name": "VSICDepth04StepNAQM",
       "type": [
         "null",
         "float"
@@ -3031,7 +3031,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04StepQFNAQM",
+      "name": "VSWCfactoryDepth04StepNAQM",
       "type": [
         "null",
         "float"
@@ -3041,7 +3041,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04StepQFNAQM",
+      "name": "VSWCsoilSpecificDepth04StepNAQM",
       "type": [
         "null",
         "float"
@@ -3051,7 +3051,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04PersistenceQFPassQM",
+      "name": "VSICDepth04PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -3061,7 +3061,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04PersistenceQFPassQM",
+      "name": "VSWCfactoryDepth04PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -3071,7 +3071,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04PersistenceQFPassQM",
+      "name": "VSWCsoilSpecificDepth04PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -3081,7 +3081,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04PersistenceQFFailQM",
+      "name": "VSICDepth04PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -3091,7 +3091,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04PersistenceQFFailQM",
+      "name": "VSWCfactoryDepth04PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -3101,7 +3101,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04PersistenceQFFailQM",
+      "name": "VSWCsoilSpecificDepth04PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -3111,7 +3111,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04PersistenceQFNAQM",
+      "name": "VSICDepth04PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -3121,7 +3121,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04PersistenceQFNAQM",
+      "name": "VSWCfactoryDepth04PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -3131,7 +3131,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04PersistenceQFNAQM",
+      "name": "VSWCsoilSpecificDepth04PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -3141,7 +3141,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04SpikeQFPassQM",
+      "name": "VSICDepth04SpikePassQM",
       "type": [
         "null",
         "float"
@@ -3151,7 +3151,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04SpikeQFPassQM",
+      "name": "VSWCfactoryDepth04SpikePassQM",
       "type": [
         "null",
         "float"
@@ -3161,7 +3161,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04SpikeQFPassQM",
+      "name": "VSWCsoilSpecificDepth04SpikePassQM",
       "type": [
         "null",
         "float"
@@ -3171,7 +3171,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04SpikeQFFailQM",
+      "name": "VSICDepth04SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -3181,7 +3181,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04SpikeQFFailQM",
+      "name": "VSWCfactoryDepth04SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -3191,7 +3191,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04SpikeQFFailQM",
+      "name": "VSWCsoilSpecificDepth04SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -3201,7 +3201,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth04SpikeQFNAQM",
+      "name": "VSICDepth04SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -3211,7 +3211,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth04SpikeQFNAQM",
+      "name": "VSWCfactoryDepth04SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -3221,7 +3221,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth04SpikeQFNAQM",
+      "name": "VSWCsoilSpecificDepth04SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -3231,7 +3231,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth04QFPassQM",
+      "name": "tempTestDepth04PassQM",
       "type": [
         "null",
         "float"
@@ -3241,7 +3241,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth04QFFailQM",
+      "name": "tempTestDepth04FailQM",
       "type": [
         "null",
         "float"
@@ -3251,7 +3251,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth04QFNAQM",
+      "name": "tempTestDepth04NAQM",
       "type": [
         "null",
         "float"
@@ -3261,7 +3261,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05NullQFPassQM",
+      "name": "VSICDepth05NullPassQM",
       "type": [
         "null",
         "float"
@@ -3271,7 +3271,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05NullQFPassQM",
+      "name": "VSWCfactoryDepth05NullPassQM",
       "type": [
         "null",
         "float"
@@ -3281,7 +3281,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05NullQFPassQM",
+      "name": "VSWCsoilSpecificDepth05NullPassQM",
       "type": [
         "null",
         "float"
@@ -3291,7 +3291,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05NullQFFailQM",
+      "name": "VSICDepth05NullFailQM",
       "type": [
         "null",
         "float"
@@ -3301,7 +3301,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05NullQFFailQM",
+      "name": "VSWCfactoryDepth05NullFailQM",
       "type": [
         "null",
         "float"
@@ -3311,7 +3311,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05NullQFFailQM",
+      "name": "VSWCsoilSpecificDepth05NullFailQM",
       "type": [
         "null",
         "float"
@@ -3321,7 +3321,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05NullQFNAQM",
+      "name": "VSICDepth05NullNAQM",
       "type": [
         "null",
         "float"
@@ -3331,7 +3331,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05NullQFNAQM",
+      "name": "VSWCfactoryDepth05NullNAQM",
       "type": [
         "null",
         "float"
@@ -3341,7 +3341,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05NullQFNAQM",
+      "name": "VSWCsoilSpecificDepth05NullNAQM",
       "type": [
         "null",
         "float"
@@ -3351,7 +3351,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05GapQFPassQM",
+      "name": "VSICDepth05GapPassQM",
       "type": [
         "null",
         "float"
@@ -3361,7 +3361,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05GapQFPassQM",
+      "name": "VSWCfactoryDepth05GapPassQM",
       "type": [
         "null",
         "float"
@@ -3371,7 +3371,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05GapQFPassQM",
+      "name": "VSWCsoilSpecificDepth05GapPassQM",
       "type": [
         "null",
         "float"
@@ -3381,7 +3381,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05GapQFFailQM",
+      "name": "VSICDepth05GapFailQM",
       "type": [
         "null",
         "float"
@@ -3391,7 +3391,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05GapQFFailQM",
+      "name": "VSWCfactoryDepth05GapFailQM",
       "type": [
         "null",
         "float"
@@ -3401,7 +3401,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05GapQFFailQM",
+      "name": "VSWCsoilSpecificDepth05GapFailQM",
       "type": [
         "null",
         "float"
@@ -3411,7 +3411,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05GapQFNAQM",
+      "name": "VSICDepth05GapNAQM",
       "type": [
         "null",
         "float"
@@ -3421,7 +3421,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05GapQFNAQM",
+      "name": "VSWCfactoryDepth05GapNAQM",
       "type": [
         "null",
         "float"
@@ -3431,7 +3431,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05GapQFNAQM",
+      "name": "VSWCsoilSpecificDepth05GapNAQM",
       "type": [
         "null",
         "float"
@@ -3441,7 +3441,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05RangeQFPassQM",
+      "name": "VSICDepth05RangePassQM",
       "type": [
         "null",
         "float"
@@ -3451,7 +3451,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05RangeQFPassQM",
+      "name": "VSWCfactoryDepth05RangePassQM",
       "type": [
         "null",
         "float"
@@ -3461,7 +3461,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05RangeQFPassQM",
+      "name": "VSWCsoilSpecificDepth05RangePassQM",
       "type": [
         "null",
         "float"
@@ -3471,7 +3471,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05RangeQFFailQM",
+      "name": "VSICDepth05RangeFailQM",
       "type": [
         "null",
         "float"
@@ -3481,7 +3481,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05RangeQFFailQM",
+      "name": "VSWCfactoryDepth05RangeFailQM",
       "type": [
         "null",
         "float"
@@ -3491,7 +3491,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05RangeQFFailQM",
+      "name": "VSWCsoilSpecificDepth05RangeFailQM",
       "type": [
         "null",
         "float"
@@ -3501,7 +3501,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05RangeQFNAQM",
+      "name": "VSICDepth05RangeNAQM",
       "type": [
         "null",
         "float"
@@ -3511,7 +3511,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05RangeQFNAQM",
+      "name": "VSWCfactoryDepth05RangeNAQM",
       "type": [
         "null",
         "float"
@@ -3521,7 +3521,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05RangeQFNAQM",
+      "name": "VSWCsoilSpecificDepth05RangeNAQM",
       "type": [
         "null",
         "float"
@@ -3531,7 +3531,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05StepQFPassQM",
+      "name": "VSICDepth05StepPassQM",
       "type": [
         "null",
         "float"
@@ -3541,7 +3541,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05StepQFPassQM",
+      "name": "VSWCfactoryDepth05StepPassQM",
       "type": [
         "null",
         "float"
@@ -3551,7 +3551,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05StepQFPassQM",
+      "name": "VSWCsoilSpecificDepth05StepPassQM",
       "type": [
         "null",
         "float"
@@ -3561,7 +3561,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05StepQFFailQM",
+      "name": "VSICDepth05StepFailQM",
       "type": [
         "null",
         "float"
@@ -3571,7 +3571,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05StepQFFailQM",
+      "name": "VSWCfactoryDepth05StepFailQM",
       "type": [
         "null",
         "float"
@@ -3581,7 +3581,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05StepQFFailQM",
+      "name": "VSWCsoilSpecificDepth05StepFailQM",
       "type": [
         "null",
         "float"
@@ -3591,7 +3591,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05StepQFNAQM",
+      "name": "VSICDepth05StepNAQM",
       "type": [
         "null",
         "float"
@@ -3601,7 +3601,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05StepQFNAQM",
+      "name": "VSWCfactoryDepth05StepNAQM",
       "type": [
         "null",
         "float"
@@ -3611,7 +3611,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05StepQFNAQM",
+      "name": "VSWCsoilSpecificDepth05StepNAQM",
       "type": [
         "null",
         "float"
@@ -3621,7 +3621,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05PersistenceQFPassQM",
+      "name": "VSICDepth05PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -3631,7 +3631,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05PersistenceQFPassQM",
+      "name": "VSWCfactoryDepth05PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -3641,7 +3641,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05PersistenceQFPassQM",
+      "name": "VSWCsoilSpecificDepth05PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -3651,7 +3651,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05PersistenceQFFailQM",
+      "name": "VSICDepth05PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -3661,7 +3661,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05PersistenceQFFailQM",
+      "name": "VSWCfactoryDepth05PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -3671,7 +3671,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05PersistenceQFFailQM",
+      "name": "VSWCsoilSpecificDepth05PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -3681,7 +3681,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05PersistenceQFNAQM",
+      "name": "VSICDepth05PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -3691,7 +3691,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05PersistenceQFNAQM",
+      "name": "VSWCfactoryDepth05PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -3701,7 +3701,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05PersistenceQFNAQM",
+      "name": "VSWCsoilSpecificDepth05PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -3711,7 +3711,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05SpikeQFPassQM",
+      "name": "VSICDepth05SpikePassQM",
       "type": [
         "null",
         "float"
@@ -3721,7 +3721,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05SpikeQFPassQM",
+      "name": "VSWCfactoryDepth05SpikePassQM",
       "type": [
         "null",
         "float"
@@ -3731,7 +3731,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05SpikeQFPassQM",
+      "name": "VSWCsoilSpecificDepth05SpikePassQM",
       "type": [
         "null",
         "float"
@@ -3741,7 +3741,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05SpikeQFFailQM",
+      "name": "VSICDepth05SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -3751,7 +3751,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05SpikeQFFailQM",
+      "name": "VSWCfactoryDepth05SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -3761,7 +3761,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05SpikeQFFailQM",
+      "name": "VSWCsoilSpecificDepth05SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -3771,7 +3771,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth05SpikeQFNAQM",
+      "name": "VSICDepth05SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -3781,7 +3781,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth05SpikeQFNAQM",
+      "name": "VSWCfactoryDepth05SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -3791,7 +3791,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth05SpikeQFNAQM",
+      "name": "VSWCsoilSpecificDepth05SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -3801,7 +3801,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth05QFPassQM",
+      "name": "tempTestDepth05PassQM",
       "type": [
         "null",
         "float"
@@ -3811,7 +3811,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth05QFFailQM",
+      "name": "tempTestDepth05FailQM",
       "type": [
         "null",
         "float"
@@ -3821,7 +3821,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth05QFNAQM",
+      "name": "tempTestDepth05NAQM",
       "type": [
         "null",
         "float"
@@ -3831,7 +3831,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06NullQFPassQM",
+      "name": "VSICDepth06NullPassQM",
       "type": [
         "null",
         "float"
@@ -3841,7 +3841,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06NullQFPassQM",
+      "name": "VSWCfactoryDepth06NullPassQM",
       "type": [
         "null",
         "float"
@@ -3851,7 +3851,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06NullQFPassQM",
+      "name": "VSWCsoilSpecificDepth06NullPassQM",
       "type": [
         "null",
         "float"
@@ -3861,7 +3861,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06NullQFFailQM",
+      "name": "VSICDepth06NullFailQM",
       "type": [
         "null",
         "float"
@@ -3871,7 +3871,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06NullQFFailQM",
+      "name": "VSWCfactoryDepth06NullFailQM",
       "type": [
         "null",
         "float"
@@ -3881,7 +3881,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06NullQFFailQM",
+      "name": "VSWCsoilSpecificDepth06NullFailQM",
       "type": [
         "null",
         "float"
@@ -3891,7 +3891,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06NullQFNAQM",
+      "name": "VSICDepth06NullNAQM",
       "type": [
         "null",
         "float"
@@ -3901,7 +3901,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06NullQFNAQM",
+      "name": "VSWCfactoryDepth06NullNAQM",
       "type": [
         "null",
         "float"
@@ -3911,7 +3911,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06NullQFNAQM",
+      "name": "VSWCsoilSpecificDepth06NullNAQM",
       "type": [
         "null",
         "float"
@@ -3921,7 +3921,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06GapQFPassQM",
+      "name": "VSICDepth06GapPassQM",
       "type": [
         "null",
         "float"
@@ -3931,7 +3931,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06GapQFPassQM",
+      "name": "VSWCfactoryDepth06GapPassQM",
       "type": [
         "null",
         "float"
@@ -3941,7 +3941,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06GapQFPassQM",
+      "name": "VSWCsoilSpecificDepth06GapPassQM",
       "type": [
         "null",
         "float"
@@ -3951,7 +3951,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06GapQFFailQM",
+      "name": "VSICDepth06GapFailQM",
       "type": [
         "null",
         "float"
@@ -3961,7 +3961,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06GapQFFailQM",
+      "name": "VSWCfactoryDepth06GapFailQM",
       "type": [
         "null",
         "float"
@@ -3971,7 +3971,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06GapQFFailQM",
+      "name": "VSWCsoilSpecificDepth06GapFailQM",
       "type": [
         "null",
         "float"
@@ -3981,7 +3981,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06GapQFNAQM",
+      "name": "VSICDepth06GapNAQM",
       "type": [
         "null",
         "float"
@@ -3991,7 +3991,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06GapQFNAQM",
+      "name": "VSWCfactoryDepth06GapNAQM",
       "type": [
         "null",
         "float"
@@ -4001,7 +4001,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06GapQFNAQM",
+      "name": "VSWCsoilSpecificDepth06GapNAQM",
       "type": [
         "null",
         "float"
@@ -4011,7 +4011,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06RangeQFPassQM",
+      "name": "VSICDepth06RangePassQM",
       "type": [
         "null",
         "float"
@@ -4021,7 +4021,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06RangeQFPassQM",
+      "name": "VSWCfactoryDepth06RangePassQM",
       "type": [
         "null",
         "float"
@@ -4031,7 +4031,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06RangeQFPassQM",
+      "name": "VSWCsoilSpecificDepth06RangePassQM",
       "type": [
         "null",
         "float"
@@ -4041,7 +4041,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06RangeQFFailQM",
+      "name": "VSICDepth06RangeFailQM",
       "type": [
         "null",
         "float"
@@ -4051,7 +4051,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06RangeQFFailQM",
+      "name": "VSWCfactoryDepth06RangeFailQM",
       "type": [
         "null",
         "float"
@@ -4061,7 +4061,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06RangeQFFailQM",
+      "name": "VSWCsoilSpecificDepth06RangeFailQM",
       "type": [
         "null",
         "float"
@@ -4071,7 +4071,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06RangeQFNAQM",
+      "name": "VSICDepth06RangeNAQM",
       "type": [
         "null",
         "float"
@@ -4081,7 +4081,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06RangeQFNAQM",
+      "name": "VSWCfactoryDepth06RangeNAQM",
       "type": [
         "null",
         "float"
@@ -4091,7 +4091,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06RangeQFNAQM",
+      "name": "VSWCsoilSpecificDepth06RangeNAQM",
       "type": [
         "null",
         "float"
@@ -4101,7 +4101,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06StepQFPassQM",
+      "name": "VSICDepth06StepPassQM",
       "type": [
         "null",
         "float"
@@ -4111,7 +4111,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06StepQFPassQM",
+      "name": "VSWCfactoryDepth06StepPassQM",
       "type": [
         "null",
         "float"
@@ -4121,7 +4121,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06StepQFPassQM",
+      "name": "VSWCsoilSpecificDepth06StepPassQM",
       "type": [
         "null",
         "float"
@@ -4131,7 +4131,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06StepQFFailQM",
+      "name": "VSICDepth06StepFailQM",
       "type": [
         "null",
         "float"
@@ -4141,7 +4141,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06StepQFFailQM",
+      "name": "VSWCfactoryDepth06StepFailQM",
       "type": [
         "null",
         "float"
@@ -4151,7 +4151,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06StepQFFailQM",
+      "name": "VSWCsoilSpecificDepth06StepFailQM",
       "type": [
         "null",
         "float"
@@ -4161,7 +4161,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06StepQFNAQM",
+      "name": "VSICDepth06StepNAQM",
       "type": [
         "null",
         "float"
@@ -4171,7 +4171,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06StepQFNAQM",
+      "name": "VSWCfactoryDepth06StepNAQM",
       "type": [
         "null",
         "float"
@@ -4181,7 +4181,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06StepQFNAQM",
+      "name": "VSWCsoilSpecificDepth06StepNAQM",
       "type": [
         "null",
         "float"
@@ -4191,7 +4191,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06PersistenceQFPassQM",
+      "name": "VSICDepth06PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -4201,7 +4201,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06PersistenceQFPassQM",
+      "name": "VSWCfactoryDepth06PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -4211,7 +4211,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06PersistenceQFPassQM",
+      "name": "VSWCsoilSpecificDepth06PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -4221,7 +4221,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06PersistenceQFFailQM",
+      "name": "VSICDepth06PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -4231,7 +4231,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06PersistenceQFFailQM",
+      "name": "VSWCfactoryDepth06PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -4241,7 +4241,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06PersistenceQFFailQM",
+      "name": "VSWCsoilSpecificDepth06PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -4251,7 +4251,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06PersistenceQFNAQM",
+      "name": "VSICDepth06PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -4261,7 +4261,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06PersistenceQFNAQM",
+      "name": "VSWCfactoryDepth06PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -4271,7 +4271,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06PersistenceQFNAQM",
+      "name": "VSWCsoilSpecificDepth06PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -4281,7 +4281,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06SpikeQFPassQM",
+      "name": "VSICDepth06SpikePassQM",
       "type": [
         "null",
         "float"
@@ -4291,7 +4291,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06SpikeQFPassQM",
+      "name": "VSWCfactoryDepth06SpikePassQM",
       "type": [
         "null",
         "float"
@@ -4301,7 +4301,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06SpikeQFPassQM",
+      "name": "VSWCsoilSpecificDepth06SpikePassQM",
       "type": [
         "null",
         "float"
@@ -4311,7 +4311,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06SpikeQFFailQM",
+      "name": "VSICDepth06SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -4321,7 +4321,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06SpikeQFFailQM",
+      "name": "VSWCfactoryDepth06SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -4331,7 +4331,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06SpikeQFFailQM",
+      "name": "VSWCsoilSpecificDepth06SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -4341,7 +4341,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth06SpikeQFNAQM",
+      "name": "VSICDepth06SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -4351,7 +4351,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth06SpikeQFNAQM",
+      "name": "VSWCfactoryDepth06SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -4361,7 +4361,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth06SpikeQFNAQM",
+      "name": "VSWCsoilSpecificDepth06SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -4371,7 +4371,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth06QFPassQM",
+      "name": "tempTestDepth06PassQM",
       "type": [
         "null",
         "float"
@@ -4381,7 +4381,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth06QFFailQM",
+      "name": "tempTestDepth06FailQM",
       "type": [
         "null",
         "float"
@@ -4391,7 +4391,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth06QFNAQM",
+      "name": "tempTestDepth06NAQM",
       "type": [
         "null",
         "float"
@@ -4401,7 +4401,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07NullQFPassQM",
+      "name": "VSICDepth07NullPassQM",
       "type": [
         "null",
         "float"
@@ -4411,7 +4411,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07NullQFPassQM",
+      "name": "VSWCfactoryDepth07NullPassQM",
       "type": [
         "null",
         "float"
@@ -4421,7 +4421,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07NullQFPassQM",
+      "name": "VSWCsoilSpecificDepth07NullPassQM",
       "type": [
         "null",
         "float"
@@ -4431,7 +4431,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07NullQFFailQM",
+      "name": "VSICDepth07NullFailQM",
       "type": [
         "null",
         "float"
@@ -4441,7 +4441,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07NullQFFailQM",
+      "name": "VSWCfactoryDepth07NullFailQM",
       "type": [
         "null",
         "float"
@@ -4451,7 +4451,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07NullQFFailQM",
+      "name": "VSWCsoilSpecificDepth07NullFailQM",
       "type": [
         "null",
         "float"
@@ -4461,7 +4461,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07NullQFNAQM",
+      "name": "VSICDepth07NullNAQM",
       "type": [
         "null",
         "float"
@@ -4471,7 +4471,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07NullQFNAQM",
+      "name": "VSWCfactoryDepth07NullNAQM",
       "type": [
         "null",
         "float"
@@ -4481,7 +4481,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07NullQFNAQM",
+      "name": "VSWCsoilSpecificDepth07NullNAQM",
       "type": [
         "null",
         "float"
@@ -4491,7 +4491,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07GapQFPassQM",
+      "name": "VSICDepth07GapPassQM",
       "type": [
         "null",
         "float"
@@ -4501,7 +4501,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07GapQFPassQM",
+      "name": "VSWCfactoryDepth07GapPassQM",
       "type": [
         "null",
         "float"
@@ -4511,7 +4511,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07GapQFPassQM",
+      "name": "VSWCsoilSpecificDepth07GapPassQM",
       "type": [
         "null",
         "float"
@@ -4521,7 +4521,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07GapQFFailQM",
+      "name": "VSICDepth07GapFailQM",
       "type": [
         "null",
         "float"
@@ -4531,7 +4531,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07GapQFFailQM",
+      "name": "VSWCfactoryDepth07GapFailQM",
       "type": [
         "null",
         "float"
@@ -4541,7 +4541,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07GapQFFailQM",
+      "name": "VSWCsoilSpecificDepth07GapFailQM",
       "type": [
         "null",
         "float"
@@ -4551,7 +4551,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07GapQFNAQM",
+      "name": "VSICDepth07GapNAQM",
       "type": [
         "null",
         "float"
@@ -4561,7 +4561,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07GapQFNAQM",
+      "name": "VSWCfactoryDepth07GapNAQM",
       "type": [
         "null",
         "float"
@@ -4571,7 +4571,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07GapQFNAQM",
+      "name": "VSWCsoilSpecificDepth07GapNAQM",
       "type": [
         "null",
         "float"
@@ -4581,7 +4581,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07RangeQFPassQM",
+      "name": "VSICDepth07RangePassQM",
       "type": [
         "null",
         "float"
@@ -4591,7 +4591,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07RangeQFPassQM",
+      "name": "VSWCfactoryDepth07RangePassQM",
       "type": [
         "null",
         "float"
@@ -4601,7 +4601,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07RangeQFPassQM",
+      "name": "VSWCsoilSpecificDepth07RangePassQM",
       "type": [
         "null",
         "float"
@@ -4611,7 +4611,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07RangeQFFailQM",
+      "name": "VSICDepth07RangeFailQM",
       "type": [
         "null",
         "float"
@@ -4621,7 +4621,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07RangeQFFailQM",
+      "name": "VSWCfactoryDepth07RangeFailQM",
       "type": [
         "null",
         "float"
@@ -4631,7 +4631,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07RangeQFFailQM",
+      "name": "VSWCsoilSpecificDepth07RangeFailQM",
       "type": [
         "null",
         "float"
@@ -4641,7 +4641,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07RangeQFNAQM",
+      "name": "VSICDepth07RangeNAQM",
       "type": [
         "null",
         "float"
@@ -4651,7 +4651,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07RangeQFNAQM",
+      "name": "VSWCfactoryDepth07RangeNAQM",
       "type": [
         "null",
         "float"
@@ -4661,7 +4661,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07RangeQFNAQM",
+      "name": "VSWCsoilSpecificDepth07RangeNAQM",
       "type": [
         "null",
         "float"
@@ -4671,7 +4671,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07StepQFPassQM",
+      "name": "VSICDepth07StepPassQM",
       "type": [
         "null",
         "float"
@@ -4681,7 +4681,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07StepQFPassQM",
+      "name": "VSWCfactoryDepth07StepPassQM",
       "type": [
         "null",
         "float"
@@ -4691,7 +4691,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07StepQFPassQM",
+      "name": "VSWCsoilSpecificDepth07StepPassQM",
       "type": [
         "null",
         "float"
@@ -4701,7 +4701,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07StepQFFailQM",
+      "name": "VSICDepth07StepFailQM",
       "type": [
         "null",
         "float"
@@ -4711,7 +4711,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07StepQFFailQM",
+      "name": "VSWCfactoryDepth07StepFailQM",
       "type": [
         "null",
         "float"
@@ -4721,7 +4721,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07StepQFFailQM",
+      "name": "VSWCsoilSpecificDepth07StepFailQM",
       "type": [
         "null",
         "float"
@@ -4731,7 +4731,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07StepQFNAQM",
+      "name": "VSICDepth07StepNAQM",
       "type": [
         "null",
         "float"
@@ -4741,7 +4741,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07StepQFNAQM",
+      "name": "VSWCfactoryDepth07StepNAQM",
       "type": [
         "null",
         "float"
@@ -4751,7 +4751,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07StepQFNAQM",
+      "name": "VSWCsoilSpecificDepth07StepNAQM",
       "type": [
         "null",
         "float"
@@ -4761,7 +4761,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07PersistenceQFPassQM",
+      "name": "VSICDepth07PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -4771,7 +4771,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07PersistenceQFPassQM",
+      "name": "VSWCfactoryDepth07PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -4781,7 +4781,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07PersistenceQFPassQM",
+      "name": "VSWCsoilSpecificDepth07PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -4791,7 +4791,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07PersistenceQFFailQM",
+      "name": "VSICDepth07PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -4801,7 +4801,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07PersistenceQFFailQM",
+      "name": "VSWCfactoryDepth07PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -4811,7 +4811,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07PersistenceQFFailQM",
+      "name": "VSWCsoilSpecificDepth07PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -4821,7 +4821,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07PersistenceQFNAQM",
+      "name": "VSICDepth07PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -4831,7 +4831,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07PersistenceQFNAQM",
+      "name": "VSWCfactoryDepth07PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -4841,7 +4841,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07PersistenceQFNAQM",
+      "name": "VSWCsoilSpecificDepth07PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -4851,7 +4851,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07SpikeQFPassQM",
+      "name": "VSICDepth07SpikePassQM",
       "type": [
         "null",
         "float"
@@ -4861,7 +4861,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07SpikeQFPassQM",
+      "name": "VSWCfactoryDepth07SpikePassQM",
       "type": [
         "null",
         "float"
@@ -4871,7 +4871,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07SpikeQFPassQM",
+      "name": "VSWCsoilSpecificDepth07SpikePassQM",
       "type": [
         "null",
         "float"
@@ -4881,7 +4881,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07SpikeQFFailQM",
+      "name": "VSICDepth07SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -4891,7 +4891,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07SpikeQFFailQM",
+      "name": "VSWCfactoryDepth07SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -4901,7 +4901,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07SpikeQFFailQM",
+      "name": "VSWCsoilSpecificDepth07SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -4911,7 +4911,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth07SpikeQFNAQM",
+      "name": "VSICDepth07SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -4921,7 +4921,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth07SpikeQFNAQM",
+      "name": "VSWCfactoryDepth07SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -4931,7 +4931,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth07SpikeQFNAQM",
+      "name": "VSWCsoilSpecificDepth07SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -4941,7 +4941,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth07QFPassQM",
+      "name": "tempTestDepth07PassQM",
       "type": [
         "null",
         "float"
@@ -4951,7 +4951,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth07QFFailQM",
+      "name": "tempTestDepth07FailQM",
       "type": [
         "null",
         "float"
@@ -4961,7 +4961,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth07QFNAQM",
+      "name": "tempTestDepth07NAQM",
       "type": [
         "null",
         "float"
@@ -4971,7 +4971,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08NullQFPassQM",
+      "name": "VSICDepth08NullPassQM",
       "type": [
         "null",
         "float"
@@ -4981,7 +4981,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08NullQFPassQM",
+      "name": "VSWCfactoryDepth08NullPassQM",
       "type": [
         "null",
         "float"
@@ -4991,7 +4991,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08NullQFPassQM",
+      "name": "VSWCsoilSpecificDepth08NullPassQM",
       "type": [
         "null",
         "float"
@@ -5001,7 +5001,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08NullQFFailQM",
+      "name": "VSICDepth08NullFailQM",
       "type": [
         "null",
         "float"
@@ -5011,7 +5011,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08NullQFFailQM",
+      "name": "VSWCfactoryDepth08NullFailQM",
       "type": [
         "null",
         "float"
@@ -5021,7 +5021,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08NullQFFailQM",
+      "name": "VSWCsoilSpecificDepth08NullFailQM",
       "type": [
         "null",
         "float"
@@ -5031,7 +5031,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08NullQFNAQM",
+      "name": "VSICDepth08NullNAQM",
       "type": [
         "null",
         "float"
@@ -5041,7 +5041,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08NullQFNAQM",
+      "name": "VSWCfactoryDepth08NullNAQM",
       "type": [
         "null",
         "float"
@@ -5051,7 +5051,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08NullQFNAQM",
+      "name": "VSWCsoilSpecificDepth08NullNAQM",
       "type": [
         "null",
         "float"
@@ -5061,7 +5061,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08GapQFPassQM",
+      "name": "VSICDepth08GapPassQM",
       "type": [
         "null",
         "float"
@@ -5071,7 +5071,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08GapQFPassQM",
+      "name": "VSWCfactoryDepth08GapPassQM",
       "type": [
         "null",
         "float"
@@ -5081,7 +5081,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08GapQFPassQM",
+      "name": "VSWCsoilSpecificDepth08GapPassQM",
       "type": [
         "null",
         "float"
@@ -5091,7 +5091,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08GapQFFailQM",
+      "name": "VSICDepth08GapFailQM",
       "type": [
         "null",
         "float"
@@ -5101,7 +5101,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08GapQFFailQM",
+      "name": "VSWCfactoryDepth08GapFailQM",
       "type": [
         "null",
         "float"
@@ -5111,7 +5111,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08GapQFFailQM",
+      "name": "VSWCsoilSpecificDepth08GapFailQM",
       "type": [
         "null",
         "float"
@@ -5121,7 +5121,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08GapQFNAQM",
+      "name": "VSICDepth08GapNAQM",
       "type": [
         "null",
         "float"
@@ -5131,7 +5131,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08GapQFNAQM",
+      "name": "VSWCfactoryDepth08GapNAQM",
       "type": [
         "null",
         "float"
@@ -5141,7 +5141,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08GapQFNAQM",
+      "name": "VSWCsoilSpecificDepth08GapNAQM",
       "type": [
         "null",
         "float"
@@ -5151,7 +5151,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08RangeQFPassQM",
+      "name": "VSICDepth08RangePassQM",
       "type": [
         "null",
         "float"
@@ -5161,7 +5161,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08RangeQFPassQM",
+      "name": "VSWCfactoryDepth08RangePassQM",
       "type": [
         "null",
         "float"
@@ -5171,7 +5171,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08RangeQFPassQM",
+      "name": "VSWCsoilSpecificDepth08RangePassQM",
       "type": [
         "null",
         "float"
@@ -5181,7 +5181,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08RangeQFFailQM",
+      "name": "VSICDepth08RangeFailQM",
       "type": [
         "null",
         "float"
@@ -5191,7 +5191,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08RangeQFFailQM",
+      "name": "VSWCfactoryDepth08RangeFailQM",
       "type": [
         "null",
         "float"
@@ -5201,7 +5201,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08RangeQFFailQM",
+      "name": "VSWCsoilSpecificDepth08RangeFailQM",
       "type": [
         "null",
         "float"
@@ -5211,7 +5211,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08RangeQFNAQM",
+      "name": "VSICDepth08RangeNAQM",
       "type": [
         "null",
         "float"
@@ -5221,7 +5221,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08RangeQFNAQM",
+      "name": "VSWCfactoryDepth08RangeNAQM",
       "type": [
         "null",
         "float"
@@ -5231,7 +5231,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08RangeQFNAQM",
+      "name": "VSWCsoilSpecificDepth08RangeNAQM",
       "type": [
         "null",
         "float"
@@ -5241,7 +5241,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08StepQFPassQM",
+      "name": "VSICDepth08StepPassQM",
       "type": [
         "null",
         "float"
@@ -5251,7 +5251,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08StepQFPassQM",
+      "name": "VSWCfactoryDepth08StepPassQM",
       "type": [
         "null",
         "float"
@@ -5261,7 +5261,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08StepQFPassQM",
+      "name": "VSWCsoilSpecificDepth08StepPassQM",
       "type": [
         "null",
         "float"
@@ -5271,7 +5271,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08StepQFFailQM",
+      "name": "VSICDepth08StepFailQM",
       "type": [
         "null",
         "float"
@@ -5281,7 +5281,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08StepQFFailQM",
+      "name": "VSWCfactoryDepth08StepFailQM",
       "type": [
         "null",
         "float"
@@ -5291,7 +5291,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08StepQFFailQM",
+      "name": "VSWCsoilSpecificDepth08StepFailQM",
       "type": [
         "null",
         "float"
@@ -5301,7 +5301,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08StepQFNAQM",
+      "name": "VSICDepth08StepNAQM",
       "type": [
         "null",
         "float"
@@ -5311,7 +5311,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08StepQFNAQM",
+      "name": "VSWCfactoryDepth08StepNAQM",
       "type": [
         "null",
         "float"
@@ -5321,7 +5321,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08StepQFNAQM",
+      "name": "VSWCsoilSpecificDepth08StepNAQM",
       "type": [
         "null",
         "float"
@@ -5331,7 +5331,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08PersistenceQFPassQM",
+      "name": "VSICDepth08PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -5341,7 +5341,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08PersistenceQFPassQM",
+      "name": "VSWCfactoryDepth08PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -5351,7 +5351,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08PersistenceQFPassQM",
+      "name": "VSWCsoilSpecificDepth08PersistencePassQM",
       "type": [
         "null",
         "float"
@@ -5361,7 +5361,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08PersistenceQFFailQM",
+      "name": "VSICDepth08PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -5371,7 +5371,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08PersistenceQFFailQM",
+      "name": "VSWCfactoryDepth08PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -5381,7 +5381,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08PersistenceQFFailQM",
+      "name": "VSWCsoilSpecificDepth08PersistenceFailQM",
       "type": [
         "null",
         "float"
@@ -5391,7 +5391,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08PersistenceQFNAQM",
+      "name": "VSICDepth08PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -5401,7 +5401,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08PersistenceQFNAQM",
+      "name": "VSWCfactoryDepth08PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -5411,7 +5411,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08PersistenceQFNAQM",
+      "name": "VSWCsoilSpecificDepth08PersistenceNAQM",
       "type": [
         "null",
         "float"
@@ -5421,7 +5421,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08SpikeQFPassQM",
+      "name": "VSICDepth08SpikePassQM",
       "type": [
         "null",
         "float"
@@ -5431,7 +5431,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08SpikeQFPassQM",
+      "name": "VSWCfactoryDepth08SpikePassQM",
       "type": [
         "null",
         "float"
@@ -5441,7 +5441,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08SpikeQFPassQM",
+      "name": "VSWCsoilSpecificDepth08SpikePassQM",
       "type": [
         "null",
         "float"
@@ -5451,7 +5451,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08SpikeQFFailQM",
+      "name": "VSICDepth08SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -5461,7 +5461,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08SpikeQFFailQM",
+      "name": "VSWCfactoryDepth08SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -5471,7 +5471,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08SpikeQFFailQM",
+      "name": "VSWCsoilSpecificDepth08SpikeFailQM",
       "type": [
         "null",
         "float"
@@ -5481,7 +5481,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSICDepth08SpikeQFNAQM",
+      "name": "VSICDepth08SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -5491,7 +5491,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCfactoryDepth08SpikeQFNAQM",
+      "name": "VSWCfactoryDepth08SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -5501,7 +5501,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "VSWCsoilSpecificDepth08SpikeQFNAQM",
+      "name": "VSWCsoilSpecificDepth08SpikeNAQM",
       "type": [
         "null",
         "float"
@@ -5511,7 +5511,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth08QFPassQM",
+      "name": "tempTestDepth08PassQM",
       "type": [
         "null",
         "float"
@@ -5521,7 +5521,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth08QFFailQM",
+      "name": "tempTestDepth08FailQM",
       "type": [
         "null",
         "float"
@@ -5531,7 +5531,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestDepth08QFNAQM",
+      "name": "tempTestDepth08NAQM",
       "type": [
         "null",
         "float"
