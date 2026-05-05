@@ -61,7 +61,7 @@
       "__neon_stream_id": "0"
     },
     {
-      "name": "direction",
+      "name": "direction_calibrated",
       "type": [
         "null",
         "float"
