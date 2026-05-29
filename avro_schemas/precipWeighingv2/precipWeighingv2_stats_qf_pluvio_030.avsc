@@ -1,8 +1,8 @@
 {
 	"type": "record",
-	"name": "precipWeighingv2_dp01_stats_pluvio",
+	"name": "precipWeighingv2_dp01_stats_pluvio_030",
 	"namespace": "org.neonscience.schema.dp01",
-	"doc": "Level 1 Precipitation output for the Weighing Gauge precipitation product derived from the Pluvio 200L sensor",
+	"doc": "Level 1 30-minute Precipitation output for the Weighing Gauge precipitation product derived from the Pluvio 200L sensor",
 	"fields": [
 	{
 			"name": "startDateTime",
@@ -50,6 +50,16 @@
       "doc": "Number of points used to calculate the sum of precipitation over the aggregation interval",
       "__neon_units": "number"
     },
+    {
+      "name": "insuffDataQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether sufficient data was available to compute bulk precipitation (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
   {
       "name": "nullQF",
       "type": [
@@ -58,16 +68,6 @@
         ],
       "default": null,
       "doc": "Quality flag for the null test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "gapQF",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Quality flag for the gap test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
     },
 		{
@@ -87,7 +87,7 @@
         "int8"
         ],
       "default": null,
-      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "doc": "Quality flag indicating whether the heaters were operating properly (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
     },
     {
@@ -97,7 +97,7 @@
         "int8"
         ],
       "default": null,
-      "doc": "Quality flag for the step test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "doc": "Quality flag for the sensor error test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
     },
      {
