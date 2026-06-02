@@ -157,7 +157,7 @@
       "__neon_units": "number"
     },
     {
-      "name": "VSICStdEr",
+      "name": "VSICStdErMean",
       "type": ["null", "float"],
       "default": null,
       "doc": "Standard error of the mean for volumetric soil ion content",

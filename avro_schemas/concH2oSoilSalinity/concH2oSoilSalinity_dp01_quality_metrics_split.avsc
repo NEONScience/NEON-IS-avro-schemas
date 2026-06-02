@@ -681,7 +681,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestPassQM",
+      "name": "tempPassQM",
       "type": [
         "null",
         "float"
@@ -691,7 +691,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestFailQM",
+      "name": "tempFailQM",
       "type": [
         "null",
         "float"
@@ -701,7 +701,7 @@
       "__neon_units": "percent"
     },
     {
-      "name": "tempTestNAQM",
+      "name": "tempNAQM",
       "type": [
         "null",
         "float"
