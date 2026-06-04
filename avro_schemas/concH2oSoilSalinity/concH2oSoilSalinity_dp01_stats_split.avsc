@@ -57,7 +57,7 @@
       "__neon_units": "number"
     },
     {
-      "name": "VSWCsoilSpecificStdEr",
+      "name": "VSWCsoilSpecificStdErMean",
       "type": ["null", "float"],
       "default": null,
       "doc": "Standard error of the mean for volumetric soil water content based on a soil-specific calibration",
@@ -107,7 +107,7 @@
       "__neon_units": "number"
     },
     {
-      "name": "VSWCfactoryStdEr",
+      "name": "VSWCfactoryStdErMean",
       "type": ["null", "float"],
       "default": null,
       "doc": "Standard error of the mean for volumetric soil water content based on the factory calibration",
