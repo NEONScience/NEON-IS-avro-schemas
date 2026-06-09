@@ -81,7 +81,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sensorErrorQF",
+      "name": "weighGaugeSensorStatusQF",
       "type": [
         "null",
         "int8"
