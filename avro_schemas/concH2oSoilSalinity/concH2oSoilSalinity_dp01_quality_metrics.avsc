@@ -5564,7 +5564,7 @@
       "name": "VSWCsoilSpecificDepth01FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on a soil-specific calibration at depth 01",
@@ -5594,7 +5594,7 @@
       "name": "VSWCsoilSpecificDepth02FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on a soil-specific calibration at depth 02",
@@ -5624,7 +5624,7 @@
       "name": "VSWCsoilSpecificDepth03FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on a soil-specific calibration at depth 03",
@@ -5654,7 +5654,7 @@
       "name": "VSWCsoilSpecificDepth04FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on a soil-specific calibration at depth 04",
@@ -5684,7 +5684,7 @@
       "name": "VSWCsoilSpecificDepth05FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on a soil-specific calibration at depth 05",
@@ -5714,7 +5714,7 @@
       "name": "VSWCsoilSpecificDepth06FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on a soil-specific calibration at depth 06",
@@ -5744,7 +5744,7 @@
       "name": "VSWCsoilSpecificDepth07FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on a soil-specific calibration at depth 07",
@@ -5774,7 +5774,7 @@
       "name": "VSWCsoilSpecificDepth08FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on a soil-specific calibration at depth 08",
@@ -5804,7 +5804,7 @@
       "name": "VSWCfactoryDepth01FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on the factory calibration at depth 01",
@@ -5834,7 +5834,7 @@
       "name": "VSWCfactoryDepth02FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on the factory calibration at depth 02",
@@ -5864,7 +5864,7 @@
       "name": "VSWCfactoryDepth03FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on the factory calibration at depth 03",
@@ -5894,7 +5894,7 @@
       "name": "VSWCfactoryDepth04FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on the factory calibration at depth 04",
@@ -5924,7 +5924,7 @@
       "name": "VSWCfactoryDepth05FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on the factory calibration at depth 05",
@@ -5954,7 +5954,7 @@
       "name": "VSWCfactoryDepth06FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on the factory calibration at depth 06",
@@ -5984,7 +5984,7 @@
       "name": "VSWCfactoryDepth07FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on the factory calibration at depth 07",
@@ -6014,7 +6014,7 @@
       "name": "VSWCfactoryDepth08FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil water content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), based on the factory calibration at depth 08",
@@ -6044,7 +6044,7 @@
       "name": "VSICDepth01FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil ion content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), at depth 01",
@@ -6074,7 +6074,7 @@
       "name": "VSICDepth02FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil ion content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), at depth 02",
@@ -6104,7 +6104,7 @@
       "name": "VSICDepth03FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil ion content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), at depth 03",
@@ -6134,7 +6134,7 @@
       "name": "VSICDepth04FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil ion content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), at depth 04",
@@ -6164,7 +6164,7 @@
       "name": "VSICDepth05FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil ion content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), at depth 05",
@@ -6194,7 +6194,7 @@
       "name": "VSICDepth06FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil ion content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), at depth 06",
@@ -6224,7 +6224,7 @@
       "name": "VSICDepth07FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil ion content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), at depth 07",
@@ -6254,7 +6254,7 @@
       "name": "VSICDepth08FinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
       ],
       "default": null,
       "doc": "Volumetric soil ion content quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass), at depth 08",
