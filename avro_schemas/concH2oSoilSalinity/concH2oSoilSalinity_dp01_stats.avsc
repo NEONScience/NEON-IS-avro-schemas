@@ -1,0 +1,1704 @@
+{
+  "type": "record",
+  "name": "concH2oSoilSalinity_dp01_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 statistics for soil water content and volumetric soil ion content from the EnviroSCAN sensor, for all depth positions combined",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 01",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on a soil-specific calibration at depth 01",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on a soil-specific calibration at depth 01",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on a soil-specific calibration at depth 01",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 01",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on a soil-specific calibration at depth 01",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on a soil-specific calibration at depth 01",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 02",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on a soil-specific calibration at depth 02",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on a soil-specific calibration at depth 02",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on a soil-specific calibration at depth 02",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 02",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on a soil-specific calibration at depth 02",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on a soil-specific calibration at depth 02",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 03",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on a soil-specific calibration at depth 03",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on a soil-specific calibration at depth 03",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on a soil-specific calibration at depth 03",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 03",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on a soil-specific calibration at depth 03",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on a soil-specific calibration at depth 03",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 04",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on a soil-specific calibration at depth 04",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on a soil-specific calibration at depth 04",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on a soil-specific calibration at depth 04",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 04",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on a soil-specific calibration at depth 04",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on a soil-specific calibration at depth 04",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 05",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on a soil-specific calibration at depth 05",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on a soil-specific calibration at depth 05",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on a soil-specific calibration at depth 05",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 05",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on a soil-specific calibration at depth 05",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on a soil-specific calibration at depth 05",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 06",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on a soil-specific calibration at depth 06",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on a soil-specific calibration at depth 06",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on a soil-specific calibration at depth 06",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 06",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on a soil-specific calibration at depth 06",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on a soil-specific calibration at depth 06",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 07",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on a soil-specific calibration at depth 07",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on a soil-specific calibration at depth 07",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on a soil-specific calibration at depth 07",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 07",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on a soil-specific calibration at depth 07",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on a soil-specific calibration at depth 07",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 08",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on a soil-specific calibration at depth 08",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on a soil-specific calibration at depth 08",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on a soil-specific calibration at depth 08",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on a soil-specific calibration at depth 08",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on a soil-specific calibration at depth 08",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on a soil-specific calibration at depth 08",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth01Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on the factory calibration at depth 01",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth01Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on the factory calibration at depth 01",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth01Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on the factory calibration at depth 01",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth01Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on the factory calibration at depth 01",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCfactoryDepth01NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on the factory calibration at depth 01",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCfactoryDepth01StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on the factory calibration at depth 01",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth01ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on the factory calibration at depth 01",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth02Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on the factory calibration at depth 02",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth02Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on the factory calibration at depth 02",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth02Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on the factory calibration at depth 02",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth02Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on the factory calibration at depth 02",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCfactoryDepth02NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on the factory calibration at depth 02",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCfactoryDepth02StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on the factory calibration at depth 02",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth02ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on the factory calibration at depth 02",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth03Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on the factory calibration at depth 03",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth03Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on the factory calibration at depth 03",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth03Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on the factory calibration at depth 03",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth03Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on the factory calibration at depth 03",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCfactoryDepth03NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on the factory calibration at depth 03",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCfactoryDepth03StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on the factory calibration at depth 03",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth03ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on the factory calibration at depth 03",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth04Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on the factory calibration at depth 04",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth04Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on the factory calibration at depth 04",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth04Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on the factory calibration at depth 04",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth04Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on the factory calibration at depth 04",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCfactoryDepth04NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on the factory calibration at depth 04",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCfactoryDepth04StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on the factory calibration at depth 04",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth04ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on the factory calibration at depth 04",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth05Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on the factory calibration at depth 05",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth05Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on the factory calibration at depth 05",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth05Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on the factory calibration at depth 05",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth05Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on the factory calibration at depth 05",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCfactoryDepth05NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on the factory calibration at depth 05",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCfactoryDepth05StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on the factory calibration at depth 05",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth05ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on the factory calibration at depth 05",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth06Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on the factory calibration at depth 06",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth06Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on the factory calibration at depth 06",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth06Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on the factory calibration at depth 06",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth06Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on the factory calibration at depth 06",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCfactoryDepth06NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on the factory calibration at depth 06",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCfactoryDepth06StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on the factory calibration at depth 06",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth06ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on the factory calibration at depth 06",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth07Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on the factory calibration at depth 07",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth07Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on the factory calibration at depth 07",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth07Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on the factory calibration at depth 07",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth07Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on the factory calibration at depth 07",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCfactoryDepth07NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on the factory calibration at depth 07",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCfactoryDepth07StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on the factory calibration at depth 07",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth07ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on the factory calibration at depth 07",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth08Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil water content based on the factory calibration at depth 08",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth08Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil water content based on the factory calibration at depth 08",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth08Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil water content based on the factory calibration at depth 08",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth08Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil water content based on the factory calibration at depth 08",
+      "__neon_units": "cubicCentimetersPerCubicCentimeterSquared"
+    },
+    {
+      "name": "VSWCfactoryDepth08NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil water content based on the factory calibration at depth 08",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSWCfactoryDepth08StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil water content based on the factory calibration at depth 08",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSWCfactoryDepth08ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil water content based on the factory calibration at depth 08",
+      "__neon_units": "cubicCentimetersPerCubicCentimeter"
+    },
+    {
+      "name": "VSICDepth01Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil ion content at depth 01",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth01Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil ion content at depth 01",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth01Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil ion content at depth 01",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth01Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil ion content at depth 01",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth01NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil ion content at depth 01",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSICDepth01StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil ion content at depth 01",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth01ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil ion content at depth 01",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth02Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil ion content at depth 02",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth02Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil ion content at depth 02",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth02Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil ion content at depth 02",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth02Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil ion content at depth 02",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth02NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil ion content at depth 02",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSICDepth02StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil ion content at depth 02",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth02ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil ion content at depth 02",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth03Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil ion content at depth 03",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth03Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil ion content at depth 03",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth03Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil ion content at depth 03",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth03Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil ion content at depth 03",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth03NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil ion content at depth 03",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSICDepth03StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil ion content at depth 03",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth03ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil ion content at depth 03",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth04Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil ion content at depth 04",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth04Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil ion content at depth 04",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth04Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil ion content at depth 04",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth04Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil ion content at depth 04",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth04NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil ion content at depth 04",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSICDepth04StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil ion content at depth 04",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth04ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil ion content at depth 04",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth05Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil ion content at depth 05",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth05Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil ion content at depth 05",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth05Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil ion content at depth 05",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth05Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil ion content at depth 05",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth05NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil ion content at depth 05",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSICDepth05StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil ion content at depth 05",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth05ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil ion content at depth 05",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth06Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil ion content at depth 06",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth06Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil ion content at depth 06",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth06Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil ion content at depth 06",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth06Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil ion content at depth 06",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth06NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil ion content at depth 06",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSICDepth06StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil ion content at depth 06",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth06ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil ion content at depth 06",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth07Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil ion content at depth 07",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth07Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil ion content at depth 07",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth07Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil ion content at depth 07",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth07Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil ion content at depth 07",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth07NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil ion content at depth 07",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSICDepth07StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil ion content at depth 07",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth07ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil ion content at depth 07",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth08Mean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Arithmetic mean of volumetric soil ion content at depth 08",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth08Minimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum volumetric soil ion content at depth 08",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth08Maximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum volumetric soil ion content at depth 08",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth08Variance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Variance in volumetric soil ion content at depth 08",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth08NumPts",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Number of points used to calculate the arithmetic mean of volumetric soil ion content at depth 08",
+      "__neon_units": "number"
+    },
+    {
+      "name": "VSICDepth08StdEr",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Standard error of the mean for volumetric soil ion content at depth 08",
+      "__neon_units": "dimensionless"
+    },
+    {
+      "name": "VSICDepth08ExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty for volumetric soil ion content at depth 08",
+      "__neon_units": "dimensionless"
+    }
+  ]
+}
