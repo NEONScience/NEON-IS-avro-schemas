@@ -1,0 +1,67 @@
+{
+  "type": "record",
+  "name": "hmr3300",
+  "namespace": "org.neonscience.schema.device",
+  "doc": "HMR3300 sensor",
+  "__version": "1.0",
+  "fields": [
+    {
+      "name": "source_id",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Source serial number or MAC address"
+    },
+    {
+      "name": "site_id",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "NEON site identifier"
+    },
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch",
+      "__neon_units": "millisecond"
+    },
+    {
+      "name": "direction",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Direction in degrees",
+      "__neon_units": "degree",
+      "__neon_stream_id": "0"
+    },
+    {
+      "name": "pitch",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Pitch",
+      "__neon_units": "degree",
+      "__neon_stream_id": "1"
+    },
+    {
+      "name": "roll",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Roll",
+      "__neon_units": "degree",
+      "__neon_stream_id": "1"
+    }
+  ]
+}
