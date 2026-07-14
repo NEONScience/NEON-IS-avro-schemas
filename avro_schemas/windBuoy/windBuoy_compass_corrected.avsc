@@ -1,0 +1,74 @@
+{
+  "type": "record",
+  "name": "windBuoy_compass_corrected",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "Buoy compass corrected wind speed and direction",
+  "__version": "1.0",
+  "fields": [
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch",
+      "__neon_units": "millisecond"
+    },
+    {
+      "name": "source_id",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Source serial number or MAC address"
+    },
+    {
+      "name": "site_id",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "NEON site identifier"
+    },
+    {
+      "name": "windSpeedMean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Calibrated wind speed in meters per second",
+      "__neon_units": "metersPerSecond"
+    },
+    {
+      "name": "vectorAverageHeading",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Raw buoy compass direction",
+      "__neon_units": "degree"
+    },
+    {
+      "name": "windDirMean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Calibrated wind direction in degrees",
+      "__neon_units": "degree"
+    },
+    {
+      "name": "direction_corrected_rad",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Corrected wind direction in radians",
+      "__neon_units": "radians"
+    }
+  ]
+}
