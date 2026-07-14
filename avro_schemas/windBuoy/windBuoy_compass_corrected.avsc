@@ -51,7 +51,7 @@
       "__neon_units": "degree"
     },
     {
-      "name": "windDirMean",
+      "name": "direction_calibrated",
       "type": [
         "null",
         "float"
@@ -59,6 +59,16 @@
       "default": null,
       "doc": "Calibrated wind direction in degrees",
       "__neon_units": "degree"
+    },
+    {
+      "name": "windDirMean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Corrected wind direction in radians",
+      "__neon_units": "radians"
     },
     {
       "name": "direction_corrected_rad",
