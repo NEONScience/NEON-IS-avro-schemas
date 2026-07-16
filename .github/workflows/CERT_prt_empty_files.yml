@@ -2,7 +2,7 @@ name: CERT-prt-empty-files
 on:
   push:
     branches:
-      - 'none'
+      - 'cert'
     paths:
       - 'empty_files/prt/**'
   workflow_dispatch: {} # Allows trigger of workflow from web interface

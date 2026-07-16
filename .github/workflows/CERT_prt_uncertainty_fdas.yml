@@ -2,7 +2,7 @@ name: CERT-prt-uncertainty-fdas
 on:
   push:
     branches:
-      - 'none'
+      - 'cert'
     paths:
       - 'uncertainty_fdas/fdas_calibration_uncertainty_general.json'
   workflow_dispatch: {} # Allows trigger of workflow from web interface

@@ -2,7 +2,7 @@ name: CERT-prt-avro-schemas
 on:
   push:
     branches:
-      - 'none'
+      - 'cert'
     paths:
       - 'avro_schemas/prt/**'
   workflow_dispatch: {} # Allows trigger of workflow from web interface
