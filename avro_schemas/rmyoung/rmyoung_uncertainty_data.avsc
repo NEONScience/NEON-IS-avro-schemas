@@ -1,0 +1,76 @@
+{
+  "type": "record",
+  "name": "rmyoung_uncertainty_data",
+  "namespace": "org.neonscience.schema.dp0p",
+  "doc": "Uncertainty data for the rmyoung sensor",
+  "fields": [
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch"
+    },
+    {
+      "name": "speed_ucrtMeas",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Measurement uncertainty",
+      "__neon_units": "metersPerSecond"
+    },
+    {
+      "name": "speed_ucrtComb",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Combined uncertainty",
+      "__neon_units": "metersPerSecond"
+    },
+    {
+      "name": "speed_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty",
+      "__neon_units": "metersPerSecond"
+    },
+    {
+      "name": "direction_ucrtMeas",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Measurement uncertainty",
+      "__neon_units": "degree"
+    },
+    {
+      "name": "direction_ucrtComb",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Combined uncertainty",
+      "__neon_units": "degree"
+    },
+    {
+      "name": "direction_ucrtExpn",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Expanded uncertainty",
+      "__neon_units": "degree"
+    }
+    ]
+}

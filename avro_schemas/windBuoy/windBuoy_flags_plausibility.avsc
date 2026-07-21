@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "flags_plausibility",
+  "name": "windbuoy_flags_plausibility",
   "namespace": "org.neonscience.schema.dp0p",
   "doc": "Plausibility flags (null, gap, range, persistence) for sensor with a single stream",
   "fields": [

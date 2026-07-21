@@ -1,8 +1,8 @@
 {
   "type": "record",
-  "name": "windBuoy_compass_corrected",
+  "name": "windBuoy_analyzed",
   "namespace": "org.neonscience.schema.dp01",
-  "doc": "Buoy compass corrected wind speed and direction",
+  "doc": "Buoy wind speed and direction",
   "__version": "1.0",
   "fields": [
     {
@@ -31,7 +31,7 @@
       "doc": "NEON site identifier"
     },
     {
-      "name": "windSpeedMean",
+      "name": "speed",
       "type": [
         "null",
         "float"
@@ -61,7 +61,7 @@
       "__neon_units": "degree"
     },
     {
-      "name": "windDirMean",
+      "name": "direction",
       "type": [
         "null",
         "float"
