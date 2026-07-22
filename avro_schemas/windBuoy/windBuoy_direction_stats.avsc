@@ -1,8 +1,8 @@
 {
   "type": "record",
-  "name": "windBuoy_analyzed",
+  "name": "windBuoy_direction_stats",
   "namespace": "org.neonscience.schema.dp01",
-  "doc": "Buoy wind speed and direction",
+  "doc": "Buoy wind direction stats",
   "__version": "1.0",
   "fields": [
     {
@@ -31,37 +31,7 @@
       "doc": "NEON site identifier"
     },
     {
-      "name": "speed",
-      "type": [
-        "null",
-        "float"
-      ],
-      "default": null,
-      "doc": "Calibrated wind speed in meters per second",
-      "__neon_units": "metersPerSecond"
-    },
-    {
-      "name": "vectorAverageHeading",
-      "type": [
-        "null",
-        "float"
-      ],
-      "default": null,
-      "doc": "Raw buoy compass direction",
-      "__neon_units": "degree"
-    },
-    {
-      "name": "direction_calibrated",
-      "type": [
-        "null",
-        "float"
-      ],
-      "default": null,
-      "doc": "Calibrated wind direction in degrees",
-      "__neon_units": "degree"
-    },
-    {
-      "name": "direction",
+      "name": "buoyWindDirMean",
       "type": [
         "null",
         "float"
@@ -71,14 +41,44 @@
       "__neon_units": "degree"
     },
     {
-      "name": "direction_rad",
+      "name": "buoyWindDirVariance",
       "type": [
         "null",
         "float"
       ],
       "default": null,
-      "doc": "Corrected wind direction in radians",
-      "__neon_units": "radians"
+      "doc": "Wind direction variance",
+      "__neon_units": "degree"
+    },
+    {
+      "name": "buoyWindDirNumPts",
+      "type": [
+        "null",
+        "int16"
+      ],
+      "default": null,
+      "doc": "Wind direction number of points",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "buoyWindDirStdErMean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Wind direction standard error",
+      "__neon_units": "degree"
+    },
+    {
+      "name": "buoyWindDirExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Wind direction expanded uncertainty",
+      "__neon_units": "degree"
     }
   ]
 }
