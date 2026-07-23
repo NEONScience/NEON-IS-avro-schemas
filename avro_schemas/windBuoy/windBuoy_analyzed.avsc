@@ -79,6 +79,16 @@
       "default": null,
       "doc": "Corrected wind direction in radians",
       "__neon_units": "radians"
+    },
+    {
+      "name": "azimuth",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "wind-monitor on-mast offset",
+      "__neon_units": "degree"
     }
   ]
 }
