@@ -6,13 +6,20 @@
   "__version": "1.0",
   "fields": [
     {
-      "name": "readout_time",
+      "name": "startDateTime",
       "type": {
         "type": "long",
         "logicalType": "timestamp-millis"
       },
-      "doc": "Timestamp of readout expressed in milliseconds since epoch",
-      "__neon_units": "millisecond"
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
       "name": "source_id",
