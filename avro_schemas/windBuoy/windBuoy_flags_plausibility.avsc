@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "windbuoy_flags_plausibility",
+  "name": "windBuoy_flags_plausibility",
   "namespace": "org.neonscience.schema.dp0p",
   "doc": "Plausibility flags (null, gap, range, persistence) for sensor with a single stream",
   "fields": [
@@ -10,13 +10,14 @@
         "type": "long",
         "logicalType": "timestamp-millis"
       },
-      "doc": "Timestamp of readout expressed in milliseconds since epoch"
+      "doc": "Timestamp of readout expressed in milliseconds since epoch",
+      "__neon_units": "millisecond"
     },
     {
       "name": "buoyWindSpeedNullQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the null test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -26,7 +27,7 @@
       "name": "buoyWindSpeedGapQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the gap test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -36,7 +37,7 @@
       "name": "buoyWindSpeedRangeQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -46,7 +47,7 @@
       "name": "buoyWindSpeedPersistenceQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -56,7 +57,7 @@
       "name": "buoyWindDirNullQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the null test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -66,7 +67,7 @@
       "name": "buoyWindDirGapQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the gap test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -76,7 +77,7 @@
       "name": "buoyWindDirRangeQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -86,7 +87,7 @@
       "name": "buoyWindDirPersistenceQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -96,7 +97,7 @@
       "name": "buoyCompNullQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the null test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -106,7 +107,7 @@
       "name": "buoyCompGapQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the gap test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -116,7 +117,7 @@
       "name": "buoyCompRangeQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the range test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
@@ -126,11 +127,11 @@
       "name": "buoyCompPersistenceQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
       "doc": "Quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
     }
-    ]
+  ]
 }

@@ -20,6 +20,7 @@
         "null",
         "string"
       ],
+      "default": null,
       "doc": "Source serial number or MAC address"
     },
     {
@@ -28,6 +29,7 @@
         "null",
         "string"
       ],
+      "default": null,
       "doc": "NEON site identifier"
     },
     {
