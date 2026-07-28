@@ -1,0 +1,95 @@
+{
+  "type": "record",
+  "name": "windBuoy_speed_stats",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "Buoy wind speed stats",
+  "__version": "1.0",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "buoyWindSpeedMean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Corrected wind speed",
+      "__neon_units": "metersPerSecond"
+    },
+    {
+      "name": "buoyWindSpeedMinimum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Minimum wind speed",
+      "__neon_units": "metersPerSecond"
+    },
+    {
+      "name": "buoyWindSpeedMaximum",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Maximum wind speed",
+      "__neon_units": "metersPerSecond"
+    },
+    {
+      "name": "buoyWindSpeedVariance",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Wind speed variance",
+      "__neon_units": "metersPerSecond"
+    },
+    {
+      "name": "buoyWindSpeedNumPts",
+      "type": [
+        "null",
+        "int16"
+      ],
+      "default": null,
+      "doc": "Wind speed number of points",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "buoyWindSpeedStdErMean",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Wind speed standard error",
+      "__neon_units": "metersPerSecond"
+    },
+    {
+      "name": "buoyWindSpeedExpUncert",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null,
+      "doc": "Wind speed expanded uncertainty",
+      "__neon_units": "metersPerSecond"
+    }
+  ]
+}
