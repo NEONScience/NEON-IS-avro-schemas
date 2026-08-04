@@ -49,8 +49,7 @@
       ],
       "default": null,
       "doc": "Pitch",
-      "__neon_units": "degree",
-      "__neon_stream_id": "1"
+      "__neon_units": "degree"
     },
     {
       "name": "roll",
@@ -60,8 +59,7 @@
       ],
       "default": null,
       "doc": "Roll",
-      "__neon_units": "degree",
-      "__neon_stream_id": "1"
+      "__neon_units": "degree"
     }
   ]
 }

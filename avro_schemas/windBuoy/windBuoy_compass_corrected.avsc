@@ -68,7 +68,7 @@
       ],
       "default": null,
       "doc": "Corrected wind direction in degrees",
-      "__neon_units": "radians"
+      "__neon_units": "degree"
     },
     {
       "name": "direction_rad",

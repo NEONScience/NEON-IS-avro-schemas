@@ -69,7 +69,7 @@
       ],
       "default": null,
       "doc": "Wind speed number of points",
-      "__neon_units": "NA"
+      "__neon_units": "number"
     },
     {
       "name": "buoyWindSpeedStdErMean",

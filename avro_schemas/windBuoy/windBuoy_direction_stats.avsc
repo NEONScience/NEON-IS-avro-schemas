@@ -65,7 +65,7 @@
       ],
       "default": null,
       "doc": "Wind direction number of points",
-      "__neon_units": "NA"
+      "__neon_units": "number"
     },
     {
       "name": "buoyWindDirStdErMean",

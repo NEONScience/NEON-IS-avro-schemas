@@ -2,7 +2,7 @@
   "type": "record",
   "name": "windBuoy_flags_deadcalm",
   "namespace": "org.neonscience.schema.dp0p",
-  "doc": "Plausibility flags (null, gap, range, persistence) for sensor with a single stream",
+  "doc": "Dead zone and calm wind flags for buoy wind direction",
   "fields": [
     {
       "name": "readout_time",
