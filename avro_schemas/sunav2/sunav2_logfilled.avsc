@@ -78,7 +78,7 @@
         "float"
       ],
       "default": null,
-      "doc": "Nitrate concentration as micromoler",
+      "doc": "Nitrate concentration as micromolar",
       "__neon_units": "micromolesPerLiter",
       "__neon_stream_id": "3"
     },
@@ -89,7 +89,7 @@
         "float"
       ],
       "default": null,
-      "doc": "Nitrate concentration as miligrams per liter",
+      "doc": "Nitrate concentration as milligrams per liter",
       "__neon_units": "milligramsPerLiter",
       "__neon_stream_id": "4"
     },
