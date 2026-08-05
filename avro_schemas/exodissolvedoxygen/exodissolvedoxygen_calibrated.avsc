@@ -24,6 +24,16 @@
             "doc": "Timestamp of readout expressed in milliseconds since epoch",
             "__neon_units": "millisecond"
         },
+	{
+            "name": "dissolvedOxygen",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Dissolved Oxygen Concentration",
+            "__neon_units": "milligramsPerLiter"
+        },
         {
             "name": "dissolvedOxygenSaturation",
             "type": [
@@ -35,14 +45,14 @@
             "__neon_units": "percent"
         },
         {
-            "name": "dissolvedOxygen",
+            "name": "localDissolvedOxygenSat",
             "type": [
                 "null",
                 "float"
             ],
             "default": null,
-            "doc": "Dissolved Oxygen Concentration",
-            "__neon_units": "milligramsPerLiter"
+            "doc": "Dissolved Oxygen Saturation refrenced to local atmospheric pressure",
+            "__neon_units": "percent"
         }
     ]
 }
