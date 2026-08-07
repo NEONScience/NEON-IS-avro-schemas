@@ -2,7 +2,7 @@
   "type": "record",
   "name": "hmr3300_calibrated",
   "namespace": "org.neonscience.schema.dp0p",
-  "doc": Calibrated hmr3300 sensor data",
+  "doc": "Calibrated hmr3300 sensor data",
   "__version": "1.0",
   "fields": [
     {
