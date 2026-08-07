@@ -1,12 +1,9 @@
 {
   "type": "record",
   "name": "rmyoung_calibrated",
-  "namespace": "org.neonscience.schema.device",
+  "namespace": "org.neonscience.schema.dp0p",
   "doc": "Calibrated RM Young Wind speed sensor",
   "__version": "1.0",
-  "__neon_parts": [
-    "0354780000"
-  ],
   "fields": [
     {
       "name": "source_id",

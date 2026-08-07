@@ -1,7 +1,7 @@
 {
   "type": "record",
   "name": "windBuoy_analyzed",
-  "namespace": "org.neonscience.schema.dp01",
+  "namespace": "org.neonscience.schema.dp0p",
   "doc": "Buoy wind speed and direction",
   "__version": "1.0",
   "fields": [

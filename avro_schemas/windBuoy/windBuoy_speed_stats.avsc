@@ -28,7 +28,7 @@
         "float"
       ],
       "default": null,
-      "doc": "Corrected wind speed",
+      "doc": "Arithmetic mean of wind speed on buoy",
       "__neon_units": "metersPerSecond"
     },
     {
@@ -38,7 +38,7 @@
         "float"
       ],
       "default": null,
-      "doc": "Minimum wind speed",
+      "doc": "Minimum wind speed on buoy",
       "__neon_units": "metersPerSecond"
     },
     {
@@ -48,7 +48,7 @@
         "float"
       ],
       "default": null,
-      "doc": "Maximum wind speed",
+      "doc": "Maximum wind speed on buoy",
       "__neon_units": "metersPerSecond"
     },
     {
@@ -58,7 +58,7 @@
         "float"
       ],
       "default": null,
-      "doc": "Wind speed variance",
+      "doc": "Variance in wind speed on buoy",
       "__neon_units": "metersPerSecond"
     },
     {
@@ -68,7 +68,7 @@
         "int16"
       ],
       "default": null,
-      "doc": "Wind speed number of points",
+      "doc": "Number of points used to calculate the arithmetic mean of wind speed on buoy",
       "__neon_units": "number"
     },
     {
@@ -78,7 +78,7 @@
         "float"
       ],
       "default": null,
-      "doc": "Wind speed standard error",
+      "doc": "Standard error of the mean for wind speed on buoy",
       "__neon_units": "metersPerSecond"
     },
     {
@@ -88,7 +88,7 @@
         "float"
       ],
       "default": null,
-      "doc": "Wind speed expanded uncertainty",
+      "doc": "Expanded uncertainty for wind speed on buoy",
       "__neon_units": "metersPerSecond"
     }
   ]

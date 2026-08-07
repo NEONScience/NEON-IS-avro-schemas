@@ -1,7 +1,7 @@
 {
   "type": "record",
   "name": "windBuoy_compass_corrected",
-  "namespace": "org.neonscience.schema.dp01",
+  "namespace": "org.neonscience.schema.dp0p",
   "doc": "Buoy compass corrected wind speed and direction",
   "__version": "1.0",
   "fields": [
