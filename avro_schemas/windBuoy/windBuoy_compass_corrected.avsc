@@ -31,13 +31,13 @@
       "doc": "NEON site identifier"
     },
     {
-      "name": "windSpeedMean",
+      "name": "speed",
       "type": [
         "null",
         "float"
       ],
       "default": null,
-      "doc": "Calibrated wind speed in meters per second",
+      "doc": "Wind speed in meters per second",
       "__neon_units": "metersPerSecond"
     },
     {
@@ -61,13 +61,13 @@
       "__neon_units": "degree"
     },
     {
-      "name": "windDirMean",
+      "name": "direction",
       "type": [
         "null",
         "float"
       ],
       "default": null,
-      "doc": "Corrected wind direction in degrees",
+      "doc": "Wind direction in degrees",
       "__neon_units": "degree"
     },
     {
