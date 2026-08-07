@@ -14,7 +14,7 @@
       "__neon_units": "millisecond"
     },
     {
-      "name": "buoyWindDirDeadZone",
+      "name": "buoyWindDirDeadZoneQF",
       "type": [
         "null",
         "int8"
@@ -24,7 +24,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "buoyWindDirCalmWind",
+      "name": "buoyWindDirCalmWindQF",
       "type": [
         "null",
         "int8"
