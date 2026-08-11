@@ -1,0 +1,64 @@
+{
+    "type": "record",
+    "name": "exo2dissolvedoxygen_log_data",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "YSI EXO Optical Dissolved Oxygen Smart Sensor Log Data",
+    "__version": "1.0",
+    "__neon_parts": [
+        "0320170027"
+    ],
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "dissolved_oxygen_saturation",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Dissolved oxygen",
+            "__neon_units": "percent",
+            "__neon_stream_id": "30"
+        },
+        {
+            "name": "dissolved_oxygen_saturation_local",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Dissolved oxygen reading corrected with temperature and local barometric pressure at the time of calibration: ( local mmHg / 760 mmHg ) x 100 = %Sat",
+            "__neon_units": "percent",
+            "__neon_stream_id": "31"
+        },
+        {
+            "name": "dissolved_oxygen",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Dissolved oxygen concentration reading",
+            "__neon_units": "milligramsPerLiter",
+            "__neon_stream_id": "32"
+        }
+    ]
+}

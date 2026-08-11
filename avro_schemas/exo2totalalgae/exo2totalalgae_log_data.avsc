@@ -1,0 +1,64 @@
+{
+    "type": "record",
+    "name": "exo2totalalgae_log_data",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "YSI EXO Total Algae PC Smart Sensor Log Data",
+    "__version": "1.0",
+    "__neon_parts": [
+        "0320170029"
+    ],
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "blue_green_algae_phycocyanin",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Blue Green Algae Phycocyanin",
+            "__neon_units": "",
+            "__neon_stream_id": "30"
+        },
+        {
+            "name": "chlorophyll",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Chlorophyll",
+            "__neon_units": "",
+            "__neon_stream_id": "31"
+        },
+        {
+            "name": "chlorophyll_rfu",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Chlorophyll RFU",
+            "__neon_units": "",
+            "__neon_stream_id": "32"
+        }
+    ]
+}

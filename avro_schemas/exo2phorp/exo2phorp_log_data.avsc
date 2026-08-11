@@ -1,0 +1,53 @@
+{
+    "type": "record",
+    "name": "exo2phorp_log_data",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "YSI EXO pH & ORP Smart Sensor Log Data",
+    "__version": "1.0",
+    "__neon_parts": [
+        "0320170031"
+    ],
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "ph",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Measurement of pH in sample",
+            "__neon_units": "pH",
+            "__neon_stream_id": "30"          
+        },
+        {
+            "name": "ph_millivolt",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "pH meter voltage",
+            "__neon_units": "millivolt",
+            "__neon_stream_id": "31"
+        }
+    ]
+}

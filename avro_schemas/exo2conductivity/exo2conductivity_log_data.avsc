@@ -1,0 +1,64 @@
+{
+    "type": "record",
+    "name": "exo2conductivity_log_data",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "YSI EXO Conductivity & Temperature Smart Sensor Log Data",
+    "__version": "1.0",
+    "__neon_parts": [
+        "0320170026"
+    ],
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "conductivity",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Conductivity at ambient temperture",
+            "__neon_units": "microsiemensPerCentimeter",
+            "__neon_stream_id": "30"
+        },
+        {
+            "name": "specific_conductance",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Conductivity auto-corrected to 25 degrees C",
+            "__neon_units": "microsiemensPerCentimeter",
+            "__neon_stream_id": "31"
+        },
+        {
+            "name": "temperature",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Temperature in surface water",
+            "__neon_units": "celsius",
+            "__neon_stream_id": "32"
+        }
+    ]
+}
