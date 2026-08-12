@@ -1,6 +1,6 @@
 {
     "type": "record",
-    "name": "exo2totalalgae_calibrated",
+    "name": "exo2algae_calibrated",
     "namespace": "org.neonscience.schema.device",
     "doc": "Calibrated YSI EXO Total Algae PC Smart Sensor",
     "__version": "1.0",

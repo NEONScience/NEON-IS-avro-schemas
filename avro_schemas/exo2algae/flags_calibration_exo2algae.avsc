@@ -1,8 +1,8 @@
 {
   "type": "record",
-  "name": "flags_calibration_exo2totalalgae",
+  "name": "flags_calibration_exo2algae",
   "namespace": "org.neonscience.schema.dp0p",
-  "doc": "Calibration flags for exo2totalalgae sensor",
+  "doc": "Calibration flags for exo2algae sensor",
   "fields": [
     {
       "name": "readout_time",

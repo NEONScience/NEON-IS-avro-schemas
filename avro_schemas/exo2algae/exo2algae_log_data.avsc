@@ -1,6 +1,6 @@
 {
     "type": "record",
-    "name": "exo2totalalgae_log_data",
+    "name": "exo2algae_log_data",
     "namespace": "org.neonscience.schema.device",
     "doc": "YSI EXO Total Algae PC Smart Sensor Log Data",
     "__version": "1.0",
