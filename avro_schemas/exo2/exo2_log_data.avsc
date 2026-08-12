@@ -4,24 +4,21 @@
     "namespace": "org.neonscience.schema.device",
     "doc": "YSI EXO2 Multiparameter Sonde Log Data",
     "__version": "1.0",
-    "__neon_parts": [
-        "HB07530000",
-        "HB07530010",
-        "HB07530020",
-        "HB07530030",
-        "HB07530100",
-        "HB07531000",
-        "HB07532000"
-    ],
     "fields": [
         {
             "name": "source_id",
-            "type": "string",
+            "type": [
+                "null",
+                "string"
+            ],
             "doc": "Source serial number or MAC address"
         },
         {
             "name": "site_id",
-            "type": "string",
+            "type": [
+                "null",
+                "string"
+            ],
             "doc": "NEON site identifier"
         },
         {
