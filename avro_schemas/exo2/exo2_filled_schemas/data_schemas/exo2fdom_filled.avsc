@@ -1,0 +1,32 @@
+{
+    "type": "record",
+    "name": "exo2fdom_filled",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "YSI EXO fDOM Smart Sensor Filled Data",
+    "__version": "1.0",
+    "__neon_parts": [
+        "0320170030"
+    ],
+    "fields": [
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "fdom",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Raw signal of fluorescent dissolved organic matter sensor as a percent of full scale detected in the sample",
+            "__neon_units": "percent",
+            "__neon_stream_id": "30"
+        }
+   ]
+}

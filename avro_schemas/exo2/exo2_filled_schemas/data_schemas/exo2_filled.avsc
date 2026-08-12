@@ -1,0 +1,73 @@
+{
+    "type": "record",
+    "name": "exo2_filled",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "YSI EXO2 Multiparameter Sonde Filled Data",
+    "__version": "1.0",
+    "fields": [
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "depth",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Water depth of measurement",
+            "__neon_units": "meter",
+            "__neon_stream_id": "30"
+        },
+        {
+            "name": "pressure",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Water pressure measured by the multisonde in psi",
+            "__neon_units": "poundsPerSquareInch",
+            "__neon_stream_id": "31"
+        },
+        {
+            "name": "wiper_position",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Voltage representing the position of the wiper",
+            "__neon_units": "volt",
+            "__neon_stream_id": "32"
+        },
+        {
+            "name": "battery_voltage",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Battery voltage",
+            "__neon_units": "volt",
+            "__neon_stream_id": "33"
+        },
+        {
+            "name": "external_power",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Voltage of external power source",
+            "__neon_units": "volt",
+            "__neon_stream_id": "34"
+        }
+    ]
+}
