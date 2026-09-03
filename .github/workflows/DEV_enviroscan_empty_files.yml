@@ -2,7 +2,7 @@ name: DEV-enviroscan-empty-files
 on:
   push:
     branches:
-      - 'enviroscan'
+      - 'master'
     paths:
       - 'empty_files/enviroscan/**'
   workflow_dispatch: {} # Allows trigger of workflow from web interface

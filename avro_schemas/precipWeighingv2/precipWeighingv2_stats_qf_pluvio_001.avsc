@@ -81,13 +81,13 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sensorErrorQF",
+      "name": "weighGaugeSensorStatusQF",
       "type": [
         "null",
         "int8"
         ],
       "default": null,
-      "doc": "Quality flag for the sensor error test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "doc": "Weigh gauge precipitation quality flag indicating whether the status stream of the sensor indicated an issue",
       "__neon_units": "NA"
     },
      {
