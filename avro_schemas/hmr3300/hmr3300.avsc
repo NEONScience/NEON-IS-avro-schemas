@@ -1,0 +1,64 @@
+{
+    "type": "record",
+    "name": "hmr3300",
+    "namespace": "org.neonscience.schema.device",
+    "doc": "Honeywell HMR3300 Digital Compass",
+    "__version": "1.0",
+    "__neon_parts": [
+      "0354780000"
+    ],
+    "fields": [
+        {
+            "name": "source_id",
+            "type": "string",
+            "doc": "Source serial number or MAC address"
+        },
+        {
+            "name": "site_id",
+            "type": "string",
+            "doc": "NEON site identifier"
+        },
+        {
+            "name": "readout_time",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Timestamp of readout expressed in milliseconds since epoch",
+            "__neon_units": "millisecond"
+        },
+        {
+            "name": "direction",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Direction angle in degrees",
+            "__neon_units": "degree",
+            "__neon_stream_id": "0"
+        },
+        {
+            "name": "pitch",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Pitch, Euler angle in degrees",
+            "__neon_units": "degree",
+            "__neon_stream_id": "1"
+        },
+        {
+            "name": "roll",
+            "type": [
+                "null",
+                "float"
+            ],
+            "default": null,
+            "doc": "Roll, Euler angle in degrees",
+            "__neon_units": "degree",
+            "__neon_stream_id": "2"
+        }
+    ]
+}
