@@ -6,6 +6,10 @@ on:
     paths:
       - 'avro_schemas/enviroscan/**'
   workflow_dispatch: {} # Allows trigger of workflow from web interface
+
+permissions:
+  contents: read
+
 jobs:
   put-file:
     runs-on: arc-neon-gke
