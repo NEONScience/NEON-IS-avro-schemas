@@ -23,7 +23,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "surfaceWaterTempLofDataQF",
+      "name": "surfaceWaterTempLogDataQF",
       "type": [
         "null",
         "int"
