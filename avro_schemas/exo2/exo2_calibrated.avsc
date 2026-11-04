@@ -6,22 +6,6 @@
     "__version": "1.0",
     "fields": [
         {
-            "name": "source_id",
-            "type": [
-                "null",
-                "string"
-            ],
-            "doc": "Source serial number or MAC address"
-        },
-        {
-            "name": "site_id",
-            "type": [
-                "null",
-                "string"
-            ],
-            "doc": "NEON site identifier"
-        },
-        {
             "name": "readout_time",
             "type": {
                 "type": "long",
