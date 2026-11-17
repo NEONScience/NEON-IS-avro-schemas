@@ -1,8 +1,8 @@
 {
   "type": "record",
-  "name": "waterQuality_exoturbidity_dp01_quality_metrics",
+  "name": "quality_metrics_exo2turbidity",
   "namespace": "org.neonscience.schema.dp01",
-  "doc": "L1 quality metrics and final quality flag for water quality exoturbidity sensor",
+  "doc": "Instantaneous Quality metrics for exo2turbidity sensor",
   "fields": [
     {
       "name": "startDateTime",
@@ -24,30 +24,20 @@
       "name": "turbidityValidCalQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
-      "doc": "Quality flag for the valid calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "doc": "Quality flag for the valid calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
     },
     {
       "name": "turbiditySuspectCalQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
-      "doc": "Quality flag for the suspect calibration check detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "turbidityNullQF",
-      "type": [
-        "null",
-        "int"
-        ],
-      "default": null,
-      "doc": "Turbidity quality flag for the null test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "doc": "Quality flag for the suspect calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
     },
     {
@@ -71,6 +61,16 @@
       "__neon_units": "NA"
     },
     {
+      "name": "turbidityPersistenceQF",
+      "type": [
+        "null",
+        "int"
+        ],
+      "default": null,
+      "doc": "Turbidity quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
       "name": "turbidityStepQF",
       "type": [
         "null",
@@ -91,54 +91,64 @@
       "__neon_units": "NA"
     },
     {
-      "name": "turbidityPersistenceQF",
+      "name": "turbidityZeroConductivityQF",
       "type": [
         "null",
         "int"
         ],
       "default": null,
-      "doc": "Turbidity quality flag for the persistence test detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "doc": "Quality flag indicating whether sensor is submerged based on conductivity measurement (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
     },
     {
-      "name": "sensorNAQF",
+      "name": "turbidityBuoyProfilingQF",
       "type": [
         "null",
         "int"
         ],
       "default": null,
-      "doc": "Quality flag for the water quality sensor NA check detailed in NEON.DOC.004931 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "doc": "Quality flag indicating whether buoy sensor is profiling at the time of measurement (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "turbidityLogDataQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether data were collected while sensor was in logging mode (1=logged data, 0=streamed data)",
       "__neon_units": "NA"
     },
     {
       "name": "turbidityAlphaQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
-      "doc": "Turbidity quality assurance and quality control report for the alpha quality flag that indicates if one or more quality analysis failed for a datum detailed in NEON.DOC.001113 (1=fail 0=pass -1=NA (i.e. could not be run))",
+      "doc": "Alpha quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
     },
     {
       "name": "turbidityBetaQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
-      "doc": "Turbidity quality assurance and quality control report for the beta quality flag which indicates if one or more quality analysis could not be run for a datum detailed in NEON.DOC.001113 (1=fail 0=pass -1=NA (i.e could not be run))",
+      "doc": "Beta quality flag (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
     },
     {
       "name": "turbidityFinalQF",
       "type": [
         "null",
-        "int"
+        "int8"
         ],
       "default": null,
-      "doc": "Turbidity final quality flag indicating whether a data product has passed or failed an overall assessment of its quality; detailed in ATBD (1=fail; 0=pass)",
+      "doc": "Quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)",
       "__neon_units": "NA"
     }
-  ]
+    ]
 }

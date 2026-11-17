@@ -73,7 +73,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlaRelativeFluorescenceNullQF",
+      "name": "chlaRelativeFluoroNullQF",
       "type": [
         "null",
         "int"
@@ -83,7 +83,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlaRelativeFluorescenceGapQF",
+      "name": "chlaRelativeFluoroGapQF",
       "type": [
         "null",
         "int"
@@ -93,7 +93,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlaRelativeFluorescenceRangeQF",
+      "name": "chlaRelativeFluoroRangeQF",
       "type": [
         "null",
         "int"
@@ -103,7 +103,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlaRelativeFluorescencePersistenceQF",
+      "name": "chlaRelativeFluoroPersistenceQF",
       "type": [
         "null",
         "int"
@@ -113,7 +113,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlaRelativeFluorescenceStepQF",
+      "name": "chlaRelativeFluoroStepQF",
       "type": [
         "null",
         "int"
@@ -123,7 +123,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlaRelativeFluorescenceSpikeQF",
+      "name": "chlaRelativeFluoroSpikeQF",
       "type": [
         "null",
         "int"
