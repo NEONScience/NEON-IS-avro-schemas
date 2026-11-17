@@ -21,17 +21,7 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "validCalQF",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Quality flag for the valid calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "chlorophyllValidCalQF",
+      "name": "chlorophyllValidCal",
       "type": [
         "null",
         "int8"
@@ -42,6 +32,16 @@
     },
     {
       "name": "chlaRelFluoroValidCalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag for the valid calibration test (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "chlorophyllSuspectCal",
       "type": [
         "null",
         "int8"
@@ -181,26 +181,6 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlorophyllZeroConductivityQF",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether sensor is submerged based on conductivity measurement (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "chlorophyllBuoyProfilingQF",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether buoy sensor is profiling at the time of measurement (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
       "name": "chlorophyllLogDataQF",
       "type": [
         "null",
@@ -218,6 +198,26 @@
         ],
       "default": null,
       "doc": "Quality flag indicating whether data were collected while sensor was in logging mode (1=logged data, 0=streamed data)",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "chlorophyllZeroConductivityQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether sensor is submerged based on conductivity measurement (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "chlorophyllBuoyProfilingQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether buoy sensor is profiling at the time of measurement (1=fail, 0=pass, -1=NA (i.e., could not be run))",
       "__neon_units": "NA"
     },
     {

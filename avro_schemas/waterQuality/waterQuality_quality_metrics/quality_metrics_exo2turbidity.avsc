@@ -101,6 +101,16 @@
       "__neon_units": "NA"
     },
     {
+      "name": "turbidityLogDataQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Quality flag indicating whether data were collected while sensor was in logging mode (1=logged data, 0=streamed data)",
+      "__neon_units": "NA"
+    },
+    {
       "name": "turbidityZeroConductivityQF",
       "type": [
         "null",
@@ -118,16 +128,6 @@
         ],
       "default": null,
       "doc": "Quality flag indicating whether buoy sensor is profiling at the time of measurement (1=fail, 0=pass, -1=NA (i.e., could not be run))",
-      "__neon_units": "NA"
-    },
-    {
-      "name": "turbidityLogDataQF",
-      "type": [
-        "null",
-        "int8"
-        ],
-      "default": null,
-      "doc": "Quality flag indicating whether data were collected while sensor was in logging mode (1=logged data, 0=streamed data)",
       "__neon_units": "NA"
     },
     {
