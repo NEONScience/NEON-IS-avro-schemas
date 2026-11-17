@@ -5,20 +5,12 @@
   "doc": "Combined flags for exo2 sensor",
   "fields": [
     {
-      "name": "startDateTime",
+      "name": "readout_time",
       "type": {
         "type": "long",
         "logicalType": "timestamp-millis"
       },
-      "doc": "Date and time at which a sampling is initiated (inclusive)"
-    },
-    {
-      "name": "endDateTime",
-      "type": {
-        "type": "long",
-        "logicalType": "timestamp-millis"
-      },
-      "doc": "Date and time at which a sampling is completed (exclusive)"
+      "doc": "Timestamp of readout expressed in milliseconds since epoch"
     },
     {
       "name": "sensorDepthValidCalQF",

@@ -21,7 +21,7 @@
       "doc": "Date and time at which a sampling is completed (exclusive)"
     },
     {
-      "name": "chlorophyllValidCal",
+      "name": "chlorophyllValidCalQF",
       "type": [
         "null",
         "int8"
@@ -41,7 +41,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlorophyllSuspectCal",
+      "name": "chlorophyllSuspectCalQF",
       "type": [
         "null",
         "int8"
