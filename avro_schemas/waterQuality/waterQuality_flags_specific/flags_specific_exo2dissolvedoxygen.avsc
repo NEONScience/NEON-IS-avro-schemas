@@ -263,7 +263,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "seaLevelDOSatValidCal",
+      "name": "seaLevelDOSatValidCalQF",
       "type": [
         "null",
         "int8"
@@ -283,7 +283,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "localDOSatValidCal",
+      "name": "localDOSatValidCalQF",
       "type": [
         "null",
         "int8"

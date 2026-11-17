@@ -13,7 +13,7 @@
       "doc": "Timestamp of readout expressed in milliseconds since epoch"
     },
     {
-      "name": "chlorophyllValidCal",
+      "name": "chlorophyllValidCalQF",
       "type": [
         "null",
         "int8"
@@ -33,7 +33,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlorophyllSuspectCal",
+      "name": "chlorophyllSuspectCalQF",
       "type": [
         "null",
         "int8"
