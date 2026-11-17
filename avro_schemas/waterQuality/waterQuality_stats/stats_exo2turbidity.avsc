@@ -1,0 +1,44 @@
+{
+  "type": "record",
+  "name": "stats_exo2turbidity",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 instantaneous statistics for exo2turbidity sensor",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "turbidity",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Turbidity of water as FNU",
+      "__neon_units": "formazinNephelometricUnit"
+    },
+    {
+      "name": "turbidityExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for turbidity",
+      "__neon_units": "formazinNephelometricUnit"
+    }
+	]
+}

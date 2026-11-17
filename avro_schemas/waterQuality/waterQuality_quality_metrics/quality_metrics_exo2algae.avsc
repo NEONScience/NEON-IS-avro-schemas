@@ -121,7 +121,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlaRelativeFluoroNullQF",
+      "name": "chlaRelFluoroNullQF",
       "type": [
         "null",
         "int"
@@ -131,7 +131,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlaRelativeFluoroGapQF",
+      "name": "chlaRelFluoroGapQF",
       "type": [
         "null",
         "int"
@@ -141,7 +141,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlaRelativeFluoroRangeQF",
+      "name": "chlaRelFluoroRangeQF",
       "type": [
         "null",
         "int"
@@ -151,7 +151,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlaRelativeFluoroPersistenceQF",
+      "name": "chlaRelFluoroPersistenceQF",
       "type": [
         "null",
         "int"
@@ -161,7 +161,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlaRelativeFluoroStepQF",
+      "name": "chlaRelFluoroStepQF",
       "type": [
         "null",
         "int"
@@ -171,7 +171,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "chlaRelativeFluoroSpikeQF",
+      "name": "chlaRelFluoroSpikeQF",
       "type": [
         "null",
         "int"

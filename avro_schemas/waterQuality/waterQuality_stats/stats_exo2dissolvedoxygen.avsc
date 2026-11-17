@@ -1,0 +1,84 @@
+{
+  "type": "record",
+  "name": "stats_exo2dissolvedoxygen",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 instantaneous statistics for exo2dissolvedoxygen sensor",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "dissolvedOxygen",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Dissolved Oxygen Concentration",
+      "__neon_units": "milligramsPerLiter"
+    },
+    {
+      "name": "dissolvedOxygenExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for dissolved oxygen",
+      "__neon_units": "milligramsPerLiter"
+    },
+    {
+      "name": "seaLevelDissolvedOxygenSat",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Dissolved oxygen percent saturation corrected to sea level",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "seaLevelDOSatExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for dissolved oxygen saturation corrected to sea level",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "localDissolvedOxygenSat",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Dissolved oxygen percent saturation at local conditions",
+      "__neon_units": "percent"
+    },
+    {
+      "name": "localDOSatExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for dissolved oxygen saturation at local conditions",
+      "__neon_units": "percent"
+    }
+	]
+}

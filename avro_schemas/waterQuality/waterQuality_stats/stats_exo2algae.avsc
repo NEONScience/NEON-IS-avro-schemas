@@ -1,0 +1,64 @@
+{
+  "type": "record",
+  "name": "stats_exo2algae",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "L1 instantaneous statistics for exo2algae sensor",
+  "fields": [
+    {
+      "name": "startDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is initiated (inclusive)"
+    },
+    {
+      "name": "endDateTime",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Date and time at which a sampling is completed (exclusive)"
+    },
+    {
+      "name": "chlorophyll",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Chlorophyll a concentration in water",
+      "__neon_units": "microgramsPerLiter"
+    },
+    {
+      "name": "chlorophyllExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for chlorophyll a",
+      "__neon_units": "microgramsPerLiter"
+    },
+    {
+      "name": "chlaRelativeFluorescence",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Fluorescence response to chlorophyll a",
+      "__neon_units": "microgramsPerLiter"
+    },
+    {
+      "name": "chlaRelFluoroExpUncert",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Expanded uncertainty for fluorescence response to chlorophyll a",
+      "__neon_units": "microgramsPerLiter"
+    }
+	]
+}
