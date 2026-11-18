@@ -71,7 +71,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sensorDepthPersistenceQF",
+      "name": "sensorDepthPersistQF",
       "type": [
         "null",
         "int8"
@@ -81,7 +81,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "sensorDepthLogDataQF",
+      "name": "logDataQF",
       "type": [
         "null",
         "int8"

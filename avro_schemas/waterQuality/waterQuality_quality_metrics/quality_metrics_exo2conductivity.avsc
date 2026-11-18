@@ -221,7 +221,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "specificConductanceFinalQF",
+      "name": "specificCondFinalQF",
       "type": [
         "null",
         "int8"
