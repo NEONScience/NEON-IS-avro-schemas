@@ -2,7 +2,7 @@ name: DEV-enviroscan-avro-schemas
 on:
   push:
     branches:
-      - 'enviroscan'
+      - 'master'
     paths:
       - 'avro_schemas/enviroscan/**'
   workflow_dispatch: {} # Allows trigger of workflow from web interface
