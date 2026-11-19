@@ -14,7 +14,7 @@
       "__neon_units": "millisecond"
     },
     {
-      "name": "buoyWindSpeedNullQF",
+      "name": "speedNullQF",
       "type": [
         "null",
         "int8"
@@ -24,7 +24,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "buoyWindSpeedGapQF",
+      "name": "speedGapQF",
       "type": [
         "null",
         "int8"
@@ -34,7 +34,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "buoyWindSpeedRangeQF",
+      "name": "speedRangeQF",
       "type": [
         "null",
         "int8"
@@ -44,7 +44,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "buoyWindSpeedPersistenceQF",
+      "name": "speedPersistenceQF",
       "type": [
         "null",
         "int8"
@@ -54,7 +54,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "buoyWindDirNullQF",
+      "name": "directionNullQF",
       "type": [
         "null",
         "int8"
@@ -64,7 +64,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "buoyWindDirGapQF",
+      "name": "directionGapQF",
       "type": [
         "null",
         "int8"
@@ -74,7 +74,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "buoyWindDirRangeQF",
+      "name": "directionRangeQF",
       "type": [
         "null",
         "int8"
@@ -84,7 +84,7 @@
       "__neon_units": "NA"
     },
     {
-      "name": "buoyWindDirPersistenceQF",
+      "name": "directionPersistenceQF",
       "type": [
         "null",
         "int8"
