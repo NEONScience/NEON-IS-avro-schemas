@@ -2,7 +2,7 @@
     "type": "record",
     "name": "sunav2_log_flags",
     "namespace": "org.neonscience.schema.device",
-    "doc": "Seabird Scientific SUNA V2 UV Nitrate Analyzer",
+    "doc": "Log flags for the for the SUNA V2 sensor",
     "__version": "1.0",
     "__neon_parts": [
         "0329950000",

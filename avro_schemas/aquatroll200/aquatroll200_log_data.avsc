@@ -2,7 +2,7 @@
     "type": "record",
     "name": "aquatroll200_log_data",
     "namespace": "org.neonscience.schema.dp0p",
-    "doc": "Log data for the Aqua Troll 520 sensor",
+    "doc": "Log data for the Aqua Troll 200 sensor",
     "__version": "1.0",
     "__neon_parts": [
         "0317730000"

@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "flags_calibration",
+  "name": "flags_calibration_ptb330a",
   "namespace": "org.neonscience.schema.dp0p",
   "doc": "Calibration flags for sensor with a single stream",
   "fields": [

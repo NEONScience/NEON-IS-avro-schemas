@@ -1,0 +1,1536 @@
+{
+  "type": "record",
+  "name": "flags_qaqc",
+  "namespace": "org.neonscience.schema.dp0p",
+  "doc": "QA/QC flags for soil water H2O concentration and salinity data from Sentek EnviroSCAN",
+  "fields": [
+    {
+      "name": "readout_time",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "Timestamp of readout expressed in milliseconds since epoch"
+    },
+    {
+      "name": "VSICDepth01NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of raw ion content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth01NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of factory calibrated volumetric soil water content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of soil-specific calibrated volumetric soil water content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth01GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of raw ion content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth01GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of factory calibrated volumetric soil water content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of soil-specific calibrated volumetric soil water content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth01RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of raw ion content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth01RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of factory calibrated volumetric soil water content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of soil-specific calibrated volumetric soil water content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth01StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of raw ion content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth01StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of factory calibrated volumetric soil water content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of soil-specific calibrated volumetric soil water content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth01PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of raw ion content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth01PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of factory calibrated volumetric soil water content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of soil-specific calibrated volumetric soil water content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth01SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of raw ion content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth01SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of factory calibrated volumetric soil water content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth01SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of soil-specific calibrated volumetric soil water content at depth 01 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempTestDepth01QF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the temperature test at depth 01 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth02NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of raw ion content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth02NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of factory calibrated volumetric soil water content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of soil-specific calibrated volumetric soil water content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth02GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of raw ion content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth02GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of factory calibrated volumetric soil water content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of soil-specific calibrated volumetric soil water content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth02RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of raw ion content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth02RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of factory calibrated volumetric soil water content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of soil-specific calibrated volumetric soil water content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth02StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of raw ion content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth02StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of factory calibrated volumetric soil water content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of soil-specific calibrated volumetric soil water content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth02PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of raw ion content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth02PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of factory calibrated volumetric soil water content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of soil-specific calibrated volumetric soil water content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth02SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of raw ion content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth02SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of factory calibrated volumetric soil water content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth02SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of soil-specific calibrated volumetric soil water content at depth 02 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempTestDepth02QF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the temperature test at depth 02 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth03NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of raw ion content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth03NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of factory calibrated volumetric soil water content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of soil-specific calibrated volumetric soil water content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth03GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of raw ion content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth03GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of factory calibrated volumetric soil water content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of soil-specific calibrated volumetric soil water content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth03RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of raw ion content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth03RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of factory calibrated volumetric soil water content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of soil-specific calibrated volumetric soil water content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth03StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of raw ion content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth03StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of factory calibrated volumetric soil water content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of soil-specific calibrated volumetric soil water content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth03PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of raw ion content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth03PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of factory calibrated volumetric soil water content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of soil-specific calibrated volumetric soil water content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth03SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of raw ion content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth03SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of factory calibrated volumetric soil water content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth03SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of soil-specific calibrated volumetric soil water content at depth 03 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempTestDepth03QF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the temperature test at depth 03 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth04NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of raw ion content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth04NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of factory calibrated volumetric soil water content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of soil-specific calibrated volumetric soil water content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth04GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of raw ion content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth04GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of factory calibrated volumetric soil water content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of soil-specific calibrated volumetric soil water content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth04RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of raw ion content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth04RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of factory calibrated volumetric soil water content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of soil-specific calibrated volumetric soil water content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth04StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of raw ion content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth04StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of factory calibrated volumetric soil water content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of soil-specific calibrated volumetric soil water content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth04PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of raw ion content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth04PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of factory calibrated volumetric soil water content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of soil-specific calibrated volumetric soil water content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth04SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of raw ion content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth04SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of factory calibrated volumetric soil water content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth04SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of soil-specific calibrated volumetric soil water content at depth 04 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempTestDepth04QF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the temperature test at depth 04 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth05NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of raw ion content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth05NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of factory calibrated volumetric soil water content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of soil-specific calibrated volumetric soil water content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth05GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of raw ion content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth05GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of factory calibrated volumetric soil water content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of soil-specific calibrated volumetric soil water content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth05RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of raw ion content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth05RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of factory calibrated volumetric soil water content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of soil-specific calibrated volumetric soil water content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth05StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of raw ion content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth05StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of factory calibrated volumetric soil water content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of soil-specific calibrated volumetric soil water content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth05PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of raw ion content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth05PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of factory calibrated volumetric soil water content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of soil-specific calibrated volumetric soil water content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth05SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of raw ion content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth05SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of factory calibrated volumetric soil water content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth05SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of soil-specific calibrated volumetric soil water content at depth 05 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempTestDepth05QF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the temperature test at depth 05 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth06NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of raw ion content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth06NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of factory calibrated volumetric soil water content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of soil-specific calibrated volumetric soil water content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth06GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of raw ion content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth06GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of factory calibrated volumetric soil water content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of soil-specific calibrated volumetric soil water content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth06RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of raw ion content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth06RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of factory calibrated volumetric soil water content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of soil-specific calibrated volumetric soil water content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth06StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of raw ion content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth06StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of factory calibrated volumetric soil water content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of soil-specific calibrated volumetric soil water content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth06PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of raw ion content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth06PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of factory calibrated volumetric soil water content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of soil-specific calibrated volumetric soil water content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth06SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of raw ion content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth06SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of factory calibrated volumetric soil water content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth06SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of soil-specific calibrated volumetric soil water content at depth 06 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempTestDepth06QF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the temperature test at depth 06 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth07NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of raw ion content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth07NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of factory calibrated volumetric soil water content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of soil-specific calibrated volumetric soil water content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth07GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of raw ion content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth07GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of factory calibrated volumetric soil water content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of soil-specific calibrated volumetric soil water content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth07RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of raw ion content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth07RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of factory calibrated volumetric soil water content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of soil-specific calibrated volumetric soil water content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth07StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of raw ion content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth07StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of factory calibrated volumetric soil water content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of soil-specific calibrated volumetric soil water content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth07PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of raw ion content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth07PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of factory calibrated volumetric soil water content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of soil-specific calibrated volumetric soil water content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth07SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of raw ion content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth07SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of factory calibrated volumetric soil water content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth07SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of soil-specific calibrated volumetric soil water content at depth 07 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempTestDepth07QF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the temperature test at depth 07 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth08NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of raw ion content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth08NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of factory calibrated volumetric soil water content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08NullQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the null check of soil-specific calibrated volumetric soil water content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth08GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of raw ion content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth08GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of factory calibrated volumetric soil water content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08GapQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the gap check of soil-specific calibrated volumetric soil water content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth08RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of raw ion content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth08RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of factory calibrated volumetric soil water content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08RangeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the range check of soil-specific calibrated volumetric soil water content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth08StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of raw ion content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth08StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of factory calibrated volumetric soil water content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08StepQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the step check of soil-specific calibrated volumetric soil water content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth08PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of raw ion content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth08PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of factory calibrated volumetric soil water content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08PersistenceQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the persistence check of soil-specific calibrated volumetric soil water content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSICDepth08SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of raw ion content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCfactoryDepth08SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of factory calibrated volumetric soil water content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "VSWCsoilSpecificDepth08SpikeQF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the spike check of soil-specific calibrated volumetric soil water content at depth 08 detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    },
+    {
+      "name": "tempTestDepth08QF",
+      "type": [
+        "null",
+        "int8"
+      ],
+      "default": null,
+      "doc": "Quality flag for the temperature test at depth 08 (1=fail, 0=pass, -1=NA (i.e., could not be run))",
+      "__neon_units": "NA"
+    }
+  ]
+}
