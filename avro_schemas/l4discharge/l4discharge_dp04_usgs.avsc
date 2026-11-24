@@ -1,0 +1,152 @@
+{
+  "type": "record",
+  "name": "l4discharge_dp04_usgs",
+  "namespace": "org.neonscience.schema.dp01",
+  "doc": "Continuous discharge data from the nearby USGS station",
+  "fields": [
+    {
+      "name": "startDate",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "The start date-time or interval during which an event occurred (inclusive)"
+    },
+    {
+      "name": "endDate",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "The end date-time or interval during which an event occurred (exclusive)"
+    },
+    {
+      "name": "usgsSiteNumber",
+      "type": [
+        "null",
+        "string"
+        ],
+      "default": null,
+      "doc": "Unique identification number (site_no in USGS data queries) for the USGS site nearest to the NEON site",
+      "__neon_units": "null"
+    },
+    {
+      "name": "siteID",
+      "type": [
+        "null",
+        "string"
+        ],
+      "default": null,
+      "doc": "NEON site code",
+      "__neon_units": "null"
+    },
+	{
+      "name": "namedLocation",
+      "type": [
+        "null",
+        "string"
+        ],
+      "default": null,
+      "doc": "Name of the measurement location in the NEON database",
+      "__neon_units": "null"
+    },
+    {
+      "name": "usgsDischargeRegID",
+      "type": [
+        "null",
+        "string"
+        ],
+      "default": null,
+      "doc": "Unique identifier for a NEON vs. USGS discharge regression equation",
+      "__neon_units": "null"
+    },
+    {
+      "name": "usgsDischarge",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Total stream or river discharge at USGS site",
+      "__neon_units": "litersPerSecond"
+    },
+    {
+      "name": "regressionDerivedDischarge",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Derived stream or river discharge at NEON site from a log-log transformed regression between paired NEON and USGS discharge measurements within a watershed",
+      "__neon_units": "litersPerSecond"
+    },
+    {
+      "name": "withRegressionUncQLower2Std",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Lower bound of the 95% confidence interval (two standard deviations) for usgsDischarge including error associated with the fit of measured NEON discharge with USGS discharge in a log-log transformed regression",
+      "__neon_units": "litersPerSecond"
+    },
+    {
+      "name": "withRegressionUncQUpper2Std",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Upper bound of the 95% confidence interval (two standard deviations) for usgsDischarge including error associated with the fit of measured NEON discharge with USGS discharge in a log-log transformed regression",
+      "__neon_units": "litersPerSecond"
+    },
+    {
+      "name": "withRegressionUncQLower1Std",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Lower bound of the 68% confidence interval (one standard deviation) for usgsDischarge including error associated with the fit of measured NEON discharge with USGS discharge in a log-log transformed regression",
+      "__neon_units": "litersPerSecond"
+    },
+    {
+      "name": "withRegressionUncQUpper1Std",
+      "type": [
+        "null",
+        "float"
+        ],
+      "default": null,
+      "doc": "Upper bound of the 68% confidence interval (one standard deviation) for usgsDischarge including error associated with the fit of measured NEON discharge with USGS discharge in a log-log transformed regression",
+      "__neon_units": "litersPerSecond"
+    },
+	{
+      "name": "usgsDownloadDate",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "The date-time at which USGS discharge data were downloaded for processing"
+    },
+    {
+      "name": "usgsValueQualCode",
+      "type": [
+        "null",
+        "string"
+        ],
+      "default": null,
+      "doc": "List of USGS instantaneous value qualification codes at time of download; separated by spaces",
+      "__neon_units": "null"
+    },
+    {
+      "name": "dischargeFinalQF",
+      "type": [
+        "null",
+        "int8"
+        ],
+      "default": null,
+      "doc": "Discharge final quality flag indicating whether a data product has passed or failed an overall assessment of its quality; detailed in ATBD (1=fail; 0=pass)",
+      "__neon_units": "NA"
+    }
+  ]
+}
