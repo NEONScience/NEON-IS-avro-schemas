@@ -21,16 +21,6 @@
       "doc": "The end date-time or interval during which an event occurred (exclusive)"
     },
     {
-      "name": "usgsSiteNumber",
-      "type": [
-        "null",
-        "string"
-        ],
-      "default": null,
-      "doc": "Unique identification number (site_no in USGS data queries) for the USGS site nearest to the NEON site",
-      "__neon_units": "null"
-    },
-    {
       "name": "siteID",
       "type": [
         "null",
@@ -40,7 +30,17 @@
       "doc": "NEON site code",
       "__neon_units": "null"
     },
-	{
+	  {
+      "name": "stationHorizontalID",
+      "type": [
+        "null",
+        "string"
+        ],
+      "default": null,
+      "doc": "Horizontal code for station",
+      "__neon_units": "null"
+    },
+	  {
       "name": "namedLocation",
       "type": [
         "null",
@@ -48,6 +48,16 @@
         ],
       "default": null,
       "doc": "Name of the measurement location in the NEON database",
+      "__neon_units": "null"
+    },
+    {
+      "name": "usgsSiteNumber",
+      "type": [
+        "null",
+        "string"
+        ],
+      "default": null,
+      "doc": "Unique identification number (site_no in USGS data queries) for the USGS site nearest to the NEON site",
       "__neon_units": "null"
     },
     {
