@@ -28,7 +28,7 @@
         ],
       "default": null,
       "doc": "Horizontal code for station",
-      "__neon_units": "null"
+      "__neon_units": "NA"
     },
     {
       "name": "curveID",
@@ -38,7 +38,7 @@
         ],
       "default": null,
       "doc": "Unique identifier for the curve fit to gauge and discharge measurements",
-      "__neon_units": "null"
+      "__neon_units": "NA"
     },
     {
       "name": "regressionID",
@@ -48,7 +48,7 @@
         ],
       "default": null,
       "doc": "Unique identifier for a gauge height vs. water column height regression equation",
-      "__neon_units": "null"
+      "__neon_units": "NA"
     },
     {
       "name": "stageContinuous",
