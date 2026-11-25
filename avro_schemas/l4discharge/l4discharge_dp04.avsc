@@ -128,7 +128,7 @@
         ],
       "default": null,
       "doc": "Indicates whether discharge data were corrected (1=corrected; 0=no correction required; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
 	{
       "name": "dischargeGapFilledInterpolation",
@@ -138,7 +138,7 @@
         ],
       "default": null,
       "doc": "Indicates whether discharge data were corrected via gap-filling with linear interpolation (1=method used; 0=method not used; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
 	{
       "name": "dischargeGapFilledConstant",
@@ -148,7 +148,7 @@
         ],
       "default": null,
       "doc": "Indicates whether discharge data were corrected via gap-filling with a constant value (1=method used; 0=method not used; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
 	{
       "name": "dischargeGapFilledUSGS",
@@ -158,7 +158,7 @@
         ],
       "default": null,
       "doc": "Indicates whether discharge data were corrected via gap-filling with a NEON-USGS discharge regression (1=method used; 0=method not used; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
 	{
       "name": "dischargeCorrectedShiftPre",
@@ -168,7 +168,7 @@
         ],
       "default": null,
       "doc": "Indicates whether discharge data were corrected via a constant bias shift applied prior to other gap-filling methods (1=method used; 0=method not used; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
 	{
       "name": "dischargeCorrectedShiftPost",
@@ -178,7 +178,7 @@
         ],
       "default": null,
       "doc": "Indicates whether discharge data were corrected via a constant bias shift applied after other gap-filling methods were applied (1=method used; 0=method not used; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
 	{
       "name": "waterColumnHeightContinuous",
@@ -198,7 +198,7 @@
         ],
       "default": null,
       "doc": "Indicates whether water column height data were corrected (1=corrected; 0=no correction required; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
 	{
       "name": "waterColumnHeightGapFilledInterpolation",
@@ -208,7 +208,7 @@
         ],
       "default": null,
       "doc": "Indicates whether water column height data were corrected via gap-filling with linear interpolation (1=method used; 0=method not used; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
 	    {
       "name": "waterColumnHeightGapFilledConstant",
@@ -218,7 +218,7 @@
         ],
       "default": null,
       "doc": "Indicates whether water column height data were corrected via gap-filling with a constant value (1=method used; 0=method not used; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
 	    {
       "name": "waterColumnHeightGapFilledTransducer",
@@ -228,7 +228,7 @@
         ],
       "default": null,
       "doc": "Indicates whether water column height data were corrected via gap-filling with a regression against data collected by a co-located pressure transducer sensor (1=method used; 0=method not used; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
 	    {
       "name": "waterColumnHeightGapFilledConductivity",
@@ -238,7 +238,7 @@
         ],
       "default": null,
       "doc": "Indicates whether water column height data were corrected via gap-filling with a regression against data collected by a co-located specific conductance sensor (1=method used; 0=method not used; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
 	    {
       "name": "waterColumnHeightCorrectedShiftPre",
@@ -248,7 +248,7 @@
         ],
       "default": null,
       "doc": "Indicates whether water column height data were corrected via a constant bias shift applied prior to applying gap-filling methods (1=method used; 0=method not used; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
 	    {
       "name": "waterColumnHeightCorrectedShiftPost",
@@ -258,7 +258,7 @@
         ],
       "default": null,
       "doc": "Indicates whether water column height data were corrected via a constant bias shift applied after gap-filling methods were applied (1=method used; 0=method not used; Empty=record not reviewed)",
-      "__neon_units": "number"
+      "__neon_units": "NA"
     },
     {
       "name": "waterColumnHeightNullFailQM",
