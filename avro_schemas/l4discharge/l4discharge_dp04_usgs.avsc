@@ -28,7 +28,7 @@
         ],
       "default": null,
       "doc": "NEON site code",
-      "__neon_units": "null"
+      "__neon_units": "NA"
     },
 	  {
       "name": "stationHorizontalID",
@@ -38,7 +38,7 @@
         ],
       "default": null,
       "doc": "Horizontal code for station",
-      "__neon_units": "null"
+      "__neon_units": "NA"
     },
 	  {
       "name": "namedLocation",
@@ -48,7 +48,7 @@
         ],
       "default": null,
       "doc": "Name of the measurement location in the NEON database",
-      "__neon_units": "null"
+      "__neon_units": "NA"
     },
     {
       "name": "usgsSiteNumber",
@@ -68,7 +68,7 @@
         ],
       "default": null,
       "doc": "Unique identifier for a NEON vs. USGS discharge regression equation",
-      "__neon_units": "null"
+      "__neon_units": "NA"
     },
     {
       "name": "usgsDischarge",
@@ -146,7 +146,7 @@
         ],
       "default": null,
       "doc": "List of USGS instantaneous value qualification codes at time of download; separated by spaces",
-      "__neon_units": "null"
+      "__neon_units": "NA"
     },
     {
       "name": "dischargeFinalQF",
